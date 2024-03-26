@@ -1,5 +1,47 @@
+<!doctype html>
 <html>
-  <body>
-    Bonjour le monde :)
-  </body>
+
+<head>
+  <meta charset="UTF-8">
+  <title>USS-Oni</title>
+  <link rel="stylesheet" type="text/css" target="_blank" href="style.css">
+  <script src="lang/lang.js"></script>
+  <script src="db/recipes.js"></script>
+  <script src="db/uss.js"></script>
+  <script src="script/main.js" defer></script>
+  <style type="text/css"></style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+<body>
+  <div id="top">
+    <select onChange="onChangeSelect(this.options[this.selectedIndex].dataset.ui)">
+      <option data-ui="NONE">NONE</option>
+      <option data-ui="Element" selected="selected">Éléments</option>
+      <option data-ui="Building">Constructions</option>
+      <option data-ui="Misc">Divers</option>
+      <option data-ui="Food">Aliments</option>
+      <option data-ui="Artifact">Artefacts</option>
+      <option data-ui="Seed">Graines</option>
+      <option data-ui="Space">Espace</option>
+      <option data-ui="Critter">Créatures</option>
+      <option data-ui="Egg">Œufs</option>
+      <option data-ui="Plant">Plantes</option>
+      <option data-ui="Geyser">Geysers</option>
+      <option data-ui="Equipment">Équipement</option>
+    </select>
+    <select onChange="setTranslation(this.options[this.selectedIndex].value)">
+      <option value="fr">FR</option>
+      <option value="en">EN</option>
+    </select>
+  </div>
+  <div id="middle">
+    <div id="list"></div>
+    <div id="properties"></div>
+  </div>
+  <div id="bottom">Un Site Sur Oxygen Not Included</div>
+</body>
+</head>
+
 </html>
