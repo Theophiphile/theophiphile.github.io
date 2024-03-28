@@ -2,6 +2,10 @@ var db = {
   Building: {
     medical: {
       AdvancedDoctorStation: {
+        menuOrder: 6.0,
+        tags: [
+          "Clinic"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -23,6 +27,8 @@ var db = {
         enableable: true
       },
       Apothecary: {
+        menuOrder: 4.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -44,6 +50,8 @@ var db = {
         enableable: true
       },
       DecontaminationShower: {
+        menuOrder: 3.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -63,6 +71,10 @@ var db = {
         enableable: true
       },
       DoctorStation: {
+        menuOrder: 5.0,
+        tags: [
+          "Clinic"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -77,6 +89,8 @@ var db = {
         enableable: true
       },
       Grave: {
+        menuOrder: 9.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -92,6 +106,11 @@ var db = {
         enableable: true
       },
       HandSanitizer: {
+        menuOrder: 2.0,
+        tags: [
+          "WashStation",
+          "AdvancedWashStation"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -110,6 +129,10 @@ var db = {
         enableable: true
       },
       MassageTable: {
+        menuOrder: 8.0,
+        tags: [
+          "DeStressingBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -131,6 +154,11 @@ var db = {
         enableable: true
       },
       MedicalCot: {
+        menuOrder: 7.0,
+        tags: [
+          "Clinic",
+          "BedType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -145,6 +173,10 @@ var db = {
         enableable: true
       },
       WashBasin: {
+        menuOrder: 0.0,
+        tags: [
+          "WashStation"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -163,6 +195,11 @@ var db = {
         enableable: true
       },
       WashSink: {
+        menuOrder: 1.0,
+        tags: [
+          "WashStation",
+          "AdvancedWashStation"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -183,6 +220,10 @@ var db = {
     },
     equipment: {
       AdvancedResearchCenter: {
+        menuOrder: 1.0,
+        tags: [
+          "ScienceBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -204,6 +245,8 @@ var db = {
         enableable: true
       },
       ArtifactAnalysisStation: {
+        menuOrder: 13.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -226,6 +269,8 @@ var db = {
         enableable: true
       },
       ClothingAlterationStation: {
+        menuOrder: 17.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -245,6 +290,8 @@ var db = {
         enableable: true
       },
       ClothingFabricator: {
+        menuOrder: 16.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -264,6 +311,8 @@ var db = {
         enableable: true
       },
       CraftingTable: {
+        menuOrder: 15.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -283,6 +332,10 @@ var db = {
         enableable: true
       },
       DLC1CosmicResearchCenter: {
+        menuOrder: 4.0,
+        tags: [
+          "ScienceBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -304,6 +357,10 @@ var db = {
         enableable: true
       },
       FarmStation: {
+        menuOrder: 7.0,
+        tags: [
+          "FarmStationType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -318,6 +375,10 @@ var db = {
         enableable: true
       },
       GeneticAnalysisStation: {
+        menuOrder: 8.0,
+        tags: [
+          "ScienceBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -339,6 +400,10 @@ var db = {
         enableable: true
       },
       GeoTuner: {
+        menuOrder: 5.0,
+        tags: [
+          "ScienceBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -359,6 +424,8 @@ var db = {
         enableable: true
       },
       JetSuitLocker: {
+        menuOrder: 24.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -380,6 +447,10 @@ var db = {
         enableable: true
       },
       JetSuitMarker: {
+        menuOrder: 23.0,
+        tags: [
+          "JetSuitBlocker"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -399,6 +470,8 @@ var db = {
         enableable: true
       },
       LeadSuitLocker: {
+        menuOrder: 26.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -420,6 +493,10 @@ var db = {
         enableable: true
       },
       LeadSuitMarker: {
+        menuOrder: 25.0,
+        tags: [
+          "JetSuitBlocker"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -439,6 +516,10 @@ var db = {
         enableable: true
       },
       MilkingStation: {
+        menuOrder: 11.0,
+        tags: [
+          "RanchStationType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -457,6 +538,10 @@ var db = {
         workTime: 20.0
       },
       MissileFabricator: {
+        menuOrder: 14.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -479,6 +564,10 @@ var db = {
         enableable: true
       },
       NuclearResearchCenter: {
+        menuOrder: 2.0,
+        tags: [
+          "ScienceBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -500,6 +589,11 @@ var db = {
         enableable: true
       },
       OrbitalResearchCenter: {
+        menuOrder: 3.0,
+        tags: [
+          "ScienceBuilding",
+          "RocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -522,6 +616,8 @@ var db = {
         enableable: true
       },
       OxygenMaskLocker: {
+        menuOrder: 20.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -540,6 +636,10 @@ var db = {
         enableable: true
       },
       OxygenMaskMarker: {
+        menuOrder: 19.0,
+        tags: [
+          "JetSuitBlocker"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -559,6 +659,11 @@ var db = {
         enableable: true
       },
       PowerControlStation: {
+        menuOrder: 6.0,
+        tags: [
+          "PowerStation",
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -573,6 +678,10 @@ var db = {
         enableable: true
       },
       RanchStation: {
+        menuOrder: 9.0,
+        tags: [
+          "RanchStationType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -588,6 +697,10 @@ var db = {
         workTime: 12.0
       },
       ResearchCenter: {
+        menuOrder: 0.0,
+        tags: [
+          "ScienceBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -609,6 +722,11 @@ var db = {
         enableable: true
       },
       ResetSkillsStation: {
+        menuOrder: 12.0,
+        tags: [
+          "IndustrialMachinery",
+          "NotRoomAssignable"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -630,6 +748,10 @@ var db = {
         enableable: true
       },
       ShearingStation: {
+        menuOrder: 10.0,
+        tags: [
+          "RanchStationType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -652,6 +774,10 @@ var db = {
         workTime: 12.0
       },
       SuitFabricator: {
+        menuOrder: 18.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -671,6 +797,8 @@ var db = {
         enableable: true
       },
       SuitLocker: {
+        menuOrder: 22.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -692,6 +820,10 @@ var db = {
         enableable: true
       },
       SuitMarker: {
+        menuOrder: 21.0,
+        tags: [
+          "JetSuitBlocker"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -713,6 +845,10 @@ var db = {
     },
     food: {
       AirBorneCritterCondo: {
+        menuOrder: 24.0,
+        tags: [
+          "RanchStationType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnCeiling",
         materialCategory: [
@@ -732,6 +868,10 @@ var db = {
         enableable: true
       },
       CookingStation: {
+        menuOrder: 1.0,
+        tags: [
+          "CookTop"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -753,6 +893,8 @@ var db = {
         enableable: true
       },
       CreatureFeeder: {
+        menuOrder: 14.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -771,6 +913,10 @@ var db = {
         enableable: true
       },
       CritterCondo: {
+        menuOrder: 22.0,
+        tags: [
+          "RanchStationType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -791,6 +937,10 @@ var db = {
         enableable: true
       },
       CritterDropOff: {
+        menuOrder: 12.0,
+        tags: [
+          "CreatureRelocator"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -809,6 +959,10 @@ var db = {
         enableable: true
       },
       CritterPickUp: {
+        menuOrder: 11.0,
+        tags: [
+          "CreatureRelocator"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -827,6 +981,8 @@ var db = {
         enableable: true
       },
       EggCracker: {
+        menuOrder: 18.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -845,6 +1001,8 @@ var db = {
         enableable: true
       },
       EggIncubator: {
+        menuOrder: 17.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -868,6 +1026,10 @@ var db = {
         enableable: true
       },
       FarmTile: {
+        menuOrder: 7.0,
+        tags: [
+          "FarmTiles"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -881,6 +1043,10 @@ var db = {
         deconstructable: true
       },
       FishDeliveryPoint: {
+        menuOrder: 13.0,
+        tags: [
+          "CreatureRelocator"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -899,6 +1065,8 @@ var db = {
         enableable: true
       },
       FishFeeder: {
+        menuOrder: 15.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -917,6 +1085,10 @@ var db = {
         enableable: true
       },
       FoodDehydrator: {
+        menuOrder: 4.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -935,6 +1107,8 @@ var db = {
         enableable: true
       },
       FoodRehydrator: {
+        menuOrder: 5.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -957,6 +1131,10 @@ var db = {
         enableable: true
       },
       GourmetCookingStation: {
+        menuOrder: 2.0,
+        tags: [
+          "CookTop"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -978,6 +1156,10 @@ var db = {
         enableable: true
       },
       HydroponicFarm: {
+        menuOrder: 8.0,
+        tags: [
+          "FarmTiles"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -994,6 +1176,8 @@ var db = {
         enableable: true
       },
       MicrobeMusher: {
+        menuOrder: 0.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1017,6 +1201,10 @@ var db = {
         enableable: true
       },
       MilkFeeder: {
+        menuOrder: 16.0,
+        tags: [
+          "RanchStationType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1036,6 +1224,8 @@ var db = {
         enableable: true
       },
       PlanterBox: {
+        menuOrder: 6.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1051,6 +1241,8 @@ var db = {
         enableable: true
       },
       RationBox: {
+        menuOrder: 9.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1066,6 +1258,8 @@ var db = {
         enableable: true
       },
       Refrigerator: {
+        menuOrder: 10.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1088,6 +1282,10 @@ var db = {
         enableable: true
       },
       SpiceGrinder: {
+        menuOrder: 3.0,
+        tags: [
+          "SpiceStation"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1102,6 +1300,8 @@ var db = {
         enableable: true
       },
       UnderwaterCritterCondo: {
+        menuOrder: 23.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1120,6 +1320,8 @@ var db = {
         enableable: true
       },
       CreatureAirTrap: {
+        menuOrder: 21.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1138,6 +1340,8 @@ var db = {
         enableable: true
       },
       CreatureGroundTrap: {
+        menuOrder: 19.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1155,6 +1359,8 @@ var db = {
         enableable: true
       },
       WaterTrap: {
+        menuOrder: 20.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -1174,6 +1380,8 @@ var db = {
     },
     utilities: {
       AirConditioner: {
+        menuOrder: 4.0,
+        tags: [],
         thermalConductivity: 5.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1194,6 +1402,8 @@ var db = {
         enableable: true
       },
       IceCooledFan: {
+        menuOrder: 2.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1210,6 +1420,8 @@ var db = {
         enableable: true
       },
       IceMachine: {
+        menuOrder: 3.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1231,6 +1443,10 @@ var db = {
         enableable: true
       },
       LiquidConditioner: {
+        menuOrder: 5.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1250,6 +1466,8 @@ var db = {
         enableable: true
       },
       LiquidHeater: {
+        menuOrder: 1.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -1272,6 +1490,8 @@ var db = {
         enableable: true
       },
       OilWellCap: {
+        menuOrder: 7.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "BuildingAttachPoint",
         materialCategory: [
@@ -1291,6 +1511,10 @@ var db = {
         enableable: true
       },
       OreScrubber: {
+        menuOrder: 6.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1309,6 +1533,8 @@ var db = {
         enableable: true
       },
       SpaceHeater: {
+        menuOrder: 0.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1332,6 +1558,8 @@ var db = {
         enableable: true
       },
       SweepBotStation: {
+        menuOrder: 9.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1353,6 +1581,10 @@ var db = {
         enableable: true
       },
       ThermalBlock: {
+        menuOrder: 8.0,
+        tags: [
+          "Backwall"
+        ],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -1368,6 +1600,8 @@ var db = {
     },
     oxygen: {
       AirFilter: {
+        menuOrder: 3.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1387,6 +1621,8 @@ var db = {
         enableable: true
       },
       AlgaeHabitat: {
+        menuOrder: 2.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1404,6 +1640,10 @@ var db = {
         enableable: true
       },
       CO2Scrubber: {
+        menuOrder: 4.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1427,6 +1667,10 @@ var db = {
         enableable: true
       },
       Electrolyzer: {
+        menuOrder: 5.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1450,6 +1694,8 @@ var db = {
         enableable: true
       },
       MineralDeoxidizer: {
+        menuOrder: 0.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1473,6 +1719,10 @@ var db = {
         enableable: true
       },
       RustDeoxidizer: {
+        menuOrder: 6.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1496,6 +1746,8 @@ var db = {
         enableable: true
       },
       SublimationStation: {
+        menuOrder: 1.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1521,6 +1773,10 @@ var db = {
     },
     refining: {
       AlgaeDistillery: {
+        menuOrder: 4.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1542,6 +1798,10 @@ var db = {
         enableable: true
       },
       Chlorinator: {
+        menuOrder: 14.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1566,6 +1826,8 @@ var db = {
         enableable: true
       },
       Compost: {
+        menuOrder: 0.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1584,6 +1846,10 @@ var db = {
         enableable: true
       },
       DiamondPress: {
+        menuOrder: 16.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1606,6 +1872,10 @@ var db = {
         enableable: true
       },
       EthanolDistillery: {
+        menuOrder: 5.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1627,6 +1897,10 @@ var db = {
         enableable: true
       },
       FertilizerMaker: {
+        menuOrder: 3.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1650,6 +1924,8 @@ var db = {
         enableable: true
       },
       GlassForge: {
+        menuOrder: 10.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1672,6 +1948,10 @@ var db = {
         enableable: true
       },
       Kiln: {
+        menuOrder: 7.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1690,6 +1970,10 @@ var db = {
         enableable: true
       },
       MetalRefinery: {
+        menuOrder: 9.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1712,6 +1996,10 @@ var db = {
         enableable: true
       },
       MilkFatSeparator: {
+        menuOrder: 17.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1744,6 +2032,8 @@ var db = {
         ]
       },
       MilkPress: {
+        menuOrder: 18.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1763,6 +2053,10 @@ var db = {
         enableable: true
       },
       OilRefinery: {
+        menuOrder: 11.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1787,6 +2081,10 @@ var db = {
         enableable: true
       },
       OxyliteRefinery: {
+        menuOrder: 13.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1809,6 +2107,10 @@ var db = {
         enableable: true
       },
       Polymerizer: {
+        menuOrder: 12.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1831,6 +2133,10 @@ var db = {
         enableable: true
       },
       RockCrusher: {
+        menuOrder: 6.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1853,6 +2159,10 @@ var db = {
         enableable: true
       },
       SludgePress: {
+        menuOrder: 8.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1875,6 +2185,8 @@ var db = {
         enableable: true
       },
       SupermaterialRefinery: {
+        menuOrder: 15.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1897,6 +2209,11 @@ var db = {
         enableable: true
       },
       WaterPurifier: {
+        menuOrder: 1.0,
+        tags: [
+          "IndustrialMachinery",
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1920,6 +2237,10 @@ var db = {
         enableable: true
       },
       Desalinator: {
+        menuOrder: 2.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1944,6 +2265,10 @@ var db = {
     },
     furniture: {
       ArcadeMachine: {
+        menuOrder: 9.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1966,6 +2291,10 @@ var db = {
         enableable: true
       },
       BeachChair: {
+        menuOrder: 16.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1985,6 +2314,10 @@ var db = {
         enableable: true
       },
       Bed: {
+        menuOrder: 0.0,
+        tags: [
+          "BedType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -1999,6 +2332,10 @@ var db = {
         enableable: true
       },
       Canvas: {
+        menuOrder: 31.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2016,6 +2353,10 @@ var db = {
         enableable: true
       },
       CanvasTall: {
+        menuOrder: 33.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2033,6 +2374,10 @@ var db = {
         enableable: true
       },
       CanvasWide: {
+        menuOrder: 32.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2050,6 +2395,10 @@ var db = {
         enableable: true
       },
       CeilingLight: {
+        menuOrder: 4.0,
+        tags: [
+          "LightSource"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnCeiling",
         materialCategory: [
@@ -2070,6 +2419,10 @@ var db = {
         enableable: true
       },
       CornerMoulding: {
+        menuOrder: 30.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "InCorner",
         materialCategory: [
@@ -2086,6 +2439,10 @@ var db = {
         enableable: true
       },
       CrownMoulding: {
+        menuOrder: 29.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnCeiling",
         materialCategory: [
@@ -2101,6 +2458,10 @@ var db = {
         enableable: true
       },
       DiningTable: {
+        menuOrder: 6.0,
+        tags: [
+          "MessTable"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2117,6 +2478,10 @@ var db = {
         enableable: true
       },
       EspressoMachine: {
+        menuOrder: 10.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2139,6 +2504,10 @@ var db = {
         enableable: true
       },
       FloorLamp: {
+        menuOrder: 3.0,
+        tags: [
+          "LightSource"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2161,6 +2530,10 @@ var db = {
         enableable: true
       },
       FlowerVase: {
+        menuOrder: 20.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2174,6 +2547,10 @@ var db = {
         enableable: true
       },
       FlowerVaseHanging: {
+        menuOrder: 22.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnCeiling",
         materialCategory: [
@@ -2187,6 +2564,10 @@ var db = {
         enableable: true
       },
       FlowerVaseHangingFancy: {
+        menuOrder: 23.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnCeiling",
         materialCategory: [
@@ -2202,6 +2583,10 @@ var db = {
         enableable: true
       },
       FlowerVaseWall: {
+        menuOrder: 21.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnWall",
         materialCategory: [
@@ -2216,6 +2601,10 @@ var db = {
         enableable: true
       },
       HotTub: {
+        menuOrder: 11.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2240,6 +2629,10 @@ var db = {
         enableable: true
       },
       IceSculpture: {
+        menuOrder: 26.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2256,6 +2649,10 @@ var db = {
         enableable: true
       },
       ItemPedestal: {
+        menuOrder: 34.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2271,6 +2668,10 @@ var db = {
         enableable: true
       },
       Juicer: {
+        menuOrder: 14.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2293,6 +2694,10 @@ var db = {
         enableable: true
       },
       LadderBed: {
+        menuOrder: 2.0,
+        tags: [
+          "BedType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloorOrBuildingAttachPoint",
         materialCategory: [
@@ -2308,6 +2713,11 @@ var db = {
         enableable: true
       },
       LuxuryBed: {
+        menuOrder: 1.0,
+        tags: [
+          "BedType",
+          "LuxuryBedType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2324,6 +2734,10 @@ var db = {
         enableable: true
       },
       MarbleSculpture: {
+        menuOrder: 27.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2340,6 +2754,10 @@ var db = {
         enableable: true
       },
       MechanicalSurfboard: {
+        menuOrder: 12.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2361,6 +2779,10 @@ var db = {
         enableable: true
       },
       MetalSculpture: {
+        menuOrder: 28.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2377,6 +2799,8 @@ var db = {
         enableable: true
       },
       MonumentBottom: {
+        menuOrder: 35.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2396,6 +2820,8 @@ var db = {
         enableable: true
       },
       MonumentMiddle: {
+        menuOrder: 36.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "BuildingAttachPoint",
         materialCategory: [
@@ -2416,6 +2842,8 @@ var db = {
         enableable: true
       },
       MonumentTop: {
+        menuOrder: 37.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "BuildingAttachPoint",
         materialCategory: [
@@ -2436,6 +2864,10 @@ var db = {
         enableable: true
       },
       ParkSign: {
+        menuOrder: 38.0,
+        tags: [
+          "Park"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2452,6 +2884,10 @@ var db = {
         enableable: true
       },
       Phonobox: {
+        menuOrder: 8.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2474,6 +2910,11 @@ var db = {
         enableable: true
       },
       PixelPack: {
+        menuOrder: 18.0,
+        tags: [
+          "Backwall",
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -2494,6 +2935,10 @@ var db = {
         enableable: true
       },
       Sauna: {
+        menuOrder: 13.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2517,6 +2962,10 @@ var db = {
         enableable: true
       },
       Sculpture: {
+        menuOrder: 25.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2533,6 +2982,10 @@ var db = {
         enableable: true
       },
       SmallSculpture: {
+        menuOrder: 24.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2549,6 +3002,10 @@ var db = {
         enableable: true
       },
       SodaFountain: {
+        menuOrder: 15.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2571,6 +3028,10 @@ var db = {
         enableable: true
       },
       SunLamp: {
+        menuOrder: 5.0,
+        tags: [
+          "LightSource"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2595,6 +3056,10 @@ var db = {
         enableable: true
       },
       Telephone: {
+        menuOrder: 19.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2617,6 +3082,10 @@ var db = {
         enableable: true
       },
       VerticalWindTunnel: {
+        menuOrder: 17.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2639,6 +3108,10 @@ var db = {
         enableable: true
       },
       WaterCooler: {
+        menuOrder: 7.0,
+        tags: [
+          "RecBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -2656,6 +3129,11 @@ var db = {
     },
     RocketModule: {
       ArtifactCargoBay: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2671,6 +3149,11 @@ var db = {
         enableable: true
       },
       BatteryModule: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2686,6 +3169,11 @@ var db = {
         enableable: true
       },
       CO2Engine: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2701,6 +3189,11 @@ var db = {
         enableable: true
       },
       GasCargoBayCluster: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2716,6 +3209,11 @@ var db = {
         enableable: true
       },
       GasCargoBaySmall: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2731,6 +3229,11 @@ var db = {
         enableable: true
       },
       HEPEngine: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2746,6 +3249,12 @@ var db = {
         enableable: true
       },
       HabitatModuleMedium: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "LaunchButtonRocketModule",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2761,6 +3270,13 @@ var db = {
         enableable: true
       },
       HabitatModuleSmall: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "NoseRocketModule",
+          "LaunchButtonRocketModule",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2776,6 +3292,11 @@ var db = {
         enableable: true
       },
       HydrogenEngineCluster: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2792,6 +3313,11 @@ var db = {
         enableable: true
       },
       KeroseneEngineCluster: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2808,6 +3334,11 @@ var db = {
         enableable: true
       },
       KeroseneEngineClusterSmall: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2824,6 +3355,11 @@ var db = {
         enableable: true
       },
       LiquidCargoBayCluster: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2839,6 +3375,11 @@ var db = {
         enableable: true
       },
       LiquidCargoBaySmall: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2854,6 +3395,11 @@ var db = {
         enableable: true
       },
       LiquidFuelTankCluster: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2869,6 +3415,12 @@ var db = {
         enableable: true
       },
       NoseconeBasic: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "NoseRocketModule",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2885,6 +3437,12 @@ var db = {
         enableable: true
       },
       NoseconeHarvest: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "NoseRocketModule",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2902,6 +3460,11 @@ var db = {
         workTime: 7.5
       },
       OrbitalCargoModule: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2918,6 +3481,11 @@ var db = {
         numCapsules: 30.0
       },
       OxidizerTankCluster: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2933,6 +3501,11 @@ var db = {
         enableable: true
       },
       OxidizerTankLiquidCluster: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2948,6 +3521,11 @@ var db = {
         enableable: true
       },
       PioneerModule: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2963,6 +3541,11 @@ var db = {
         enableable: true
       },
       ScannerModule: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2980,6 +3563,11 @@ var db = {
         rangeMax: 0.0
       },
       ScoutModule: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -2995,6 +3583,11 @@ var db = {
         enableable: true
       },
       SmallOxidizerTank: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3010,6 +3603,11 @@ var db = {
         enableable: true
       },
       SolarPanelModule: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3026,6 +3624,11 @@ var db = {
         enableable: true
       },
       CargoBayCluster: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3041,6 +3644,11 @@ var db = {
         enableable: true
       },
       SolidCargoBaySmall: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3056,6 +3664,11 @@ var db = {
         enableable: true
       },
       SpecialCargoBayCluster: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "BuildingAttachPoint",
         materialCategory: [
@@ -3071,6 +3684,11 @@ var db = {
         enableable: true
       },
       SteamEngineCluster: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3087,6 +3705,11 @@ var db = {
         enableable: true
       },
       SugarEngine: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "RocketModule"
+        ],
         thermalConductivity: 0.1,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3105,6 +3728,10 @@ var db = {
     },
     conveyance: {
       AutoMiner: {
+        menuOrder: 12.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFoundationRotatable",
         materialCategory: [
@@ -3127,6 +3754,13 @@ var db = {
         enableable: true
       },
       ModularLaunchpadPortSolid: {
+        menuOrder: 13.0,
+        tags: [
+          "IndustrialMachinery",
+          "ModularLaunchpadPort",
+          "ModularConduitPort",
+          "NotRocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3153,6 +3787,13 @@ var db = {
         mode: "Load"
       },
       ModularLaunchpadPortSolidUnloader: {
+        menuOrder: 14.0,
+        tags: [
+          "IndustrialMachinery",
+          "ModularLaunchpadPort",
+          "ModularConduitPort",
+          "NotRocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3179,6 +3820,8 @@ var db = {
         mode: "Unload"
       },
       SolidConduitBridge: {
+        menuOrder: 2.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Conduit",
         materialCategory: [
@@ -3192,6 +3835,8 @@ var db = {
         deconstructable: true
       },
       SolidConduit: {
+        menuOrder: 1.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3204,6 +3849,8 @@ var db = {
         deconstructable: true
       },
       SolidConduitInbox: {
+        menuOrder: 3.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3226,6 +3873,8 @@ var db = {
         enableable: true
       },
       SolidConduitOutbox: {
+        menuOrder: 4.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3241,6 +3890,8 @@ var db = {
         deconstructable: true
       },
       SolidConduitDiseaseSensor: {
+        menuOrder: 9.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3256,6 +3907,8 @@ var db = {
         deconstructable: true
       },
       SolidConduitElementSensor: {
+        menuOrder: 10.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3270,6 +3923,8 @@ var db = {
         deconstructable: true
       },
       SolidConduitTemperatureSensor: {
+        menuOrder: 11.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3284,6 +3939,10 @@ var db = {
         deconstructable: true
       },
       SolidFilter: {
+        menuOrder: 5.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3305,6 +3964,8 @@ var db = {
         enableable: true
       },
       SolidLimitValve: {
+        menuOrder: 8.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3324,6 +3985,8 @@ var db = {
         deconstructable: true
       },
       SolidLogicValve: {
+        menuOrder: 7.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3343,6 +4006,8 @@ var db = {
         enableable: true
       },
       SolidTransferArm: {
+        menuOrder: 0.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3365,6 +4030,8 @@ var db = {
         enableable: true
       },
       SolidVent: {
+        menuOrder: 6.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3382,6 +4049,8 @@ var db = {
     },
     power: {
       Battery: {
+        menuOrder: 16.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3402,6 +4071,8 @@ var db = {
         enableable: true
       },
       BatteryMedium: {
+        menuOrder: 17.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3422,6 +4093,8 @@ var db = {
         enableable: true
       },
       BatterySmart: {
+        menuOrder: 18.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3441,6 +4114,10 @@ var db = {
         enableable: true
       },
       Generator: {
+        menuOrder: 1.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3462,6 +4139,10 @@ var db = {
         enableable: true
       },
       HydrogenGenerator: {
+        menuOrder: 3.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3483,6 +4164,10 @@ var db = {
         enableable: true
       },
       LogicPowerRelay: {
+        menuOrder: 22.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3495,6 +4180,10 @@ var db = {
         deconstructable: true
       },
       ManualGenerator: {
+        menuOrder: 0.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3513,6 +4202,10 @@ var db = {
         enableable: true
       },
       MethaneGenerator: {
+        menuOrder: 4.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3534,6 +4227,10 @@ var db = {
         enableable: true
       },
       PetroleumGenerator: {
+        menuOrder: 5.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3555,6 +4252,10 @@ var db = {
         enableable: true
       },
       PowerTransformer: {
+        menuOrder: 20.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3576,6 +4277,10 @@ var db = {
         enableable: true
       },
       PowerTransformerSmall: {
+        menuOrder: 19.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3597,6 +4302,10 @@ var db = {
         enableable: true
       },
       SolarPanel: {
+        menuOrder: 7.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3616,6 +4325,10 @@ var db = {
         enableable: true
       },
       SteamTurbine2: {
+        menuOrder: 6.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3636,6 +4349,8 @@ var db = {
         enableable: true
       },
       Switch: {
+        menuOrder: 21.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3648,6 +4363,8 @@ var db = {
         deconstructable: true
       },
       WireBridge: {
+        menuOrder: 9.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "WireBridge",
         materialCategory: [
@@ -3663,6 +4380,10 @@ var db = {
         deconstructable: true
       },
       WireBridgeHighWattage: {
+        menuOrder: 11.0,
+        tags: [
+          "WireBridges"
+        ],
         thermalConductivity: 1.0,
         locationRule: "HighWattBridgeTile",
         materialCategory: [
@@ -3678,6 +4399,8 @@ var db = {
         deconstructable: true
       },
       Wire: {
+        menuOrder: 8.0,
+        tags: [],
         thermalConductivity: 0.05,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3692,6 +4415,8 @@ var db = {
         deconstructable: true
       },
       HighWattageWire: {
+        menuOrder: 10.0,
+        tags: [],
         thermalConductivity: 0.05,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -3706,6 +4431,8 @@ var db = {
         deconstructable: true
       },
       WireRefinedBridge: {
+        menuOrder: 13.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "WireBridge",
         materialCategory: [
@@ -3721,6 +4448,10 @@ var db = {
         deconstructable: true
       },
       WireRefinedBridgeHighWattage: {
+        menuOrder: 15.0,
+        tags: [
+          "WireBridges"
+        ],
         thermalConductivity: 1.0,
         locationRule: "HighWattBridgeTile",
         materialCategory: [
@@ -3736,6 +4467,8 @@ var db = {
         deconstructable: true
       },
       WireRefined: {
+        menuOrder: 12.0,
+        tags: [],
         thermalConductivity: 0.05,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3748,6 +4481,8 @@ var db = {
         deconstructable: true
       },
       WireRefinedHighWattage: {
+        menuOrder: 14.0,
+        tags: [],
         thermalConductivity: 0.05,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -3762,6 +4497,10 @@ var db = {
         deconstructable: true
       },
       WoodGasGenerator: {
+        menuOrder: 2.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3785,6 +4524,8 @@ var db = {
     },
     plumbing: {
       BottleEmptier: {
+        menuOrder: 5.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3801,6 +4542,10 @@ var db = {
         enableable: true
       },
       LiquidConduitDiseaseSensor: {
+        menuOrder: 18.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3816,6 +4561,10 @@ var db = {
         deconstructable: true
       },
       LiquidConduitElementSensor: {
+        menuOrder: 17.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3830,6 +4579,10 @@ var db = {
         deconstructable: true
       },
       LiquidConduitTemperatureSensor: {
+        menuOrder: 19.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3844,6 +4597,8 @@ var db = {
         deconstructable: true
       },
       ContactConductivePipeBridge: {
+        menuOrder: 22.0,
+        tags: [],
         thermalConductivity: 2.0,
         locationRule: "NoLiquidConduitAtOrigin",
         materialCategory: [
@@ -3858,6 +4613,11 @@ var db = {
         enableable: true
       },
       FlushToilet: {
+        menuOrder: 1.0,
+        tags: [
+          "ToiletType",
+          "FlushToiletType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -3876,6 +4636,10 @@ var db = {
         enableable: true
       },
       InsulatedLiquidConduit: {
+        menuOrder: 7.0,
+        tags: [
+          "Pipes"
+        ],
         thermalConductivity: 0.03125,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3890,6 +4654,8 @@ var db = {
         deconstructable: true
       },
       LiquidConduitBridge: {
+        menuOrder: 9.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Conduit",
         materialCategory: [
@@ -3903,6 +4669,10 @@ var db = {
         deconstructable: true
       },
       LiquidConduit: {
+        menuOrder: 6.0,
+        tags: [
+          "Pipes"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3915,6 +4685,10 @@ var db = {
         deconstructable: true
       },
       LiquidConduitRadiant: {
+        menuOrder: 8.0,
+        tags: [
+          "Pipes"
+        ],
         thermalConductivity: 2.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3929,6 +4703,11 @@ var db = {
         deconstructable: true
       },
       LiquidFilter: {
+        menuOrder: 13.0,
+        tags: [
+          "IndustrialMachinery",
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3951,6 +4730,10 @@ var db = {
         enableable: true
       },
       LiquidLimitValve: {
+        menuOrder: 16.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3972,6 +4755,10 @@ var db = {
         deconstructable: true
       },
       LiquidLogicValve: {
+        menuOrder: 15.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -3992,6 +4779,12 @@ var db = {
         deconstructable: true
       },
       LiquidMiniPump: {
+        menuOrder: 11.0,
+        tags: [
+          "IndustrialMachinery",
+          "CorrosionProof",
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4014,6 +4807,12 @@ var db = {
         enableable: true
       },
       LiquidPump: {
+        menuOrder: 10.0,
+        tags: [
+          "IndustrialMachinery",
+          "CorrosionProof",
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4035,6 +4834,10 @@ var db = {
         enableable: true
       },
       LiquidPumpingStation: {
+        menuOrder: 4.0,
+        tags: [
+          "CorrosionProof"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4050,6 +4853,10 @@ var db = {
         enableable: true
       },
       LiquidValve: {
+        menuOrder: 14.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4067,6 +4874,10 @@ var db = {
         deconstructable: true
       },
       LiquidVent: {
+        menuOrder: 12.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4082,6 +4893,13 @@ var db = {
         enableable: true
       },
       ModularLaunchpadPortLiquid: {
+        menuOrder: 20.0,
+        tags: [
+          "IndustrialMachinery",
+          "ModularLaunchpadPort",
+          "ModularConduitPort",
+          "NotRocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4108,6 +4926,13 @@ var db = {
         mode: "Load"
       },
       ModularLaunchpadPortLiquidUnloader: {
+        menuOrder: 21.0,
+        tags: [
+          "IndustrialMachinery",
+          "ModularLaunchpadPort",
+          "ModularConduitPort",
+          "NotRocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4134,6 +4959,10 @@ var db = {
         mode: "Unload"
       },
       Outhouse: {
+        menuOrder: 0.0,
+        tags: [
+          "ToiletType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4151,6 +4980,11 @@ var db = {
         enableable: true
       },
       Shower: {
+        menuOrder: 3.0,
+        tags: [
+          "WashStation",
+          "AdvancedWashStation"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4168,6 +5002,11 @@ var db = {
         enableable: true
       },
       WallToilet: {
+        menuOrder: 2.0,
+        tags: [
+          "ToiletType",
+          "FlushToiletType"
+        ],
         thermalConductivity: 1.0,
         locationRule: "WallFloor",
         materialCategory: [
@@ -4188,6 +5027,8 @@ var db = {
     },
     hvac: {
       BottleEmptierGas: {
+        menuOrder: 13.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4204,6 +5045,10 @@ var db = {
         enableable: true
       },
       GasConduitDiseaseSensor: {
+        menuOrder: 17.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4219,6 +5064,10 @@ var db = {
         deconstructable: true
       },
       GasConduitElementSensor: {
+        menuOrder: 16.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4233,6 +5082,10 @@ var db = {
         deconstructable: true
       },
       GasConduitTemperatureSensor: {
+        menuOrder: 18.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4247,6 +5100,10 @@ var db = {
         deconstructable: true
       },
       GasBottler: {
+        menuOrder: 12.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4264,6 +5121,8 @@ var db = {
         enableable: true
       },
       GasConduitBridge: {
+        menuOrder: 3.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Conduit",
         materialCategory: [
@@ -4277,6 +5136,10 @@ var db = {
         deconstructable: true
       },
       GasConduit: {
+        menuOrder: 0.0,
+        tags: [
+          "Vents"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4289,6 +5152,10 @@ var db = {
         deconstructable: true
       },
       GasConduitRadiant: {
+        menuOrder: 2.0,
+        tags: [
+          "Vents"
+        ],
         thermalConductivity: 2.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4303,6 +5170,11 @@ var db = {
         deconstructable: true
       },
       GasFilter: {
+        menuOrder: 8.0,
+        tags: [
+          "IndustrialMachinery",
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4324,6 +5196,10 @@ var db = {
         enableable: true
       },
       GasLimitValve: {
+        menuOrder: 11.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4345,6 +5221,10 @@ var db = {
         deconstructable: true
       },
       GasLogicValve: {
+        menuOrder: 10.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4365,6 +5245,11 @@ var db = {
         deconstructable: true
       },
       GasMiniPump: {
+        menuOrder: 5.0,
+        tags: [
+          "IndustrialMachinery",
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4387,6 +5272,11 @@ var db = {
         enableable: true
       },
       GasPump: {
+        menuOrder: 4.0,
+        tags: [
+          "IndustrialMachinery",
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4408,6 +5298,10 @@ var db = {
         enableable: true
       },
       GasValve: {
+        menuOrder: 9.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4425,6 +5319,10 @@ var db = {
         deconstructable: true
       },
       GasVent: {
+        menuOrder: 6.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4440,6 +5338,11 @@ var db = {
         enableable: true
       },
       GasVentHighPressure: {
+        menuOrder: 7.0,
+        tags: [
+          "IndustrialMachinery",
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4456,6 +5359,10 @@ var db = {
         enableable: true
       },
       InsulatedGasConduit: {
+        menuOrder: 1.0,
+        tags: [
+          "Vents"
+        ],
         thermalConductivity: 0.03125,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4470,6 +5377,13 @@ var db = {
         deconstructable: true
       },
       ModularLaunchpadPortGas: {
+        menuOrder: 14.0,
+        tags: [
+          "IndustrialMachinery",
+          "ModularLaunchpadPort",
+          "ModularConduitPort",
+          "NotRocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4496,6 +5410,13 @@ var db = {
         mode: "Load"
       },
       ModularLaunchpadPortGasUnloader: {
+        menuOrder: 15.0,
+        tags: [
+          "IndustrialMachinery",
+          "ModularLaunchpadPort",
+          "ModularConduitPort",
+          "NotRocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4524,6 +5445,10 @@ var db = {
     },
     base: {
       BunkerDoor: {
+        menuOrder: 18.0,
+        tags: [
+          "Bunker"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4543,6 +5468,11 @@ var db = {
         deconstructable: true
       },
       BunkerTile: {
+        menuOrder: 11.0,
+        tags: [
+          "Bunker",
+          "FloorTiles"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4557,6 +5487,11 @@ var db = {
         deconstructable: true
       },
       CarpetTile: {
+        menuOrder: 12.0,
+        tags: [
+          "FloorTiles",
+          "Carpeted"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4572,6 +5507,8 @@ var db = {
         deconstructable: true
       },
       Door: {
+        menuOrder: 15.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4587,6 +5524,12 @@ var db = {
         deconstructable: true
       },
       ExobaseHeadquarters: {
+        menuOrder: 14.0,
+        tags: [
+          "Telepad",
+          "LightSource",
+          "Experimental"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4602,6 +5545,10 @@ var db = {
         enableable: true
       },
       ExteriorWall: {
+        menuOrder: 13.0,
+        tags: [
+          "Backwall"
+        ],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -4617,6 +5564,8 @@ var db = {
         deconstructable: true
       },
       FirePole: {
+        menuOrder: 1.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4631,6 +5580,10 @@ var db = {
         deconstructable: true
       },
       GasPermeableMembrane: {
+        menuOrder: 4.0,
+        tags: [
+          "FloorTiles"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4645,6 +5598,10 @@ var db = {
         deconstructable: true
       },
       GasReservoir: {
+        menuOrder: 22.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4662,6 +5619,11 @@ var db = {
         enableable: true
       },
       GlassTile: {
+        menuOrder: 9.0,
+        tags: [
+          "Window",
+          "FloorTiles"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4677,6 +5639,10 @@ var db = {
         deconstructable: true
       },
       InsulationTile: {
+        menuOrder: 6.0,
+        tags: [
+          "FloorTiles"
+        ],
         thermalConductivity: 0.01,
         locationRule: "Tile",
         materialCategory: [
@@ -4691,6 +5657,8 @@ var db = {
         deconstructable: true
       },
       Ladder: {
+        menuOrder: 0.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4705,6 +5673,8 @@ var db = {
         deconstructable: true
       },
       LadderFast: {
+        menuOrder: 2.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -4719,6 +5689,10 @@ var db = {
         deconstructable: true
       },
       LiquidReservoir: {
+        menuOrder: 21.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4736,6 +5710,8 @@ var db = {
         enableable: true
       },
       ManualPressureDoor: {
+        menuOrder: 16.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4751,6 +5727,10 @@ var db = {
         deconstructable: true
       },
       MeshTile: {
+        menuOrder: 5.0,
+        tags: [
+          "FloorTiles"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4765,6 +5745,10 @@ var db = {
         deconstructable: true
       },
       MetalTile: {
+        menuOrder: 8.0,
+        tags: [
+          "FloorTiles"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4779,6 +5763,8 @@ var db = {
         deconstructable: true
       },
       ObjectDispenser: {
+        menuOrder: 23.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4799,6 +5785,10 @@ var db = {
         enableable: true
       },
       PlasticTile: {
+        menuOrder: 7.0,
+        tags: [
+          "FloorTiles"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4813,6 +5803,8 @@ var db = {
         deconstructable: true
       },
       PressureDoor: {
+        menuOrder: 17.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4831,6 +5823,8 @@ var db = {
         deconstructable: true
       },
       StorageLocker: {
+        menuOrder: 19.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4846,6 +5840,8 @@ var db = {
         enableable: true
       },
       StorageLockerSmart: {
+        menuOrder: 20.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4865,6 +5861,10 @@ var db = {
         enableable: true
       },
       StorageTile: {
+        menuOrder: 10.0,
+        tags: [
+          "FloorTiles"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4887,6 +5887,10 @@ var db = {
         ]
       },
       Tile: {
+        menuOrder: 3.0,
+        tags: [
+          "FloorTiles"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4901,6 +5905,8 @@ var db = {
         deconstructable: true
       },
       TravelTube: {
+        menuOrder: 24.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -4915,6 +5921,8 @@ var db = {
         deconstructable: true
       },
       TravelTubeEntrance: {
+        menuOrder: 25.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4934,6 +5942,10 @@ var db = {
         enableable: true
       },
       TravelTubeWallBridge: {
+        menuOrder: 26.0,
+        tags: [
+          "TravelTubeBridges"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -4949,6 +5961,8 @@ var db = {
     },
     automation: {
       Checkpoint: {
+        menuOrder: 27.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4971,6 +5985,11 @@ var db = {
         enableable: true
       },
       CometDetector: {
+        menuOrder: 28.0,
+        tags: [
+          "IndustrialMachinery",
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -4990,6 +6009,10 @@ var db = {
         enableable: true
       },
       FloorSwitch: {
+        menuOrder: 26.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -5004,6 +6027,10 @@ var db = {
         deconstructable: true
       },
       LogicAlarm: {
+        menuOrder: 20.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5018,6 +6045,10 @@ var db = {
         deconstructable: true
       },
       LogicCounter: {
+        menuOrder: 19.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5033,6 +6064,10 @@ var db = {
         deconstructable: true
       },
       LogicCritterCountSensor: {
+        menuOrder: 16.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5047,6 +6082,10 @@ var db = {
         deconstructable: true
       },
       LogicDiseaseSensor: {
+        menuOrder: 13.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5062,6 +6101,10 @@ var db = {
         deconstructable: true
       },
       LogicDuplicantSensor: {
+        menuOrder: 5.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFoundationRotatable",
         materialCategory: [
@@ -5077,6 +6120,8 @@ var db = {
         deconstructable: true
       },
       LogicElementSensorGas: {
+        menuOrder: 14.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5093,6 +6138,10 @@ var db = {
         enableable: true
       },
       LogicElementSensorLiquid: {
+        menuOrder: 15.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5108,6 +6157,10 @@ var db = {
         enableable: true
       },
       LogicGateAND: {
+        menuOrder: 30.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 0.05,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5123,6 +6176,10 @@ var db = {
         deconstructable: true
       },
       LogicGateOR: {
+        menuOrder: 31.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 0.05,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5138,6 +6195,10 @@ var db = {
         deconstructable: true
       },
       LogicGateXOR: {
+        menuOrder: 34.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 0.05,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5153,6 +6214,10 @@ var db = {
         deconstructable: true
       },
       LogicGateNOT: {
+        menuOrder: 29.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 0.05,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5168,6 +6233,10 @@ var db = {
         deconstructable: true
       },
       LogicGateBUFFER: {
+        menuOrder: 32.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 0.05,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5183,6 +6252,10 @@ var db = {
         deconstructable: true
       },
       LogicGateFILTER: {
+        menuOrder: 33.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 0.05,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5198,6 +6271,10 @@ var db = {
         deconstructable: true
       },
       LogicGateMultiplexer: {
+        menuOrder: 36.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 0.05,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5213,6 +6290,10 @@ var db = {
         deconstructable: true
       },
       LogicGateDemultiplexer: {
+        menuOrder: 37.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 0.05,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5228,6 +6309,10 @@ var db = {
         deconstructable: true
       },
       LogicHEPSensor: {
+        menuOrder: 18.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5242,6 +6327,10 @@ var db = {
         deconstructable: true
       },
       LogicHammer: {
+        menuOrder: 21.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5261,6 +6350,8 @@ var db = {
         enableable: true
       },
       LogicInterasteroidReceiver: {
+        menuOrder: 23.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5276,6 +6367,8 @@ var db = {
         enableable: true
       },
       LogicInterasteroidSender: {
+        menuOrder: 22.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5291,6 +6384,10 @@ var db = {
         enableable: true
       },
       LogicLightSensor: {
+        menuOrder: 9.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5306,6 +6403,10 @@ var db = {
         deconstructable: true
       },
       LogicMemory: {
+        menuOrder: 35.0,
+        tags: [
+          "OverlayBackLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5319,6 +6420,10 @@ var db = {
         deconstructable: true
       },
       LogicPressureSensorGas: {
+        menuOrder: 6.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5333,6 +6438,10 @@ var db = {
         deconstructable: true
       },
       LogicPressureSensorLiquid: {
+        menuOrder: 7.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5347,6 +6456,10 @@ var db = {
         deconstructable: true
       },
       LogicRadiationSensor: {
+        menuOrder: 17.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5361,6 +6474,8 @@ var db = {
         deconstructable: true
       },
       LogicRibbonBridge: {
+        menuOrder: 3.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "LogicBridge",
         materialCategory: [
@@ -5376,6 +6491,8 @@ var db = {
         deconstructable: true
       },
       LogicRibbon: {
+        menuOrder: 2.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5390,6 +6507,10 @@ var db = {
         deconstructable: true
       },
       LogicRibbonReader: {
+        menuOrder: 24.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5405,6 +6526,10 @@ var db = {
         deconstructable: true
       },
       LogicRibbonWriter: {
+        menuOrder: 25.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5420,6 +6545,10 @@ var db = {
         deconstructable: true
       },
       LogicSwitch: {
+        menuOrder: 4.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5432,6 +6561,10 @@ var db = {
         deconstructable: true
       },
       LogicTemperatureSensor: {
+        menuOrder: 8.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5446,6 +6579,10 @@ var db = {
         deconstructable: true
       },
       LogicTimeOfDaySensor: {
+        menuOrder: 11.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5460,6 +6597,10 @@ var db = {
         deconstructable: true
       },
       LogicTimerSensor: {
+        menuOrder: 12.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5474,6 +6615,10 @@ var db = {
         deconstructable: true
       },
       LogicWattageSensor: {
+        menuOrder: 10.0,
+        tags: [
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5488,6 +6633,8 @@ var db = {
         deconstructable: true
       },
       LogicWireBridge: {
+        menuOrder: 1.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "LogicBridge",
         materialCategory: [
@@ -5503,6 +6650,8 @@ var db = {
         deconstructable: true
       },
       LogicWire: {
+        menuOrder: 0.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5519,6 +6668,10 @@ var db = {
     },
     rocketry: {
       ClusterTelescope: {
+        menuOrder: 0.0,
+        tags: [
+          "ScienceBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5541,6 +6694,10 @@ var db = {
         rangeMax: 3.0
       },
       ClusterTelescopeEnclosed: {
+        menuOrder: 1.0,
+        tags: [
+          "ScienceBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5563,6 +6720,8 @@ var db = {
         rangeMax: 4.0
       },
       Gantry: {
+        menuOrder: 4.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5585,6 +6744,10 @@ var db = {
         enableable: true
       },
       LandingBeacon: {
+        menuOrder: 16.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5605,6 +6768,11 @@ var db = {
         enableable: true
       },
       LaunchPad: {
+        menuOrder: 3.0,
+        tags: [
+          "IndustrialMachinery",
+          "NotRocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5625,6 +6793,11 @@ var db = {
         ]
       },
       LogicClusterLocationSensor: {
+        menuOrder: 13.0,
+        tags: [
+          "RocketInteriorBuilding",
+          "OverlayFrontLayer"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -5640,6 +6813,10 @@ var db = {
         deconstructable: true
       },
       MissileLauncher: {
+        menuOrder: 17.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5664,6 +6841,10 @@ var db = {
         maxAngle: 80.0
       },
       MissionControlCluster: {
+        menuOrder: 2.0,
+        tags: [
+          "ScienceBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5689,6 +6870,12 @@ var db = {
         scanRight: 1.0
       },
       ModularLaunchpadPortBridge: {
+        menuOrder: 18.0,
+        tags: [
+          "ModularConduitPort",
+          "NotRocketInteriorBuilding",
+          "ModularLaunchpadPort"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5709,6 +6896,10 @@ var db = {
         ]
       },
       RailGun: {
+        menuOrder: 14.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5727,6 +6918,8 @@ var db = {
         enableable: true
       },
       RailGunPayloadOpener: {
+        menuOrder: 15.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5744,6 +6937,12 @@ var db = {
         enableable: true
       },
       RocketControlStation: {
+        menuOrder: 5.0,
+        tags: [
+          "RocketInteriorBuilding",
+          "UniquePerWorld",
+          "RocketInterior"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5760,6 +6959,10 @@ var db = {
         enableable: true
       },
       RocketInteriorGasInput: {
+        menuOrder: 9.0,
+        tags: [
+          "RocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnRocketEnvelope",
         materialCategory: [
@@ -5777,6 +6980,10 @@ var db = {
         enableable: true
       },
       RocketInteriorGasOutput: {
+        menuOrder: 10.0,
+        tags: [
+          "RocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnRocketEnvelope",
         materialCategory: [
@@ -5798,6 +7005,10 @@ var db = {
         enableable: true
       },
       RocketInteriorLiquidInput: {
+        menuOrder: 7.0,
+        tags: [
+          "RocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnRocketEnvelope",
         materialCategory: [
@@ -5815,6 +7026,10 @@ var db = {
         enableable: true
       },
       RocketInteriorLiquidOutput: {
+        menuOrder: 8.0,
+        tags: [
+          "RocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnRocketEnvelope",
         materialCategory: [
@@ -5836,6 +7051,10 @@ var db = {
         enableable: true
       },
       RocketInteriorPowerPlug: {
+        menuOrder: 6.0,
+        tags: [
+          "RocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnRocketEnvelope",
         materialCategory: [
@@ -5853,6 +7072,10 @@ var db = {
         enableable: true
       },
       RocketInteriorSolidInput: {
+        menuOrder: 11.0,
+        tags: [
+          "RocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnRocketEnvelope",
         materialCategory: [
@@ -5870,6 +7093,10 @@ var db = {
         enableable: true
       },
       RocketInteriorSolidOutput: {
+        menuOrder: 12.0,
+        tags: [
+          "RocketInteriorBuilding"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnRocketEnvelope",
         materialCategory: [
@@ -5893,6 +7120,14 @@ var db = {
     },
     Gravitas: {
       FacilityBackWallWindow: {
+        menuOrder: 177013.0,
+        tags: [
+          "BuildableAny",
+          "Transparent",
+          "Solid",
+          "ManufacturedMaterial",
+          "Gravitas"
+        ],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -5910,6 +7145,12 @@ var db = {
         enableable: true
       },
       FossilDig: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "BuildableRaw"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5926,6 +7167,10 @@ var db = {
         deconstructable: false
       },
       GravitasContainer: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5941,6 +7186,15 @@ var db = {
         enableable: true
       },
       GravitasCreatureManipulator: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -5957,6 +7211,10 @@ var db = {
         enableable: true
       },
       GravitasDoor: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -5972,6 +7230,10 @@ var db = {
         deconstructable: true
       },
       GravitasLabLight: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnCeiling",
         materialCategory: [
@@ -5987,6 +7249,13 @@ var db = {
         enableable: true
       },
       MassiveHeatSink: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "BuildableAny",
+          "Solid",
+          "RefinedMetal"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6008,6 +7277,16 @@ var db = {
         enableable: true
       },
       MegaBrainTank: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialMachinery",
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6025,6 +7304,15 @@ var db = {
         enableable: true
       },
       MorbRoverMaker: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6042,6 +7330,10 @@ var db = {
         enableable: true
       },
       POIDoorInternal: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -6057,6 +7349,14 @@ var db = {
         deconstructable: true
       },
       PropGravitasLabWall: {
+        menuOrder: 177013.0,
+        tags: [
+          "BuildableAny",
+          "Transparent",
+          "Solid",
+          "ManufacturedMaterial",
+          "Gravitas"
+        ],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -6074,6 +7374,14 @@ var db = {
         enableable: true
       },
       PropGravitasLabWindow: {
+        menuOrder: 177013.0,
+        tags: [
+          "BuildableAny",
+          "Transparent",
+          "Solid",
+          "ManufacturedMaterial",
+          "Gravitas"
+        ],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -6090,6 +7398,14 @@ var db = {
         enableable: true
       },
       PropGravitasLabWindowHorizontal: {
+        menuOrder: 177013.0,
+        tags: [
+          "BuildableAny",
+          "Transparent",
+          "Solid",
+          "ManufacturedMaterial",
+          "Gravitas"
+        ],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -6106,6 +7422,16 @@ var db = {
         enableable: true
       },
       PropGravitasWall: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw",
+          "Gravitas"
+        ],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -6123,6 +7449,12 @@ var db = {
         enableable: true
       },
       WarpConduitReceiver: {
+        menuOrder: 177013.0,
+        tags: [
+          "Solid",
+          "Special",
+          "Gravitas"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6137,6 +7469,12 @@ var db = {
         enableable: true
       },
       WarpConduitSender: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6151,300 +7489,722 @@ var db = {
         enableable: true
       },
       ClustercraftInteriorDoor: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "NotRoomAssignable",
+          "Solid",
+          "Special"
+        ],
         mass: 400.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       PropLadder: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Antiseptic",
+          "Plastic",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Polypropylene"
       },
       GeneShuffler: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "NotRoomAssignable",
+          "Solid",
+          "Special"
+        ],
         mass: 2000.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       FossilRock: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 4000.0,
         decor: 25.0,
         decorRadius: 5.0,
         primaryElement: "Fossil"
       },
       FossilResin: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 4000.0,
         decor: 25.0,
         decorRadius: 5.0,
         primaryElement: "Fossil"
       },
       FossilIce: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 4000.0,
         decor: 25.0,
         decorRadius: 5.0,
         primaryElement: "Fossil"
       },
       PropGravitasLabTable: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasJar2: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasJar1: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasHandScanner: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasFloorRobot: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasFirstAidKit: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasDisplay4: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasRobitcTable: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasDeskPodium: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasCreaturePoster: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasCeilingRobot: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropFacilityWallDegree: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropFacilityTable: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Steel"
       },
       PropFacilityStatue: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropFacilityPainting: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropFacilityHangingLight: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Steel"
       },
       PropGravitasDecorativeWindow: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "BuildableAny",
+          "Transparent",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 15.0,
         decorRadius: 3.0,
         primaryElement: "Glass"
       },
       PropFacilityGlobeDroors: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropGravitasShelf: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropReceptionDesk: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Steel"
       },
       WarpReceiver: {
+        menuOrder: 177013.0,
+        tags: [
+          "NotRoomAssignable",
+          "WarpTech",
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         mass: 2000.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       WarpPortal: {
+        menuOrder: 177013.0,
+        tags: [
+          "NotRoomAssignable",
+          "WarpTech",
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         mass: 2000.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       VendingMachine: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         mass: 100.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       SetLocker: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         mass: 100.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       PropGravitasSmallSeedLocker: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       CryoTank: {
+        menuOrder: 177013.0,
+        tags: [
+          "Solid",
+          "Special"
+        ],
         mass: 100.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       PropLight: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Steel"
       },
       PropTallPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Antiseptic",
+          "Plastic",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Polypropylene"
       },
       PropTable: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       PropSurfaceSatellite3: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       PropSurfaceSatellite2: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       PropSurfaceSatellite1: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Unobtanium"
       },
       PropSkeleton: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid"
+        ],
         mass: 50.0,
         decor: 30.0,
         decorRadius: 6.0,
         primaryElement: "Creature"
       },
       PropFacilityDisplay: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Steel"
       },
       PropFacilityDisplay2: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Steel"
       },
       PropFacilityDisplay3: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Steel"
       },
       PropFacilityDesk: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropFacilityCouch: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropFacilityChandelier: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Steel"
       },
       PropFacilityChairFlip: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropFacilityChair: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Granite"
       },
       PropElevator: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Steel"
       },
       PropDesk: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Steel"
       },
       PropClock: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "Special"
+        ],
         mass: 50.0,
         decor: 5.0,
         decorRadius: 1.0,
@@ -6453,6 +8213,8 @@ var db = {
     },
     hep: {
       HEPBattery: {
+        menuOrder: 6.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6476,6 +8238,10 @@ var db = {
         radboltStorage: 100.0
       },
       HEPBridgeTile: {
+        menuOrder: 7.0,
+        tags: [
+          "HEPPassThrough"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -6491,6 +8257,8 @@ var db = {
         deconstructable: true
       },
       HighEnergyParticleRedirector: {
+        menuOrder: 5.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -6507,6 +8275,8 @@ var db = {
         enableable: true
       },
       HighEnergyParticleSpawner: {
+        menuOrder: 4.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -6528,6 +8298,8 @@ var db = {
         enableable: true
       },
       ManualHighEnergyParticleSpawner: {
+        menuOrder: 1.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6543,6 +8315,11 @@ var db = {
         enableable: true
       },
       NuclearReactor: {
+        menuOrder: 2.0,
+        tags: [
+          "IndustrialMachinery",
+          "CorrosionProof"
+        ],
         thermalConductivity: 0.1,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6557,6 +8334,8 @@ var db = {
         deconstructable: true
       },
       RadiationLight: {
+        menuOrder: 0.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnWall",
         materialCategory: [
@@ -6578,6 +8357,10 @@ var db = {
         enableable: true
       },
       UraniumCentrifuge: {
+        menuOrder: 3.0,
+        tags: [
+          "IndustrialMachinery"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6602,6 +8385,8 @@ var db = {
     },
     Quest: {
       LonelyMinionHouse: {
+        menuOrder: 177013.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6622,6 +8407,8 @@ var db = {
         deconstructable: false
       },
       LonelyMailBox: {
+        menuOrder: 177013.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6637,6 +8424,11 @@ var db = {
         enableable: true
       },
       TemporalTearOpener: {
+        menuOrder: 177013.0,
+        tags: [
+          "Solid",
+          "Special"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6656,18 +8448,34 @@ var db = {
         enableable: true
       },
       FossilBitsLarge: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 2000.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Fossil"
       },
       FossilBitsSmall: {
+        menuOrder: 177013.0,
+        tags: [
+          "Gravitas",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 1500.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Fossil"
       },
       SapTree: {
+        menuOrder: 177013.0,
+        tags: [
+          "Decoration"
+        ],
         mass: 1.0,
         decor: 35.0,
         decorRadius: 6.0,
@@ -6676,6 +8484,8 @@ var db = {
     },
     Lander: {
       ScoutLander: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 400.0,
         decor: 5.0,
         decorRadius: 1.0,
@@ -6683,6 +8493,8 @@ var db = {
         deconstructable: true
       },
       PioneerLander: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 400.0,
         decor: 5.0,
         decorRadius: 1.0,
@@ -6694,6 +8506,7 @@ var db = {
   NONE: {
     NONE: {
       DevGenerator: {
+        menuOrder: 177013.0,
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -6708,6 +8521,7 @@ var db = {
         debug: true
       },
       DevHEPSpawner: {
+        menuOrder: 177013.0,
         thermalConductivity: 1.0,
         locationRule: "NotInTiles",
         materialCategory: [
@@ -6720,6 +8534,7 @@ var db = {
         debug: true
       },
       DevLifeSupport: {
+        menuOrder: 177013.0,
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -6731,6 +8546,7 @@ var db = {
         debug: true
       },
       DevLightGenerator: {
+        menuOrder: 177013.0,
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -6744,6 +8560,7 @@ var db = {
         debug: true
       },
       DevPumpGas: {
+        menuOrder: 177013.0,
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -6755,6 +8572,7 @@ var db = {
         debug: true
       },
       DevPumpLiquid: {
+        menuOrder: 177013.0,
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -6766,6 +8584,7 @@ var db = {
         debug: true
       },
       DevPumpSolid: {
+        menuOrder: 177013.0,
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -6777,6 +8596,7 @@ var db = {
         debug: true
       },
       DevRadiationGenerator: {
+        menuOrder: 177013.0,
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -6788,6 +8608,10 @@ var db = {
         debug: true
       },
       GravitasPedestal: {
+        menuOrder: 177013.0,
+        tags: [
+          "Decoration"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6803,6 +8627,12 @@ var db = {
         enableable: true
       },
       Headquarters: {
+        menuOrder: 177013.0,
+        tags: [
+          "Telepad",
+          "LightSource",
+          "Experimental"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6818,6 +8648,8 @@ var db = {
         enableable: true
       },
       POIBunkerExteriorDoor: {
+        menuOrder: 177013.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -6834,6 +8666,14 @@ var db = {
         enableable: true
       },
       POIFacilityDoor: {
+        menuOrder: 177013.0,
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Anywhere",
         materialCategory: [
@@ -6851,6 +8691,13 @@ var db = {
         enableable: true
       },
       RocketEnvelopeWindowTile: {
+        menuOrder: 177013.0,
+        tags: [
+          "Window",
+          "Bunker",
+          "FloorTiles",
+          "NoRocketRefund"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -6866,6 +8713,12 @@ var db = {
         deconstructable: false
       },
       RocketInteriorGasInputPort: {
+        menuOrder: 177013.0,
+        tags: [
+          "Bunker",
+          "FloorTiles",
+          "NoRocketRefund"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -6880,6 +8733,12 @@ var db = {
         deconstructable: false
       },
       RocketInteriorGasOutputPort: {
+        menuOrder: 177013.0,
+        tags: [
+          "Bunker",
+          "FloorTiles",
+          "NoRocketRefund"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -6894,6 +8753,12 @@ var db = {
         deconstructable: false
       },
       RocketInteriorLiquidInputPort: {
+        menuOrder: 177013.0,
+        tags: [
+          "Bunker",
+          "FloorTiles",
+          "NoRocketRefund"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -6908,6 +8773,12 @@ var db = {
         deconstructable: false
       },
       RocketInteriorLiquidOutputPort: {
+        menuOrder: 177013.0,
+        tags: [
+          "Bunker",
+          "FloorTiles",
+          "NoRocketRefund"
+        ],
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -6922,6 +8793,7 @@ var db = {
         deconstructable: false
       },
       RocketWallTile: {
+        menuOrder: 177013.0,
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -6933,6 +8805,8 @@ var db = {
         debug: true
       },
       StaterpillarGenerator: {
+        menuOrder: 177013.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFoundationRotatable",
         materialCategory: [
@@ -6950,6 +8824,8 @@ var db = {
         enableable: true
       },
       StaterpillarGasConnector: {
+        menuOrder: 177013.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFoundationRotatable",
         materialCategory: [
@@ -6964,6 +8840,8 @@ var db = {
         enableable: true
       },
       StaterpillarLiquidConnector: {
+        menuOrder: 177013.0,
+        tags: [],
         thermalConductivity: 1.0,
         locationRule: "OnFoundationRotatable",
         materialCategory: [
@@ -6978,6 +8856,11 @@ var db = {
         enableable: true
       },
       TeleportalPad: {
+        menuOrder: 177013.0,
+        tags: [
+          "Solid",
+          "Special"
+        ],
         thermalConductivity: 1.0,
         locationRule: "OnFloor",
         materialCategory: [
@@ -6999,6 +8882,7 @@ var db = {
         enableable: true
       },
       TilePOI: {
+        menuOrder: 177013.0,
         thermalConductivity: 1.0,
         locationRule: "Tile",
         materialCategory: [
@@ -7009,47 +8893,312 @@ var db = {
         mass: 100.0,
         debug: true
       },
+      AnimForeground: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      CO2Explode: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      DebugPlacer: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      FogOfWarMask: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      fx_capture_splash: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      fx_dig_splash: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      fx_disinfect_splash: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      fx_harvest_splash: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      fx_meteorshower_bg: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      fx_paint_splash: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      fx_powertinker_splash: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      fx_tend_splash: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      fx_whirlpool_splash: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      SaveGame: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      Spawner: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      WaterExplode: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      Clustercraft: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      BalloonStand: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      BackgroundEarth: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      Asteroid: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      DeployingScoutLanderFXConfig: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      DeployingPioneerLanderFX: {
+        menuOrder: 177013.0,
+        tags: []
+      },
       LandingPod: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 2000.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Creature"
       },
+      ExplodingClusterShip: {
+        menuOrder: 177013.0,
+        tags: []
+      },
       MachineParts: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 5.0,
         primaryElement: "Creature"
       },
       FoodSplat: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 1.0,
         primaryElement: "Creature"
       },
+      EyeAnimation: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      FullMinionUIPortrait: {
+        menuOrder: 177013.0,
+        tags: []
+      },
       StickerBomb: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 1.0,
         primaryElement: "Creature"
       },
       RailGunPayload: {
+        menuOrder: 177013.0,
+        tags: [
+          "IgnoreMaterialCategory",
+          "Experimental"
+        ],
         mass: 200.0,
         primaryElement: "Creature"
       },
+      MinionUIPortrait: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      MinionSelectPreview: {
+        menuOrder: 177013.0,
+        tags: [],
+        hp: 100,
+        caloriesMax: 4000000.0,
+        caloriesLoss: -1666.66663,
+        carryAmount: 200.0
+      },
+      MinionAssignablesProxy: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      Meter: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      MannequinUIPortrait: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      MouthAnimation: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      LonelyMinion: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      SleepLocator: {
+        menuOrder: 177013.0,
+        tags: [
+          "NotConversationTopic"
+        ]
+      },
+      ApproachableLocator: {
+        menuOrder: 177013.0,
+        tags: [
+          "NotConversationTopic"
+        ]
+      },
+      TargetLocator: {
+        menuOrder: 177013.0,
+        tags: [
+          "NotConversationTopic"
+        ]
+      },
+      OneshotReactableLocator: {
+        menuOrder: 177013.0,
+        tags: [
+          "NotConversationTopic"
+        ]
+      },
+      OrbitalBG: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      ResearchDestination: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      RepairableStorageProxy: {
+        menuOrder: 177013.0,
+        tags: [
+          "NotConversationTopic"
+        ]
+      },
+      MopPlacer: {
+        menuOrder: 177013.0,
+        tags: [
+          "NotConversationTopic"
+        ]
+      },
+      DigPlacer: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      TemporalTear: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      TelescopeTarget: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      StoredMinion: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      SimpleFX: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      MovePickupablePlacer: {
+        menuOrder: 177013.0,
+        tags: [
+          "NotConversationTopic"
+        ]
+      },
+      FishFeederBot: {
+        menuOrder: 177013.0,
+        tags: []
+      },
       DebrisPayload: {
+        menuOrder: 177013.0,
+        tags: [
+          "IgnoreMaterialCategory",
+          "Experimental"
+        ],
         mass: 100.0,
         primaryElement: "Creature"
       },
+      EffectTemplateFx: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      EffectTemplateOverrideFx: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      AttackSplashFx: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      OreAbsorbFx: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      PlantDeathFx: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      BuildSplashFx: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      DemolishSplashFx: {
+        menuOrder: 177013.0,
+        tags: []
+      },
       EscapePod: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 100.0,
         decor: 5.0,
         decorRadius: 1.0,
         primaryElement: "Creature",
         deconstructable: true
+      },
+      GeyserGeneric: {
+        menuOrder: 177013.0,
+        tags: []
       }
     }
   },
   Element: {
     Solid: {
       Algae: {
+        menuOrder: 1.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Life",
+          "PedestalDisplayable",
+          "Solid",
+          "Organics"
         ],
         molarMass: 4.0,
         hardness: 2.0,
@@ -7062,9 +9211,16 @@ var db = {
         clearable: true
       },
       BleachStone: {
+        menuOrder: 6.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "FlyingCritterEdible",
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 43.0,
         hardness: 50.0,
@@ -7077,9 +9233,17 @@ var db = {
         clearable: true
       },
       OxyRock: {
+        menuOrder: 6.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "FlyingCritterEdible",
+          "Oxidizer",
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 43.0,
         hardness: 10.0,
@@ -7092,9 +9256,16 @@ var db = {
         clearable: true
       },
       SlimeMold: {
+        menuOrder: 1.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "FlyingCritterEdible",
+          "Solid",
+          "Organics"
         ],
         molarMass: 4.0,
         hardness: 2.0,
@@ -7107,9 +9278,16 @@ var db = {
         clearable: true
       },
       ToxicSand: {
+        menuOrder: 1.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Compostable",
+          "Solid",
+          "Organics"
         ],
         molarMass: 50.0,
         hardness: 10.0,
@@ -7123,9 +9301,16 @@ var db = {
         clearable: true
       },
       CrushedIce: {
+        menuOrder: 8.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "IceOre",
+          "Unstable",
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 18.01528,
         hardness: 10.0,
@@ -7139,9 +9324,18 @@ var db = {
         clearable: true
       },
       Diamond: {
+        menuOrder: 12.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Transparent",
+          "FlyingCritterEdible",
+          "Solid",
+          "Other"
         ],
         molarMass: 12.0107,
         hardness: 250.0,
@@ -7154,9 +9348,16 @@ var db = {
         clearable: true
       },
       Isoresin: {
+        menuOrder: 10.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableRaw",
+          "Solid",
+          "RareMaterials"
         ],
         molarMass: 162.14,
         hardness: 10.0,
@@ -7169,8 +9370,14 @@ var db = {
         clearable: true
       },
       Sucrose: {
+        menuOrder: 6.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 342.3,
         hardness: 5.0,
@@ -7183,9 +9390,15 @@ var db = {
         clearable: true
       },
       MilkFat: {
+        menuOrder: 6.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 42.08,
         hardness: 1.0,
@@ -7198,9 +9411,18 @@ var db = {
         clearable: true
       },
       Niobium: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "RareMaterials"
         ],
         molarMass: 92.9,
         hardness: 50.0,
@@ -7213,9 +9435,16 @@ var db = {
         clearable: true
       },
       MilkIce: {
+        menuOrder: 8.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "IceOre",
+          "BuildableAny",
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 18.01528,
         hardness: 25.0,
@@ -7228,9 +9457,17 @@ var db = {
         clearable: true
       },
       Cuprite: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Ore",
+          "BuildableAny",
+          "Solid",
+          "Metal"
         ],
         molarMass: 143.09,
         hardness: 25.0,
@@ -7243,9 +9480,16 @@ var db = {
         clearable: true
       },
       Copper: {
+        menuOrder: 4.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Solid",
+          "RefinedMetal"
         ],
         molarMass: 63.546,
         hardness: 25.0,
@@ -7258,9 +9502,16 @@ var db = {
         clearable: true
       },
       CrushedRock: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Unstable",
+          "Solid",
+          "BuildableProcessed"
         ],
         molarMass: 50.0,
         hardness: 10.0,
@@ -7274,9 +9525,20 @@ var db = {
         clearable: true
       },
       SuperInsulator: {
+        menuOrder: 7.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableRaw",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "Insulator",
+          "Solid",
+          "ManufacturedMaterial"
         ],
         molarMass: 341.76,
         hardness: 200.0,
@@ -7289,9 +9551,16 @@ var db = {
         clearable: true
       },
       BrineIce: {
+        menuOrder: 8.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "IceOre",
+          "BuildableAny",
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 18.01528,
         hardness: 25.0,
@@ -7304,9 +9573,15 @@ var db = {
         clearable: true
       },
       SolidViscoGel: {
+        menuOrder: 9.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Plastic",
+          "Solid",
+          "ManufacturedMaterial"
         ],
         molarMass: 95.0,
         hardness: 2.0,
@@ -7319,9 +9594,19 @@ var db = {
         clearable: true
       },
       Ceramic: {
+        menuOrder: 7.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "Insulator",
+          "Solid",
+          "BuildableRaw"
         ],
         molarMass: 25.0,
         hardness: 50.0,
@@ -7334,8 +9619,16 @@ var db = {
         clearable: true
       },
       Cobaltite: {
+        menuOrder: 5.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Ore",
+          "BuildableAny",
+          "Solid",
+          "Metal"
         ],
         molarMass: 165.9,
         hardness: 25.0,
@@ -7348,9 +9641,16 @@ var db = {
         clearable: true
       },
       Fertilizer: {
+        menuOrder: 3.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Oxidizer",
+          "Solid",
+          "Agriculture"
         ],
         molarMass: 50.0,
         hardness: 2.0,
@@ -7363,9 +9663,14 @@ var db = {
         clearable: true
       },
       SolidCrudeOil: {
+        menuOrder: 11.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 500.0,
         hardness: 2.0,
@@ -7378,9 +9683,17 @@ var db = {
         clearable: true
       },
       Wolframite: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Plumbable",
+          "BuildableAny",
+          "Solid",
+          "Metal"
         ],
         molarMass: 150.0,
         hardness: 150.0,
@@ -7393,9 +9706,18 @@ var db = {
         clearable: true
       },
       Polypropylene: {
+        menuOrder: 9.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Antiseptic",
+          "Plastic",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
         ],
         molarMass: 42.08,
         hardness: 1.0,
@@ -7408,9 +9730,14 @@ var db = {
         clearable: true
       },
       SolidNaphtha: {
+        menuOrder: 11.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 102.2,
         hardness: 2.0,
@@ -7423,9 +9750,17 @@ var db = {
         clearable: true
       },
       Tungsten: {
+        menuOrder: 4.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Plumbable",
+          "BuildableAny",
+          "Solid",
+          "RefinedMetal"
         ],
         molarMass: 183.84,
         hardness: 200.0,
@@ -7438,9 +9773,16 @@ var db = {
         clearable: true
       },
       RefinedCarbon: {
+        menuOrder: 6.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Insulator",
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 12.0107,
         hardness: 2.0,
@@ -7453,9 +9795,18 @@ var db = {
         clearable: true
       },
       Steel: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Metal",
+          "RefinedMetal",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
         ],
         molarMass: 54.97,
         hardness: 50.0,
@@ -7468,9 +9819,16 @@ var db = {
         clearable: true
       },
       Phosphorite: {
+        menuOrder: 3.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "FlyingCritterEdible",
+          "Solid",
+          "Agriculture"
         ],
         molarMass: 95.61,
         hardness: 25.0,
@@ -7483,9 +9841,14 @@ var db = {
         clearable: true
       },
       SolidHydrogen: {
+        menuOrder: 11.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 44.1,
         hardness: 2.0,
@@ -7498,9 +9861,16 @@ var db = {
         clearable: true
       },
       Lead: {
+        menuOrder: 4.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Solid",
+          "RefinedMetal"
         ],
         molarMass: 55.845,
         hardness: 10.0,
@@ -7513,9 +9883,15 @@ var db = {
         clearable: true
       },
       Sulfur: {
+        menuOrder: 12.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "Other"
         ],
         molarMass: 50.0,
         hardness: 5.0,
@@ -7528,9 +9904,15 @@ var db = {
         clearable: true
       },
       Lime: {
+        menuOrder: 6.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 200.0,
         hardness: 50.0,
@@ -7543,9 +9925,14 @@ var db = {
         clearable: true
       },
       SolidChlorine: {
+        menuOrder: 11.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 34.453,
         hardness: 25.0,
@@ -7558,8 +9945,15 @@ var db = {
         clearable: true
       },
       SolidNuclearWaste: {
+        menuOrder: 12.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "EmitsLight",
+          "Solid",
+          "Other"
         ],
         molarMass: 196.966568,
         shc: 7.44,
@@ -7570,9 +9964,19 @@ var db = {
         clearable: true
       },
       Obsidian: {
+        menuOrder: 7.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
         ],
         molarMass: 50.0,
         hardness: 200.0,
@@ -7585,9 +9989,14 @@ var db = {
         clearable: true
       },
       SolidPetroleum: {
+        menuOrder: 11.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 82.2,
         hardness: 2.0,
@@ -7600,9 +10009,14 @@ var db = {
         clearable: true
       },
       SolidSuperCoolant: {
+        menuOrder: 9.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Solid",
+          "ManufacturedMaterial"
         ],
         molarMass: 250.0,
         hardness: 2.0,
@@ -7615,9 +10029,18 @@ var db = {
         clearable: true
       },
       IgneousRock: {
+        menuOrder: 7.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "Solid",
+          "BuildableRaw"
         ],
         molarMass: 50.0,
         hardness: 25.0,
@@ -7630,8 +10053,14 @@ var db = {
         clearable: true
       },
       EnrichedUranium: {
+        menuOrder: 9.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "ManufacturedMaterial"
         ],
         molarMass: 120.0,
         hardness: 250.0,
@@ -7644,9 +10073,16 @@ var db = {
         clearable: true
       },
       Gold: {
+        menuOrder: 4.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Solid",
+          "RefinedMetal"
         ],
         molarMass: 196.966568,
         hardness: 2.0,
@@ -7659,9 +10095,15 @@ var db = {
         clearable: true
       },
       Rust: {
+        menuOrder: 6.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 159.6882,
         hardness: 25.0,
@@ -7674,8 +10116,14 @@ var db = {
         clearable: true
       },
       Corium: {
+        menuOrder: 12.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "Other"
         ],
         molarMass: 196.966568,
         hardness: 251.0,
@@ -7688,9 +10136,16 @@ var db = {
         clearable: true
       },
       Phosphorus: {
+        menuOrder: 6.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "FlyingCritterEdible",
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 30.9737625,
         shc: 0.7697,
@@ -7702,9 +10157,19 @@ var db = {
         clearable: true
       },
       Granite: {
+        menuOrder: 7.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "PreciousRock",
+          "Solid",
+          "BuildableRaw"
         ],
         molarMass: 50.0,
         hardness: 80.0,
@@ -7717,9 +10182,14 @@ var db = {
         clearable: true
       },
       SolidCarbonDioxide: {
+        menuOrder: 11.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 44.01,
         hardness: 2.0,
@@ -7732,8 +10202,15 @@ var db = {
         clearable: true
       },
       Cobalt: {
+        menuOrder: 4.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Solid",
+          "RefinedMetal"
         ],
         molarMass: 58.9,
         hardness: 75.0,
@@ -7746,8 +10223,16 @@ var db = {
         clearable: true
       },
       UraniumOre: {
+        menuOrder: 5.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Metal",
+          "Noncrushable",
+          "Solid"
         ],
         molarMass: 120.0,
         hardness: 150.0,
@@ -7759,25 +10244,18 @@ var db = {
         decorRadius: 1.0,
         clearable: true
       },
-      SolidPropane: {
+      AluminumOre: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
         ],
-        molarMass: 44.1,
-        hardness: 10.0,
-        shc: 2.4,
-        strength: 0.5,
-        radiationAbsorptionFactor: 0.75,
-        thermalConductivity: 1.0,
-        decor: -10.0,
-        decorRadius: 1.0,
-        clearable: true
-      },
-      AluminumOre: {
-        dlc: [
-          "Base",
-          "Space Out"
+        tags: [
+          "PedestalDisplayable",
+          "Ore",
+          "BuildableAny",
+          "Solid",
+          "Metal"
         ],
         molarMass: 143.09,
         hardness: 25.0,
@@ -7790,9 +10268,18 @@ var db = {
         clearable: true
       },
       SedimentaryRock: {
+        menuOrder: 7.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "Solid",
+          "BuildableRaw"
         ],
         molarMass: 50.0,
         hardness: 2.0,
@@ -7805,9 +10292,15 @@ var db = {
         clearable: true
       },
       Fullerene: {
+        menuOrder: 10.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "RareMaterials"
         ],
         molarMass: 12.0107,
         hardness: 250.0,
@@ -7820,9 +10313,17 @@ var db = {
         clearable: true
       },
       GoldAmalgam: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Ore",
+          "BuildableAny",
+          "Solid",
+          "Metal"
         ],
         molarMass: 95.61,
         hardness: 2.0,
@@ -7835,9 +10336,15 @@ var db = {
         clearable: true
       },
       Salt: {
+        menuOrder: 6.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 50.0,
         hardness: 5.0,
@@ -7850,9 +10357,16 @@ var db = {
         clearable: true
       },
       Sand: {
+        menuOrder: 3.5,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Unstable",
+          "Solid",
+          "Filter"
         ],
         molarMass: 50.0,
         hardness: 10.0,
@@ -7866,9 +10380,16 @@ var db = {
         clearable: true
       },
       Snow: {
+        menuOrder: 8.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "IceOre",
+          "Unstable",
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 18.01528,
         hardness: 10.0,
@@ -7882,9 +10403,18 @@ var db = {
         clearable: true
       },
       SandStone: {
+        menuOrder: 7.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "Solid",
+          "BuildableRaw"
         ],
         molarMass: 50.0,
         hardness: 10.0,
@@ -7897,9 +10427,17 @@ var db = {
         clearable: true
       },
       Glass: {
+        menuOrder: 9.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Transparent",
+          "Solid",
+          "ManufacturedMaterial"
         ],
         molarMass: 25.0,
         hardness: 10.0,
@@ -7912,9 +10450,16 @@ var db = {
         clearable: true
       },
       Clay: {
+        menuOrder: 2.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Solid",
+          "Farmable"
         ],
         molarMass: 200.0,
         hardness: 5.0,
@@ -7927,9 +10472,16 @@ var db = {
         clearable: true
       },
       Ice: {
+        menuOrder: 8.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "IceOre",
+          "BuildableAny",
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 18.01528,
         hardness: 25.0,
@@ -7942,8 +10494,14 @@ var db = {
         clearable: true
       },
       Graphite: {
+        menuOrder: 7.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "BuildableRaw"
         ],
         molarMass: 12.0107,
         shc: 0.71,
@@ -7955,8 +10513,15 @@ var db = {
         clearable: true
       },
       ToxicMud: {
+        menuOrder: 1.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Unstable",
+          "Solid",
+          "Organics"
         ],
         molarMass: 50.0,
         hardness: 10.0,
@@ -7970,8 +10535,15 @@ var db = {
         clearable: true
       },
       Mud: {
+        menuOrder: 1.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Unstable",
+          "Solid",
+          "Organics"
         ],
         molarMass: 50.0,
         hardness: 10.0,
@@ -7985,9 +10557,17 @@ var db = {
         clearable: true
       },
       Carbon: {
+        menuOrder: 6.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Coal",
+          "BuildableAny",
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 12.0107,
         hardness: 2.0,
@@ -8000,9 +10580,14 @@ var db = {
         clearable: true
       },
       SolidOxygen: {
+        menuOrder: 11.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 50.0,
         hardness: 2.0,
@@ -8015,9 +10600,14 @@ var db = {
         clearable: true
       },
       Creature: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid"
         ],
         molarMass: 25.0,
         hardness: 10.0,
@@ -8030,8 +10620,15 @@ var db = {
         clearable: true
       },
       DepletedUranium: {
+        menuOrder: 4.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "RefinedMetal",
+          "Solid"
         ],
         molarMass: 120.0,
         hardness: 250.0,
@@ -8044,9 +10641,15 @@ var db = {
         clearable: true
       },
       Katairite: {
+        menuOrder: 12.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "Other"
         ],
         molarMass: 341.76,
         hardness: 150.0,
@@ -8059,9 +10662,14 @@ var db = {
         clearable: true
       },
       SolidMethane: {
+        menuOrder: 6.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Solid",
+          "ConsumableOre"
         ],
         molarMass: 16.044,
         hardness: 2.0,
@@ -8074,9 +10682,18 @@ var db = {
         clearable: true
       },
       HardPolypropylene: {
+        menuOrder: 9.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Antiseptic",
+          "Plastic",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
         ],
         molarMass: 100.016,
         hardness: 1.0,
@@ -8089,9 +10706,16 @@ var db = {
         clearable: true
       },
       MaficRock: {
+        menuOrder: 7.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Solid",
+          "BuildableRaw"
         ],
         molarMass: 50.0,
         hardness: 2.0,
@@ -8104,9 +10728,16 @@ var db = {
         clearable: true
       },
       Iron: {
+        menuOrder: 4.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Solid",
+          "RefinedMetal"
         ],
         molarMass: 55.845,
         hardness: 50.0,
@@ -8119,9 +10750,16 @@ var db = {
         clearable: true
       },
       Regolith: {
+        menuOrder: 3.5,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Unstable",
+          "Solid",
+          "Filter"
         ],
         molarMass: 50.0,
         hardness: 2.0,
@@ -8135,8 +10773,13 @@ var db = {
         clearable: true
       },
       SolidResin: {
+        menuOrder: 1.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "Solid",
+          "Organics"
         ],
         molarMass: 52.5,
         hardness: 10.0,
@@ -8149,9 +10792,19 @@ var db = {
         clearable: true
       },
       TempConductorSolid: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Metal",
+          "RefinedMetal",
+          "Plumbable",
+          "BuildableAny",
+          "Solid",
+          "ManufacturedMaterial"
         ],
         molarMass: 174.35,
         hardness: 80.0,
@@ -8164,9 +10817,17 @@ var db = {
         clearable: true
       },
       IronOre: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Ore",
+          "BuildableAny",
+          "Solid",
+          "Metal"
         ],
         molarMass: 159.6882,
         hardness: 25.0,
@@ -8179,9 +10840,16 @@ var db = {
         clearable: true
       },
       Dirt: {
+        menuOrder: 2.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Solid",
+          "Farmable"
         ],
         molarMass: 50.0,
         hardness: 2.0,
@@ -8194,9 +10862,17 @@ var db = {
         clearable: true
       },
       DirtyIce: {
+        menuOrder: 8.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "IceOre",
+          "Mixture",
+          "BuildableAny",
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 25.0,
         hardness: 10.0,
@@ -8209,9 +10885,15 @@ var db = {
         clearable: true
       },
       Fossil: {
+        menuOrder: 7.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "BuildableRaw"
         ],
         molarMass: 200.0,
         hardness: 50.0,
@@ -8224,9 +10906,15 @@ var db = {
         clearable: true
       },
       Unobtanium: {
+        menuOrder: 12.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Solid",
+          "Special"
         ],
         molarMass: 10000.0,
         hardness: 255.0,
@@ -8238,9 +10926,16 @@ var db = {
         clearable: true
       },
       SolidEthanol: {
+        menuOrder: 8.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "IceOre",
+          "BuildableAny",
+          "Solid",
+          "Liquifiable"
         ],
         molarMass: 46.07,
         hardness: 250.0,
@@ -8253,9 +10948,17 @@ var db = {
         clearable: true
       },
       FoolsGold: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Ore",
+          "BuildableAny",
+          "Solid",
+          "Metal"
         ],
         molarMass: 95.61,
         hardness: 25.0,
@@ -8268,9 +10971,16 @@ var db = {
         clearable: true
       },
       Aluminum: {
+        menuOrder: 4.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "BuildableAny",
+          "Solid",
+          "RefinedMetal"
         ],
         molarMass: 55.845,
         hardness: 25.0,
@@ -8285,9 +10995,16 @@ var db = {
     },
     Liquid: {
       DirtyWater: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Mixture",
+          "AnyWater",
+          "Liquid"
         ],
         molarMass: 20.0,
         shc: 4.179,
@@ -8302,8 +11019,13 @@ var db = {
         clearable: true
       },
       NuclearWaste: {
+        menuOrder: 15.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 196.966568,
         shc: 7.44,
@@ -8318,9 +11040,14 @@ var db = {
         clearable: true
       },
       LiquidOxygen: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Oxidizer",
+          "Liquid"
         ],
         molarMass: 15.9994,
         shc: 1.01,
@@ -8335,9 +11062,14 @@ var db = {
         clearable: true
       },
       ViscoGel: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Liquid"
         ],
         molarMass: 10.0,
         shc: 1.55,
@@ -8352,9 +11084,16 @@ var db = {
         clearable: true
       },
       MoltenAluminum: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 55.845,
         shc: 0.91,
@@ -8369,9 +11108,16 @@ var db = {
         clearable: true
       },
       MoltenLead: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 196.966568,
         shc: 0.128,
@@ -8386,9 +11132,13 @@ var db = {
         clearable: true
       },
       LiquidCarbonDioxide: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Liquid"
         ],
         molarMass: 44.01,
         shc: 0.846,
@@ -8403,9 +11153,14 @@ var db = {
         clearable: true
       },
       CrudeOil: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Liquid"
         ],
         molarMass: 500.0,
         shc: 1.69,
@@ -8420,9 +11175,14 @@ var db = {
         clearable: true
       },
       MoltenGlass: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 50.0,
         shc: 0.2,
@@ -8437,9 +11197,13 @@ var db = {
         clearable: true
       },
       LiquidSulfur: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Liquid"
         ],
         molarMass: 32.0,
         shc: 0.7,
@@ -8454,9 +11218,16 @@ var db = {
         clearable: true
       },
       MoltenGold: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 196.966568,
         shc: 0.1291,
@@ -8471,9 +11242,14 @@ var db = {
         clearable: true
       },
       Magma: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 50.0,
         shc: 1.0,
@@ -8488,9 +11264,13 @@ var db = {
         clearable: true
       },
       Chlorine: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Liquid"
         ],
         molarMass: 34.453,
         shc: 0.48,
@@ -8505,9 +11285,13 @@ var db = {
         clearable: true
       },
       LiquidHydrogen: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Liquid"
         ],
         molarMass: 1.00794,
         shc: 2.4,
@@ -8522,8 +11306,13 @@ var db = {
         clearable: true
       },
       Resin: {
+        menuOrder: 15.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Liquid"
         ],
         molarMass: 52.5,
         shc: 1.11,
@@ -8537,27 +11326,16 @@ var db = {
         decorRadius: 1.0,
         clearable: true
       },
-      LiquidPropane: {
+      MoltenTungsten: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
         ],
-        molarMass: 44.1,
-        shc: 2.4,
-        maxCompression: 1.01,
-        viscosity: 180.0,
-        minHorizontalFlow: 0.01,
-        minVerticalFlow: 0.01,
-        radiationAbsorptionFactor: 0.75,
-        thermalConductivity: 0.1,
-        decor: -10.0,
-        decorRadius: 1.0,
-        clearable: true
-      },
-      MoltenTungsten: {
-        dlc: [
-          "Base",
-          "Space Out"
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "Liquid"
         ],
         molarMass: 183.84,
         shc: 0.134,
@@ -8572,9 +11350,15 @@ var db = {
         clearable: true
       },
       Petroleum: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "CombustibleLiquid",
+          "Liquid"
         ],
         molarMass: 82.2,
         shc: 1.76,
@@ -8589,9 +11373,13 @@ var db = {
         clearable: true
       },
       MoltenSalt: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Liquid"
         ],
         molarMass: 32.0,
         shc: 0.7,
@@ -8606,8 +11394,15 @@ var db = {
         clearable: true
       },
       MoltenCobalt: {
+        menuOrder: 5.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 58.9,
         shc: 0.42,
@@ -8622,9 +11417,15 @@ var db = {
         clearable: true
       },
       Brine: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "AnyWater",
+          "Liquid"
         ],
         molarMass: 22.0,
         shc: 3.4,
@@ -8639,9 +11440,14 @@ var db = {
         clearable: true
       },
       SuperCoolant: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Liquid"
         ],
         molarMass: 250.0,
         shc: 8.44,
@@ -8656,9 +11462,15 @@ var db = {
         clearable: true
       },
       Ethanol: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "CombustibleLiquid",
+          "Liquid"
         ],
         molarMass: 46.07,
         shc: 2.46,
@@ -8673,9 +11485,14 @@ var db = {
         clearable: true
       },
       Milk: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Liquid"
         ],
         molarMass: 23.0,
         shc: 4.1,
@@ -8690,9 +11507,13 @@ var db = {
         clearable: true
       },
       LiquidMethane: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Liquid"
         ],
         molarMass: 16.044,
         shc: 2.191,
@@ -8707,9 +11528,16 @@ var db = {
         clearable: true
       },
       MoltenIron: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 55.845,
         shc: 0.449,
@@ -8724,9 +11552,13 @@ var db = {
         clearable: true
       },
       MoltenCarbon: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Liquid"
         ],
         molarMass: 12.0107,
         shc: 0.71,
@@ -8741,9 +11573,15 @@ var db = {
         clearable: true
       },
       Naphtha: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Oil",
+          "Liquid"
         ],
         molarMass: 102.2,
         shc: 2.191,
@@ -8758,8 +11596,12 @@ var db = {
         clearable: true
       },
       MoltenSucrose: {
+        menuOrder: 15.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "Liquid"
         ],
         molarMass: 32.0,
         shc: 1.255,
@@ -8774,9 +11616,14 @@ var db = {
         clearable: true
       },
       LiquidPhosphorus: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 30.9737625,
         shc: 0.7697,
@@ -8791,9 +11638,16 @@ var db = {
         clearable: true
       },
       MoltenSteel: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 63.546,
         shc: 0.386,
@@ -8808,9 +11662,16 @@ var db = {
         clearable: true
       },
       MoltenNiobium: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 92.9,
         shc: 0.265,
@@ -8825,9 +11686,15 @@ var db = {
         clearable: true
       },
       Water: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "AnyWater",
+          "Liquid"
         ],
         molarMass: 18.01528,
         shc: 4.179,
@@ -8842,9 +11709,15 @@ var db = {
         clearable: true
       },
       SaltWater: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "AnyWater",
+          "Liquid"
         ],
         molarMass: 21.0,
         shc: 4.1,
@@ -8859,8 +11732,15 @@ var db = {
         clearable: true
       },
       MoltenUranium: {
+        menuOrder: 5.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 196.966568,
         shc: 1.69,
@@ -8875,9 +11755,16 @@ var db = {
         clearable: true
       },
       MoltenCopper: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Liquid"
         ],
         molarMass: 63.546,
         shc: 0.386,
@@ -8894,9 +11781,14 @@ var db = {
     },
     Gas: {
       SulfurGas: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 32.0,
         shc: 0.7,
@@ -8908,9 +11800,14 @@ var db = {
         clearable: true
       },
       SaltGas: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 50.0,
         shc: 0.88,
@@ -8922,9 +11819,17 @@ var db = {
         clearable: true
       },
       NiobiumGas: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 92.9,
         shc: 0.265,
@@ -8936,9 +11841,15 @@ var db = {
         clearable: true
       },
       Oxygen: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Gas",
+          "Breathable"
         ],
         molarMass: 15.9994,
         shc: 1.005,
@@ -8950,8 +11861,16 @@ var db = {
         clearable: true
       },
       CobaltGas: {
+        menuOrder: 5.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 58.9,
         shc: 0.42,
@@ -8963,9 +11882,18 @@ var db = {
         clearable: true
       },
       SteelGas: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "Alloy",
+          "RefinedMetal",
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 54.97,
         shc: 0.49,
@@ -8977,9 +11905,15 @@ var db = {
         clearable: true
       },
       ChlorineGas: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 34.453,
         shc: 0.48,
@@ -8991,9 +11925,15 @@ var db = {
         clearable: true
       },
       Hydrogen: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 1.00794,
         shc: 2.4,
@@ -9005,9 +11945,15 @@ var db = {
         clearable: true
       },
       SourGas: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 19.044,
         shc: 1.898,
@@ -9019,9 +11965,14 @@ var db = {
         clearable: true
       },
       Steam: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 18.01528,
         shc: 4.179,
@@ -9033,9 +11984,16 @@ var db = {
         clearable: true
       },
       Methane: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "CombustibleGas",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 16.044,
         shc: 2.191,
@@ -9047,9 +12005,17 @@ var db = {
         clearable: true
       },
       GoldGas: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 196.966568,
         shc: 0.1291,
@@ -9061,9 +12027,14 @@ var db = {
         clearable: true
       },
       EthanolGas: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 46.07,
         shc: 2.148,
@@ -9075,9 +12046,15 @@ var db = {
         clearable: true
       },
       RockGas: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 50.0,
         shc: 1.0,
@@ -9089,9 +12066,15 @@ var db = {
         clearable: true
       },
       CarbonGas: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 12.0107,
         shc: 0.71,
@@ -9103,9 +12086,14 @@ var db = {
         clearable: true
       },
       SuperCoolantGas: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 190.0,
         shc: 8.44,
@@ -9117,9 +12105,17 @@ var db = {
         clearable: true
       },
       AluminumGas: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 63.546,
         shc: 0.91,
@@ -9131,9 +12127,16 @@ var db = {
         clearable: true
       },
       TungstenGas: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 183.84,
         shc: 0.134,
@@ -9145,9 +12148,15 @@ var db = {
         clearable: true
       },
       ContaminatedOxygen: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Gas",
+          "Breathable"
         ],
         molarMass: 15.9994,
         shc: 1.01,
@@ -9159,9 +12168,17 @@ var db = {
         clearable: true
       },
       LeadGas: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 196.966568,
         shc: 0.128,
@@ -9173,8 +12190,14 @@ var db = {
         clearable: true
       },
       Fallout: {
+        menuOrder: 15.0,
         dlc: [
           "Space Out"
+        ],
+        tags: [
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 92.9,
         shc: 0.265,
@@ -9186,9 +12209,17 @@ var db = {
         clearable: true
       },
       IronGas: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 55.845,
         shc: 0.449,
@@ -9200,9 +12231,15 @@ var db = {
         clearable: true
       },
       PhosphorusGas: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 30.9737625,
         shc: 0.7697,
@@ -9214,9 +12251,15 @@ var db = {
         clearable: true
       },
       CarbonDioxide: {
+        menuOrder: 15.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "PedestalDisplayable",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 44.01,
         shc: 0.846,
@@ -9228,9 +12271,17 @@ var db = {
         clearable: true
       },
       CopperGas: {
+        menuOrder: 5.0,
         dlc: [
           "Base",
           "Space Out"
+        ],
+        tags: [
+          "Metal",
+          "RefinedMetal",
+          "EmitsLight",
+          "Gas",
+          "Unbreathable"
         ],
         molarMass: 63.546,
         shc: 0.386,
@@ -9243,130 +12294,407 @@ var db = {
       }
     },
     Other: {
-      HighEnergyParticle: {}
+      HighEnergyParticle: {
+        menuOrder: 177013.0,
+        tags: []
+      }
     }
   },
   Space: {
     Comet: {
       RockComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "Unstable",
+          "Solid",
+          "Filter",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Regolith"
       },
       IronComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "BuildableAny",
+          "Solid",
+          "RefinedMetal",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Iron"
       },
       CopperCometConfig: {
+        menuOrder: 177013.0,
+        tags: [
+          "Ore",
+          "BuildableAny",
+          "Solid",
+          "Metal",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Cuprite"
       },
       GoldComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "Ore",
+          "BuildableAny",
+          "Solid",
+          "Metal",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "GoldAmalgam"
       },
       FullereneComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "Solid",
+          "RareMaterials",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Fullerene"
       },
       BleachStoneComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "FlyingCritterEdible",
+          "Solid",
+          "ConsumableOre",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "BleachStone"
       },
       OxyliteComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "FlyingCritterEdible",
+          "Oxidizer",
+          "Solid",
+          "ConsumableOre",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "OxyRock"
       },
       PhosphoricComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "FlyingCritterEdible",
+          "Solid",
+          "Agriculture",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Phosphorite"
       },
       AlgaeComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "Solid",
+          "Organics",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Algae"
       },
       LightDustComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "Unstable",
+          "Solid",
+          "Filter",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Regolith"
       },
       HardIceComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "IceOre",
+          "Unstable",
+          "Solid",
+          "Liquifiable",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "CrushedIce"
       },
       SlimeComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "FlyingCritterEdible",
+          "Solid",
+          "Organics",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "SlimeMold"
       },
       UraniumComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "BuildableAny",
+          "Metal",
+          "Noncrushable",
+          "Solid",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "UraniumOre"
       },
       GassyMoo: {
+        menuOrder: 177013.0,
+        tags: [
+          "Solid",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       NuclearWasteComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "Solid",
+          "Other",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Corium"
       },
       DustComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "Unstable",
+          "Solid",
+          "Filter",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Regolith"
       },
       SnowballComet: {
+        menuOrder: 177013.0,
+        tags: [
+          "IceOre",
+          "Unstable",
+          "Solid",
+          "Liquifiable",
+          "Comet"
+        ],
         mass: 1.0,
         primaryElement: "Snow"
       }
     },
+    ArtifactPOI: {
+      ArtifactSpacePOI_GravitasSpaceStation1: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      ArtifactSpacePOI_GravitasSpaceStation2: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      ArtifactSpacePOI_GravitasSpaceStation3: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      ArtifactSpacePOI_GravitasSpaceStation4: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      ArtifactSpacePOI_GravitasSpaceStation5: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      ArtifactSpacePOI_GravitasSpaceStation6: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      ArtifactSpacePOI_GravitasSpaceStation7: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      ArtifactSpacePOI_GravitasSpaceStation8: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      ArtifactSpacePOI_RussellsTeapot: {
+        menuOrder: 177013.0,
+        tags: []
+      }
+    },
+    HarvestablePOI: {
+      HarvestableSpacePOI_MetallicAsteroidField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_SatelliteField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_RockyAsteroidField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_InterstellarIceField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_OrganicMassField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_IceAsteroidField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_GasGiantCloud: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_ChlorineCloud: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_GildedAsteroidField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_GlimmeringAsteroidField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_HeliumCloud: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_OilyAsteroidField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_OxidizedAsteroidField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_SaltyAsteroidField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_FrozenOreField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_ForestyOreField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_SwampyOreField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_SandyOreField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_RadioactiveGasCloud: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_RadioactiveAsteroidField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_OxygenRichAsteroidField: {
+        menuOrder: 177013.0,
+        tags: []
+      },
+      HarvestableSpacePOI_InterstellarOcean: {
+        menuOrder: 177013.0,
+        tags: []
+      }
+    },
     Shower: {
       ClusterMapMeteorShower_Biological: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_Snow: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_Ice: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_Copper: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_Iron: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_Gold: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_Uranium: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_HeavyDust: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_LightDust: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_Moo: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_Regolith: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_Oxylite: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       },
       ClusterMapMeteorShower_BleachStone: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 25.0,
         primaryElement: "Unobtanium"
       }
@@ -9375,78 +12703,156 @@ var db = {
   Artifact: {
     Any: {
       artifact_sandstone: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 10.0,
         decorRadius: 1.0,
         primaryElement: "Creature"
       },
       artifact_officemug: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 10.0,
         decorRadius: 1.0,
         primaryElement: "Creature"
       },
       artifact_modernart: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 20.0,
         decorRadius: 3.0,
         primaryElement: "Creature"
       },
       artifact_shieldgenerator: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 30.0,
         decorRadius: 5.0,
         primaryElement: "Creature"
       },
       artifact_grubstatue: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 30.0,
         decorRadius: 5.0,
         primaryElement: "Creature"
       },
       artifact_eggrock: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 35.0,
         decorRadius: 6.0,
         primaryElement: "Creature"
       },
       artifact_hatchfossil: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 35.0,
         decorRadius: 6.0,
         primaryElement: "Creature"
       },
       artifact_rocktornado: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 35.0,
         decorRadius: 6.0,
         primaryElement: "Creature"
       },
       artifact_magmalamp: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 35.0,
         decorRadius: 6.0,
         primaryElement: "Creature"
       },
       artifact_rainboweggrock: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 50.0,
         decorRadius: 7.0,
         primaryElement: "Creature"
       },
       artifact_plasmalamp: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 50.0,
         decorRadius: 7.0,
         primaryElement: "Creature"
       },
       artifact_moodring: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 50.0,
         decorRadius: 7.0,
         primaryElement: "Creature"
       },
       artifact_reactormodel: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 80.0,
         decorRadius: 7.0,
@@ -9455,60 +12861,120 @@ var db = {
     },
     Terrestrial: {
       artifact_sink: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 10.0,
         decorRadius: 1.0,
         primaryElement: "Creature"
       },
       artifact_rubikscube: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 10.0,
         decorRadius: 1.0,
         primaryElement: "Creature"
       },
       artifact_okayxray: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 20.0,
         decorRadius: 3.0,
         primaryElement: "Creature"
       },
       artifact_blender: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 20.0,
         decorRadius: 3.0,
         primaryElement: "Creature"
       },
       artifact_vhs: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 20.0,
         decorRadius: 3.0,
         primaryElement: "Creature"
       },
       artifact_honeyjar: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 20.0,
         decorRadius: 3.0,
         primaryElement: "Creature"
       },
       artifact_brickphone: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 30.0,
         decorRadius: 5.0,
         primaryElement: "Creature"
       },
       artifact_stethoscope: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 35.0,
         decorRadius: 6.0,
         primaryElement: "Creature"
       },
       artifact_oracle: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 35.0,
         decorRadius: 6.0,
         primaryElement: "Creature"
       },
       artifact_dnamodel: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 50.0,
         decorRadius: 7.0,
@@ -9517,60 +12983,120 @@ var db = {
     },
     Space: {
       artifact_obelisk: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 20.0,
         decorRadius: 3.0,
         primaryElement: "Creature"
       },
       artifact_moldavite: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 20.0,
         decorRadius: 3.0,
         primaryElement: "Creature"
       },
       artifact_saxophone: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 20.0,
         decorRadius: 3.0,
         primaryElement: "Creature"
       },
       artifact_ameliaswatch: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 30.0,
         decorRadius: 5.0,
         primaryElement: "Creature"
       },
       artifact_teapot: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 30.0,
         decorRadius: 5.0,
         primaryElement: "Creature"
       },
       artifact_robotarm: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 30.0,
         decorRadius: 5.0,
         primaryElement: "Creature"
       },
       artifact_bioluminescentrock: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 30.0,
         decorRadius: 5.0,
         primaryElement: "Creature"
       },
       artifact_pacupercolator: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 35.0,
         decorRadius: 6.0,
         primaryElement: "Creature"
       },
       artifact_solarsystem: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 80.0,
         decorRadius: 7.0,
         primaryElement: "Creature"
       },
       artifact_moonmoonmoon: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Artifact"
+        ],
         mass: 25.0,
         decor: 80.0,
         decorRadius: 7.0,
@@ -9579,30 +13105,60 @@ var db = {
     },
     Quest: {
       keepsake_megabrain: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Keepsake"
+        ],
         mass: 25.0,
         decor: 15.0,
         decorRadius: 2.0,
         primaryElement: "Creature"
       },
       keepsake_crittermanipulator: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Keepsake"
+        ],
         mass: 25.0,
         decor: 15.0,
         decorRadius: 2.0,
         primaryElement: "Creature"
       },
       keepsake_lonelyminion: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Keepsake"
+        ],
         mass: 25.0,
         decor: 15.0,
         decorRadius: 2.0,
         primaryElement: "Creature"
       },
       keepsake_fossilhunt: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Keepsake"
+        ],
         mass: 25.0,
         decor: 15.0,
         decorRadius: 2.0,
         primaryElement: "Creature"
       },
       keepsake_morbrovermaker: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable",
+          "PedestalDisplayable",
+          "Keepsake"
+        ],
         mass: 25.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -9612,121 +13168,227 @@ var db = {
   },
   Misc: {
     Medicine: {
-      IntermediateRadPill: {
-        mass: 1.0,
-        primaryElement: "Creature"
-      },
       IntermediateCure: {
+        menuOrder: 177013.0,
+        tags: [
+          "MedicalSupplies",
+          "DoctorStationMedicalSupplies"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       IntermediateBooster: {
+        menuOrder: 177013.0,
+        tags: [
+          "Medicine"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       BasicRadPill: {
+        menuOrder: 177013.0,
+        tags: [
+          "Medicine"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       BasicCure: {
+        menuOrder: 177013.0,
+        tags: [
+          "Medicine"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       BasicBooster: {
+        menuOrder: 177013.0,
+        tags: [
+          "Medicine"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       Antihistamine: {
+        menuOrder: 177013.0,
+        tags: [
+          "Medicine"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       AdvancedCure: {
+        menuOrder: 177013.0,
+        tags: [
+          "MedicalSupplies",
+          "AdvancedDoctorStationMedicalSupplies"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       }
     },
     Industrial: {
       WoodLog: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient",
+          "Organics",
+          "BuildingWood"
+        ],
         massPerUnit: 1.0,
         mass: 1.0,
         primaryElement: "Creature"
       },
       SwampLilyFlower: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       ResearchDatabank: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient",
+          "Experimental"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       OrbitalResearchDatabank: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient",
+          "Experimental"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       CrabWoodShell: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient",
+          "Organics",
+          "MoltShell"
+        ],
         massPerUnit: 100.0,
         mass: 100.0,
         primaryElement: "Creature"
       },
       BabyCrabWoodShell: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient",
+          "Organics",
+          "MoltShell"
+        ],
         massPerUnit: 10.0,
         mass: 10.0,
         primaryElement: "Creature"
       },
       BabyCrabShell: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient",
+          "Organics"
+        ],
         massPerUnit: 5.0,
         mass: 5.0,
         primaryElement: "Creature"
       },
       CrabShell: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient",
+          "Organics"
+        ],
         massPerUnit: 10.0,
         mass: 10.0,
         primaryElement: "Creature"
       },
       MissileBasic: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialProduct"
+        ],
         mass: 10.0,
         primaryElement: "Iron"
       },
       GeneShufflerRecharge: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient"
+        ],
         mass: 5.0,
         primaryElement: "Creature"
       },
       BasicFabric: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient",
+          "BuildingFiber"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       GingerConfig: {
+        menuOrder: 177013.0,
+        tags: [
+          "IndustrialIngredient"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       }
     },
     Other: {
       TableSalt: {
+        menuOrder: 177013.0,
+        tags: [
+          "Other"
+        ],
         mass: 1.0,
         primaryElement: "Salt"
       },
       PowerStationTools: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable"
+        ],
         mass: 5.0,
         primaryElement: "Creature"
       },
       FarmStationTools: {
+        menuOrder: 177013.0,
+        tags: [
+          "MiscPickupable"
+        ],
         mass: 5.0,
         primaryElement: "Creature"
       },
       EggShell: {
+        menuOrder: 177013.0,
+        tags: [
+          "Organics"
+        ],
         massPerUnit: 1.0,
         mass: 1.0,
         primaryElement: "Creature"
       },
       GasGrassHarvested: {
+        menuOrder: 177013.0,
+        tags: [
+          "Other"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
-      HeatCube: {
-        mass: 1000.0,
-        primaryElement: "Diamond"
-      },
       RotPile: {
+        menuOrder: 177013.0,
+        tags: [
+          "Organics",
+          "Compostable"
+        ],
         mass: 1.0,
         decor: -15.0,
         decorRadius: 3.0,
@@ -9735,12 +13397,21 @@ var db = {
     },
     Quest: {
       DreamJournal: {
+        menuOrder: 177013.0,
+        tags: [
+          "StoryTraitResource"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       }
     },
     Dupe: {
       Minion: {
+        menuOrder: 177013.0,
+        tags: [
+          "DupeBrain",
+          "CorrosionProof"
+        ],
         hp: 100,
         mass: 30.0,
         primaryElement: "Creature",
@@ -9753,230 +13424,888 @@ var db = {
   Food: {
     Cooked: {
       WormBasicFruit: {
+        menuOrder: 0.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       WormBasicFood: {
+        menuOrder: 1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       Tofu: {
+        menuOrder: 2.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SwampFruit: {
+        menuOrder: 0.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SwampDelights: {
+        menuOrder: 1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       WormSuperFood: {
+        menuOrder: 3.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SpicyTofu: {
+        menuOrder: 5.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SpiceBread: {
+        menuOrder: 5.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       ShellfishMeat: {
+        menuOrder: 2.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SurfAndTurf: {
+        menuOrder: 4.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       WormSuperFruit: {
+        menuOrder: 1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       Salsa: {
+        menuOrder: 4.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       RawEgg: {
+        menuOrder: -1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       BasicForagePlant: {
+        menuOrder: -1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       ForestForagePlant: {
+        menuOrder: -1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       ColdWheatBread: {
+        menuOrder: 2.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       CookedEgg: {
+        menuOrder: 2.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       CookedFish: {
+        menuOrder: 3.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       CookedMeat: {
+        menuOrder: 3.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       Curry: {
+        menuOrder: 4.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       FieldRation: {
+        menuOrder: -1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       FishMeat: {
+        menuOrder: 2.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       FriedMushBar: {
+        menuOrder: 0.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       FriedMushroom: {
+        menuOrder: 1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       FruitCake: {
+        menuOrder: 3.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       Burger: {
+        menuOrder: 6.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       Lettuce: {
+        menuOrder: 0.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       Meat: {
+        menuOrder: -1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       MushBar: {
+        menuOrder: -1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       Mushroom: {
+        menuOrder: 0.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       MushroomWrap: {
+        menuOrder: 4.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       PacuFillet: {
+        menuOrder: 2.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       Pancakes: {
+        menuOrder: 3.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       PickledMeal: {
+        menuOrder: -1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible",
+          "Pickled"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       PlantMeat: {
+        menuOrder: 1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       PrickleFruit: {
+        menuOrder: 0.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       Quiche: {
+        menuOrder: 5.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       GrilledPrickleFruit: {
+        menuOrder: 1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       BerryPie: {
+        menuOrder: 5.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SwampForagePlant: {
+        menuOrder: -1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       BasicPlantFood: {
+        menuOrder: -1.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       BasicPlantBar: {
+        menuOrder: 0.0,
+        tags: [
+          "PedestalDisplayable",
+          "Edible"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       }
     },
     Dehydrated: {
       DehydratedSurfAndTurf: {
+        menuOrder: 177013.0,
+        tags: [
+          "Dehydrated",
+          "PickupableStorage"
+        ],
         mass: 1.0,
         primaryElement: "Polypropylene"
       },
       DehydratedSpicyTofu: {
+        menuOrder: 177013.0,
+        tags: [
+          "Dehydrated",
+          "PickupableStorage"
+        ],
         mass: 1.0,
         primaryElement: "Polypropylene"
       },
       DehydratedSpiceBread: {
+        menuOrder: 177013.0,
+        tags: [
+          "Dehydrated",
+          "PickupableStorage"
+        ],
         mass: 1.0,
         primaryElement: "Polypropylene"
       },
       DehydratedSalsa: {
+        menuOrder: 177013.0,
+        tags: [
+          "Dehydrated",
+          "PickupableStorage"
+        ],
         mass: 1.0,
         primaryElement: "Polypropylene"
       },
       DehydratedQuiche: {
+        menuOrder: 177013.0,
+        tags: [
+          "Dehydrated",
+          "PickupableStorage"
+        ],
         mass: 1.0,
         primaryElement: "Polypropylene"
       },
       DehydratedFoodPackage: {
+        menuOrder: 177013.0,
+        tags: [
+          "Dehydrated",
+          "PickupableStorage"
+        ],
         mass: 1.0,
         primaryElement: "Polypropylene"
       },
       DehydratedMushroomWrap: {
+        menuOrder: 177013.0,
+        tags: [
+          "Dehydrated",
+          "PickupableStorage"
+        ],
         mass: 1.0,
         primaryElement: "Polypropylene"
       },
       DehydratedBerryPie: {
+        menuOrder: 177013.0,
+        tags: [
+          "Dehydrated",
+          "PickupableStorage"
+        ],
         mass: 1.0,
         primaryElement: "Polypropylene"
       },
       DehydratedCurry: {
+        menuOrder: 177013.0,
+        tags: [
+          "Dehydrated",
+          "PickupableStorage"
+        ],
         mass: 1.0,
         primaryElement: "Polypropylene"
       }
     },
     Ingredient: {
       SpiceNut: {
+        menuOrder: 177013.0,
+        tags: [
+          "PedestalDisplayable",
+          "CookingIngredient"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       }
     }
   },
   Critter: {
-    SweepBot: {
+    Robot: {
       SweepBot: {
+        menuOrder: -1.0,
+        tags: [
+          "Creature",
+          "Robot",
+          "Walker",
+          "CreatureBrain"
+        ],
         battery: 9000.0,
         mass: 25.0,
         primaryElement: "Creature",
         batteryLoss: -17.1428566
+      },
+      ScoutRover: {
+        menuOrder: -1.0,
+        tags: [
+          "Experimental",
+          "DupeBrain",
+          "Robot"
+        ],
+        battery: 180000.0,
+        hp: 100,
+        mass: 100.0,
+        primaryElement: "Creature",
+        batteryLoss: -30.0,
+        carryAmount: 200.0,
+        deconstructable: true
+      },
+      MorbRover: {
+        menuOrder: -1.0,
+        tags: [
+          "Experimental",
+          "DupeBrain",
+          "Robot"
+        ],
+        battery: 180000.0,
+        hp: 100,
+        mass: 300.0,
+        primaryElement: "Steel",
+        batteryLoss: -30.0,
+        carryAmount: 400.0,
+        deconstructable: true
       }
     },
-    SquirrelSpecies: {
+    Egg: {
+      SquirrelEgg: {
+        menuOrder: 8.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      SquirrelHugEgg: {
+        menuOrder: 8.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      StaterpillarEgg: {
+        menuOrder: 10.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      StaterpillarLiquidEgg: {
+        menuOrder: 10.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      PuftEgg: {
+        menuOrder: 4.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.5,
+        primaryElement: "Creature"
+      },
+      DreckoEgg: {
+        menuOrder: 2.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      DreckoPlasticEgg: {
+        menuOrder: 2.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      LightBugBlackEgg: {
+        menuOrder: 0.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.2,
+        primaryElement: "Creature"
+      },
+      LightBugBlueEgg: {
+        menuOrder: 0.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.2,
+        primaryElement: "Creature"
+      },
+      LightBugEgg: {
+        menuOrder: 0.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.2,
+        primaryElement: "Creature"
+      },
+      PuftOxyliteEgg: {
+        menuOrder: 4.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.5,
+        primaryElement: "Creature"
+      },
+      LightBugCrystalEgg: {
+        menuOrder: 0.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.2,
+        primaryElement: "Creature"
+      },
+      LightBugPinkEgg: {
+        menuOrder: 0.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.2,
+        primaryElement: "Creature"
+      },
+      LightBugPurpleEgg: {
+        menuOrder: 0.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.2,
+        primaryElement: "Creature"
+      },
+      MoleEgg: {
+        menuOrder: 7.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      MoleDelicacyEgg: {
+        menuOrder: 7.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      OilfloaterEgg: {
+        menuOrder: 6.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      OilfloaterDecorEgg: {
+        menuOrder: 6.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      OilfloaterHighTempEgg: {
+        menuOrder: 6.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      PuftAlphaEgg: {
+        menuOrder: 4.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.5,
+        primaryElement: "Creature"
+      },
+      PuftBleachstoneEgg: {
+        menuOrder: 4.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.5,
+        primaryElement: "Creature"
+      },
+      LightBugOrangeEgg: {
+        menuOrder: 0.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 0.2,
+        primaryElement: "Creature"
+      },
+      StaterpillarGasEgg: {
+        menuOrder: 10.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      HatchVeggieEgg: {
+        menuOrder: 1.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      HatchEgg: {
+        menuOrder: 1.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      CrabEgg: {
+        menuOrder: 5.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      CrabWoodEgg: {
+        menuOrder: 5.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      CrabFreshWaterEgg: {
+        menuOrder: 5.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      PacuCleanerEgg: {
+        menuOrder: 3.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 4.0,
+        primaryElement: "Creature"
+      },
+      DivergentBeetleEgg: {
+        menuOrder: 9.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      HatchHardEgg: {
+        menuOrder: 1.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      PacuTropicalEgg: {
+        menuOrder: 3.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 4.0,
+        primaryElement: "Creature"
+      },
+      DivergentWormEgg: {
+        menuOrder: 9.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      HatchMetalEgg: {
+        menuOrder: 1.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 2.0,
+        primaryElement: "Creature"
+      },
+      PacuEgg: {
+        menuOrder: 3.0,
+        tags: [
+          "Egg",
+          "IncubatableEgg",
+          "PedestalDisplayable"
+        ],
+        mass: 4.0,
+        primaryElement: "Creature"
+      }
+    },
+    Critter: {
       Squirrel: {
+        menuOrder: 8.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 10.0,
@@ -10000,6 +14329,13 @@ var db = {
         miserable: -10.0
       },
       SquirrelHug: {
+        menuOrder: 8.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 25.0,
@@ -10022,39 +14358,16 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
-      SquirrelHugBaby: {
-        hp: 25,
-        mass: 100.0,
-        decor: 25.0,
-        decorRadius: 4.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1000000.0,
-        caloriesLoss: -166.666672,
-        milkConsummer: true,
-        spacePerCritter: 4.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      SquirrelBaby: {
-        hp: 25,
-        mass: 100.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1000000.0,
-        caloriesLoss: -166.666672,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      }
-    },
-    StaterpillarSpecies: {
       Staterpillar: {
+        menuOrder: 10.0,
+        tags: [
+          "Walker",
+          "Amphibious",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 200.0,
         decor: 10.0,
@@ -10070,6 +14383,14 @@ var db = {
         miserable: -10.0
       },
       StaterpillarLiquid: {
+        menuOrder: 10.0,
+        tags: [
+          "Walker",
+          "Amphibious",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 200.0,
         decor: 10.0,
@@ -10084,80 +14405,15 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
-      StaterpillarGas: {
-        hp: 25,
-        mass: 200.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 100.0,
-        caloriesMax: 1E+07,
-        caloriesLoss: -3333.33325,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      StaterpillarBaby: {
-        hp: 25,
-        mass: 200.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1E+07,
-        caloriesLoss: -3333.33325,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      StaterpillarGasBaby: {
-        hp: 25,
-        mass: 200.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1E+07,
-        caloriesLoss: -3333.33325,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      StaterpillarLiquidBaby: {
-        hp: 25,
-        mass: 200.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1E+07,
-        caloriesLoss: -3333.33325,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      }
-    },
-    ScoutRover: {
-      ScoutRover: {
-        battery: 180000.0,
-        hp: 100,
-        mass: 100.0,
-        primaryElement: "Creature",
-        batteryLoss: -30.0,
-        carryAmount: 200.0,
-        deconstructable: true
-      }
-    },
-    PuftSpecies: {
       Puft: {
+        menuOrder: 4.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 50.0,
         decor: 10.0,
@@ -10172,114 +14428,13 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
-      PuftOxylite: {
-        hp: 25,
-        mass: 50.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 75.0,
-        caloriesMax: 1200000.0,
-        caloriesLoss: -333.333344,
-        milkConsummer: true,
-        spacePerCritter: 16.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      PuftAlpha: {
-        hp: 25,
-        mass: 50.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 75.0,
-        caloriesMax: 1200000.0,
-        caloriesLoss: -333.333344,
-        milkConsummer: true,
-        spacePerCritter: 16.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      PuftBleachstone: {
-        hp: 25,
-        mass: 50.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 75.0,
-        caloriesMax: 1200000.0,
-        caloriesLoss: -333.333344,
-        milkConsummer: true,
-        spacePerCritter: 16.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      PuftOxyliteBaby: {
-        hp: 25,
-        mass: 50.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1200000.0,
-        caloriesLoss: -333.333344,
-        milkConsummer: true,
-        spacePerCritter: 16.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      PuftBaby: {
-        hp: 25,
-        mass: 50.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1200000.0,
-        caloriesLoss: -333.333344,
-        milkConsummer: true,
-        spacePerCritter: 16.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      PuftBleachstoneBaby: {
-        hp: 25,
-        mass: 50.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1200000.0,
-        caloriesLoss: -333.333344,
-        milkConsummer: true,
-        spacePerCritter: 16.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      PuftAlphaBaby: {
-        hp: 25,
-        mass: 50.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1200000.0,
-        caloriesLoss: -333.333344,
-        milkConsummer: true,
-        spacePerCritter: 16.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      }
-    },
-    BeetaSpecies: {
       BeeHive: {
+        menuOrder: 11.0,
+        tags: [
+          "Experimental",
+          "Creature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 5.0,
@@ -10289,6 +14444,14 @@ var db = {
         caloriesLoss: -2500.0
       },
       Bee: {
+        menuOrder: 11.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Flyer",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
         hp: 5,
         mass: 5.0,
         decor: 30.0,
@@ -10299,20 +14462,15 @@ var db = {
         happy: 4.0,
         glum: -1.0
       },
-      BeeBaby: {
-        hp: 5,
-        mass: 5.0,
-        decor: 30.0,
-        decorRadius: 5.0,
-        primaryElement: "Creature",
-        age: 2.0,
-        spacePerCritter: 4.0,
-        happy: 4.0,
-        glum: -1.0
-      }
-    },
-    DreckoSpecies: {
       Drecko: {
+        menuOrder: 2.0,
+        tags: [
+          "Walker",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 200.0,
         decor: 10.0,
@@ -10328,6 +14486,13 @@ var db = {
         miserable: -10.0
       },
       DreckoPlastic: {
+        menuOrder: 2.0,
+        tags: [
+          "Walker",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 200.0,
         decor: 10.0,
@@ -10342,48 +14507,29 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
-      DreckoPlasticBaby: {
-        hp: 25,
-        mass: 200.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1E+07,
-        caloriesLoss: -3333.33325,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      DreckoBaby: {
-        hp: 25,
-        mass: 200.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 1E+07,
-        caloriesLoss: -3333.33325,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      }
-    },
-    GlomSpecies: {
       Glom: {
+        menuOrder: 13.0,
+        tags: [
+          "Walker",
+          "OriginalCreature",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 25.0,
         decor: 10.0,
         decorRadius: 1.0,
         primaryElement: "Creature"
-      }
-    },
-    LightBugSpecies: {
+      },
       LightBugBlack: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 5,
         mass: 5.0,
         decor: 80.0,
@@ -10399,6 +14545,13 @@ var db = {
         miserable: -10.0
       },
       LightBugBlue: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 5,
         mass: 5.0,
         decor: 50.0,
@@ -10414,6 +14567,15 @@ var db = {
         miserable: -10.0
       },
       LightBug: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature",
+          "LightSource"
+        ],
         hp: 5,
         mass: 5.0,
         decor: 30.0,
@@ -10428,7 +14590,36 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
+      PuftOxylite: {
+        menuOrder: 4.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 50.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 75.0,
+        caloriesMax: 1200000.0,
+        caloriesLoss: -333.333344,
+        milkConsummer: true,
+        spacePerCritter: 16.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
       LightBugCrystal: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 5,
         mass: 5.0,
         decor: 200.0,
@@ -10444,6 +14635,13 @@ var db = {
         miserable: -10.0
       },
       LightBugPink: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 5,
         mass: 5.0,
         decor: 50.0,
@@ -10459,6 +14657,13 @@ var db = {
         miserable: -10.0
       },
       LightBugPurple: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 5,
         mass: 5.0,
         decor: 50.0,
@@ -10473,129 +14678,16 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
-      LightBugOrange: {
-        hp: 5,
-        mass: 5.0,
-        decor: 50.0,
-        decorRadius: 7.0,
-        primaryElement: "Creature",
-        age: 25.0,
-        caloriesMax: 320000.0,
-        caloriesLoss: -66.6666641,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      LightBugBaby: {
-        hp: 5,
-        mass: 5.0,
-        decor: 30.0,
-        decorRadius: 5.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 320000.0,
-        caloriesLoss: -66.6666641,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      LightBugPurpleBaby: {
-        hp: 5,
-        mass: 5.0,
-        decor: 50.0,
-        decorRadius: 7.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 320000.0,
-        caloriesLoss: -66.6666641,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      LightBugPinkBaby: {
-        hp: 5,
-        mass: 5.0,
-        decor: 50.0,
-        decorRadius: 7.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 320000.0,
-        caloriesLoss: -66.6666641,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      LightBugOrangeBaby: {
-        hp: 5,
-        mass: 5.0,
-        decor: 50.0,
-        decorRadius: 7.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 320000.0,
-        caloriesLoss: -66.6666641,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      LightBugCrystalBaby: {
-        hp: 5,
-        mass: 5.0,
-        decor: 200.0,
-        decorRadius: 8.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 320000.0,
-        caloriesLoss: -66.6666641,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      LightBugBlueBaby: {
-        hp: 5,
-        mass: 5.0,
-        decor: 50.0,
-        decorRadius: 7.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 320000.0,
-        caloriesLoss: -66.6666641,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      LightBugBlackBaby: {
-        hp: 5,
-        mass: 5.0,
-        decor: 80.0,
-        decorRadius: 7.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 320000.0,
-        caloriesLoss: -66.6666641,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      }
-    },
-    MoleSpecies: {
       Mole: {
+        menuOrder: 7.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain",
+          "Digger",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 25.0,
         primaryElement: "Creature",
@@ -10608,6 +14700,14 @@ var db = {
         miserable: -10.0
       },
       MoleDelicacy: {
+        menuOrder: 7.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain",
+          "Digger"
+        ],
         hp: 25,
         mass: 25.0,
         primaryElement: "Creature",
@@ -10619,33 +14719,15 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
-      MoleDelicacyBaby: {
-        hp: 25,
-        mass: 25.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 2.4E+07,
-        caloriesLoss: -8000.0,
-        milkConsummer: true,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      MoleBaby: {
-        hp: 25,
-        mass: 25.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 4.8E+07,
-        caloriesLoss: -8000.0,
-        milkConsummer: true,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      }
-    },
-    MooSpecies: {
       Moo: {
+        menuOrder: 12.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 50.0,
         decor: 10.0,
@@ -10659,21 +14741,16 @@ var db = {
         happy: 4.0,
         glum: -1.0,
         miserable: -10.0
-      }
-    },
-    MorbRover: {
-      MorbRover: {
-        battery: 180000.0,
-        hp: 100,
-        mass: 300.0,
-        primaryElement: "Steel",
-        batteryLoss: -30.0,
-        carryAmount: 400.0,
-        deconstructable: true
-      }
-    },
-    OilFloaterSpecies: {
+      },
       Oilfloater: {
+        menuOrder: 6.0,
+        tags: [
+          "Hoverer",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 50.0,
         decor: 15.0,
@@ -10689,6 +14766,13 @@ var db = {
         miserable: -10.0
       },
       OilfloaterDecor: {
+        menuOrder: 6.0,
+        tags: [
+          "Hoverer",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 50.0,
         decor: 50.0,
@@ -10704,6 +14788,13 @@ var db = {
         miserable: -10.0
       },
       OilfloaterHighTemp: {
+        menuOrder: 6.0,
+        tags: [
+          "Hoverer",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 50.0,
         decor: 15.0,
@@ -10718,54 +14809,103 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
-      OilfloaterHighTempBaby: {
+      PuftAlpha: {
+        menuOrder: 4.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 50.0,
-        decor: 15.0,
-        decorRadius: 2.0,
+        decor: 10.0,
+        decorRadius: 1.0,
         primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 600000.0,
-        caloriesLoss: -200.0,
+        age: 75.0,
+        caloriesMax: 1200000.0,
+        caloriesLoss: -333.333344,
         milkConsummer: true,
-        spacePerCritter: 12.0,
+        spacePerCritter: 16.0,
         happy: 4.0,
         glum: -1.0,
         miserable: -10.0
       },
-      OilfloaterDecorBaby: {
+      PuftBleachstone: {
+        menuOrder: 4.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 50.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 75.0,
+        caloriesMax: 1200000.0,
+        caloriesLoss: -333.333344,
+        milkConsummer: true,
+        spacePerCritter: 16.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      LightBugOrange: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 5,
+        mass: 5.0,
         decor: 50.0,
         decorRadius: 7.0,
         primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 600000.0,
-        caloriesLoss: -200.0,
+        age: 25.0,
+        caloriesMax: 320000.0,
+        caloriesLoss: -66.6666641,
         milkConsummer: true,
         spacePerCritter: 12.0,
         happy: 4.0,
         glum: -1.0,
         miserable: -10.0
       },
-      OilfloaterBaby: {
+      StaterpillarGas: {
+        menuOrder: 10.0,
+        tags: [
+          "Walker",
+          "Amphibious",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 25,
-        mass: 50.0,
-        decor: 15.0,
-        decorRadius: 2.0,
+        mass: 200.0,
+        decor: 10.0,
+        decorRadius: 1.0,
         primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 600000.0,
-        caloriesLoss: -200.0,
+        age: 100.0,
+        caloriesMax: 1E+07,
+        caloriesLoss: -3333.33325,
         milkConsummer: true,
         spacePerCritter: 12.0,
         happy: 4.0,
         glum: -1.0,
         miserable: -10.0
-      }
-    },
-    HatchSpecies: {
+      },
       HatchVeggie: {
+        menuOrder: 1.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 10.0,
@@ -10781,6 +14921,14 @@ var db = {
         miserable: -10.0
       },
       Hatch: {
+        menuOrder: 1.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 10.0,
@@ -10795,99 +14943,17 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
-      HatchHard: {
-        hp: 200,
-        mass: 100.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 100.0,
-        caloriesMax: 7000000.0,
-        caloriesLoss: -1166.66663,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      HatchMetal: {
-        hp: 400,
-        mass: 100.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 100.0,
-        caloriesMax: 7000000.0,
-        caloriesLoss: -1166.66663,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      HatchBaby: {
-        hp: 25,
-        mass: 100.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 7000000.0,
-        caloriesLoss: -1166.66663,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      HatchMetalBaby: {
-        hp: 400,
-        mass: 100.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 7000000.0,
-        caloriesLoss: -1166.66663,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      HatchVeggieBaby: {
-        hp: 25,
-        mass: 100.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 7000000.0,
-        caloriesLoss: -1166.66663,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      HatchHardBaby: {
-        hp: 200,
-        mass: 100.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 7000000.0,
-        caloriesLoss: -1166.66663,
-        milkConsummer: true,
-        spacePerCritter: 12.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      }
-    },
-    CrabSpecies: {
       Crab: {
+        menuOrder: 5.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CrabFriend",
+          "CreatureBrain",
+          "Amphibious",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 10.0,
@@ -10906,6 +14972,15 @@ var db = {
         miserable: -10.0
       },
       CrabWood: {
+        menuOrder: 5.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CrabFriend",
+          "CreatureBrain",
+          "Amphibious"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 10.0,
@@ -10924,6 +14999,15 @@ var db = {
         miserable: -10.0
       },
       CrabFreshWater: {
+        menuOrder: 5.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CrabFriend",
+          "CreatureBrain",
+          "Amphibious"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 10.0,
@@ -10941,7 +15025,260 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
+      PacuCleaner: {
+        menuOrder: 3.0,
+        tags: [
+          "SwimmingCreature",
+          "Swimmer",
+          "BagableCreature",
+          "Creature",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 200.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 25.0,
+        caloriesMax: 500000.0,
+        caloriesLoss: -166.666672,
+        spacePerCritter: 8.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      DivergentBeetle: {
+        menuOrder: 9.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
+        hp: 25,
+        mass: 50.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 75.0,
+        caloriesMax: 7000000.0,
+        caloriesLoss: -1166.66663,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      HatchHard: {
+        menuOrder: 1.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain"
+        ],
+        hp: 200,
+        mass: 100.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 100.0,
+        caloriesMax: 7000000.0,
+        caloriesLoss: -1166.66663,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      PacuTropical: {
+        menuOrder: 3.0,
+        tags: [
+          "SwimmingCreature",
+          "Swimmer",
+          "BagableCreature",
+          "Creature",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 200.0,
+        decor: 25.0,
+        decorRadius: 5.0,
+        primaryElement: "Creature",
+        age: 25.0,
+        caloriesMax: 500000.0,
+        caloriesLoss: -166.666672,
+        spacePerCritter: 8.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      DivergentWorm: {
+        menuOrder: 9.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 200.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 150.0,
+        caloriesMax: 7000000.0,
+        caloriesLoss: -1166.66663,
+        milkConsummer: true,
+        spacePerCritter: 16.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      HatchMetal: {
+        menuOrder: 1.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain"
+        ],
+        hp: 400,
+        mass: 100.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 100.0,
+        caloriesMax: 7000000.0,
+        caloriesLoss: -1166.66663,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      Pacu: {
+        menuOrder: 3.0,
+        tags: [
+          "SwimmingCreature",
+          "Swimmer",
+          "BagableCreature",
+          "Creature",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
+        hp: 25,
+        mass: 200.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 25.0,
+        caloriesMax: 500000.0,
+        caloriesLoss: -166.666672,
+        spacePerCritter: 8.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      }
+    },
+    Baby: {
+      DreckoPlasticBaby: {
+        menuOrder: 2.0,
+        tags: [
+          "Walker",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 200.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 1E+07,
+        caloriesLoss: -3333.33325,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      DivergentWormBaby: {
+        menuOrder: 9.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 200.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 7000000.0,
+        caloriesLoss: -1166.66663,
+        milkConsummer: true,
+        spacePerCritter: 16.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      BeeBaby: {
+        menuOrder: 11.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature",
+          "Walker"
+        ],
+        hp: 5,
+        mass: 5.0,
+        decor: 30.0,
+        decorRadius: 5.0,
+        primaryElement: "Creature",
+        age: 2.0,
+        spacePerCritter: 4.0,
+        happy: 4.0,
+        glum: -1.0
+      },
+      DivergentBeetleBaby: {
+        menuOrder: 9.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
+        hp: 25,
+        mass: 50.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 7000000.0,
+        caloriesLoss: -1166.66663,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
       CrabFreshWaterBaby: {
+        menuOrder: 5.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CrabFriend",
+          "CreatureBrain",
+          "Amphibious"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 10.0,
@@ -10959,7 +15296,62 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
+      DreckoBaby: {
+        menuOrder: 2.0,
+        tags: [
+          "Walker",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
+        hp: 25,
+        mass: 200.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 1E+07,
+        caloriesLoss: -3333.33325,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      HatchBaby: {
+        menuOrder: 1.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
+        hp: 25,
+        mass: 100.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 7000000.0,
+        caloriesLoss: -1166.66663,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
       CrabWoodBaby: {
+        menuOrder: 5.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CrabFriend",
+          "CreatureBrain",
+          "Amphibious"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 10.0,
@@ -10978,6 +15370,16 @@ var db = {
         miserable: -10.0
       },
       CrabBaby: {
+        menuOrder: 5.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CrabFriend",
+          "CreatureBrain",
+          "Amphibious",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 100.0,
         decor: 10.0,
@@ -10994,52 +15396,197 @@ var db = {
         happy: 4.0,
         glum: -1.0,
         miserable: -10.0
-      }
-    },
-    PacuSpecies: {
-      PacuCleaner: {
-        hp: 25,
-        mass: 200.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 25.0,
-        caloriesMax: 500000.0,
-        caloriesLoss: -166.666672,
-        spacePerCritter: 8.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
       },
-      PacuTropical: {
-        hp: 25,
-        mass: 200.0,
-        decor: 25.0,
+      LightBugBaby: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature",
+          "LightSource"
+        ],
+        hp: 5,
+        mass: 5.0,
+        decor: 30.0,
         decorRadius: 5.0,
         primaryElement: "Creature",
-        age: 25.0,
-        caloriesMax: 500000.0,
-        caloriesLoss: -166.666672,
-        spacePerCritter: 8.0,
+        age: 5.0,
+        caloriesMax: 320000.0,
+        caloriesLoss: -66.6666641,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
         happy: 4.0,
         glum: -1.0,
         miserable: -10.0
       },
-      Pacu: {
+      HatchMetalBaby: {
+        menuOrder: 1.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain"
+        ],
+        hp: 400,
+        mass: 100.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 7000000.0,
+        caloriesLoss: -1166.66663,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      PuftOxyliteBaby: {
+        menuOrder: 4.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 50.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 1200000.0,
+        caloriesLoss: -333.333344,
+        milkConsummer: true,
+        spacePerCritter: 16.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      SquirrelHugBaby: {
+        menuOrder: 8.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 100.0,
+        decor: 25.0,
+        decorRadius: 4.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 1000000.0,
+        caloriesLoss: -166.666672,
+        milkConsummer: true,
+        spacePerCritter: 4.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      PuftBaby: {
+        menuOrder: 4.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
+        hp: 25,
+        mass: 50.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 1200000.0,
+        caloriesLoss: -333.333344,
+        milkConsummer: true,
+        spacePerCritter: 16.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      PuftBleachstoneBaby: {
+        menuOrder: 4.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 50.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 1200000.0,
+        caloriesLoss: -333.333344,
+        milkConsummer: true,
+        spacePerCritter: 16.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      StaterpillarBaby: {
+        menuOrder: 10.0,
+        tags: [
+          "Walker",
+          "Amphibious",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
         hp: 25,
         mass: 200.0,
         decor: 10.0,
         decorRadius: 1.0,
         primaryElement: "Creature",
-        age: 25.0,
-        caloriesMax: 500000.0,
-        caloriesLoss: -166.666672,
-        spacePerCritter: 8.0,
+        age: 5.0,
+        caloriesMax: 1E+07,
+        caloriesLoss: -3333.33325,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      PuftAlphaBaby: {
+        menuOrder: 4.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 50.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 1200000.0,
+        caloriesLoss: -333.333344,
+        milkConsummer: true,
+        spacePerCritter: 16.0,
         happy: 4.0,
         glum: -1.0,
         miserable: -10.0
       },
       PacuTropicalBaby: {
+        menuOrder: 3.0,
+        tags: [
+          "SwimmingCreature",
+          "Swimmer",
+          "BagableCreature",
+          "Creature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 200.0,
         decor: 25.0,
@@ -11054,6 +15601,14 @@ var db = {
         miserable: -10.0
       },
       PacuBaby: {
+        menuOrder: 3.0,
+        tags: [
+          "SwimmingCreature",
+          "Swimmer",
+          "BagableCreature",
+          "Creature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 200.0,
         decor: 10.0,
@@ -11068,6 +15623,14 @@ var db = {
         miserable: -10.0
       },
       PacuCleanerBaby: {
+        menuOrder: 3.0,
+        tags: [
+          "SwimmingCreature",
+          "Swimmer",
+          "BagableCreature",
+          "Creature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 200.0,
         decor: 10.0,
@@ -11080,16 +15643,307 @@ var db = {
         happy: 4.0,
         glum: -1.0,
         miserable: -10.0
-      }
-    },
-    DivergentSpecies: {
-      DivergentBeetle: {
+      },
+      OilfloaterHighTempBaby: {
+        menuOrder: 6.0,
+        tags: [
+          "Hoverer",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
         hp: 25,
         mass: 50.0,
+        decor: 15.0,
+        decorRadius: 2.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 600000.0,
+        caloriesLoss: -200.0,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      StaterpillarGasBaby: {
+        menuOrder: 10.0,
+        tags: [
+          "Walker",
+          "Amphibious",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 200.0,
         decor: 10.0,
         decorRadius: 1.0,
         primaryElement: "Creature",
-        age: 75.0,
+        age: 5.0,
+        caloriesMax: 1E+07,
+        caloriesLoss: -3333.33325,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      OilfloaterDecorBaby: {
+        menuOrder: 6.0,
+        tags: [
+          "Hoverer",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 50.0,
+        decor: 50.0,
+        decorRadius: 7.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 600000.0,
+        caloriesLoss: -200.0,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      OilfloaterBaby: {
+        menuOrder: 6.0,
+        tags: [
+          "Hoverer",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
+        hp: 25,
+        mass: 50.0,
+        decor: 15.0,
+        decorRadius: 2.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 600000.0,
+        caloriesLoss: -200.0,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      StaterpillarLiquidBaby: {
+        menuOrder: 10.0,
+        tags: [
+          "Walker",
+          "Amphibious",
+          "Creature",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 200.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 1E+07,
+        caloriesLoss: -3333.33325,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      MoleDelicacyBaby: {
+        menuOrder: 7.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain",
+          "Digger"
+        ],
+        hp: 25,
+        mass: 25.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 2.4E+07,
+        caloriesLoss: -8000.0,
+        milkConsummer: true,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      MoleBaby: {
+        menuOrder: 7.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain",
+          "Digger",
+          "OriginalCreature"
+        ],
+        hp: 25,
+        mass: 25.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 4.8E+07,
+        caloriesLoss: -8000.0,
+        milkConsummer: true,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      LightBugPurpleBaby: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 5,
+        mass: 5.0,
+        decor: 50.0,
+        decorRadius: 7.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 320000.0,
+        caloriesLoss: -66.6666641,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      LightBugPinkBaby: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 5,
+        mass: 5.0,
+        decor: 50.0,
+        decorRadius: 7.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 320000.0,
+        caloriesLoss: -66.6666641,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      LightBugOrangeBaby: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 5,
+        mass: 5.0,
+        decor: 50.0,
+        decorRadius: 7.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 320000.0,
+        caloriesLoss: -66.6666641,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      LightBugCrystalBaby: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 5,
+        mass: 5.0,
+        decor: 200.0,
+        decorRadius: 8.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 320000.0,
+        caloriesLoss: -66.6666641,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      LightBugBlueBaby: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 5,
+        mass: 5.0,
+        decor: 50.0,
+        decorRadius: 7.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 320000.0,
+        caloriesLoss: -66.6666641,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      LightBugBlackBaby: {
+        menuOrder: 0.0,
+        tags: [
+          "Creature",
+          "Flyer",
+          "BagableCreature",
+          "CreatureBrain"
+        ],
+        hp: 5,
+        mass: 5.0,
+        decor: 80.0,
+        decorRadius: 7.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 320000.0,
+        caloriesLoss: -66.6666641,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
+      },
+      HatchVeggieBaby: {
+        menuOrder: 1.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain"
+        ],
+        hp: 25,
+        mass: 100.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
         caloriesMax: 7000000.0,
         caloriesLoss: -1166.66663,
         milkConsummer: true,
@@ -11098,39 +15952,16 @@ var db = {
         glum: -1.0,
         miserable: -10.0
       },
-      DivergentWorm: {
-        hp: 25,
-        mass: 200.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 150.0,
-        caloriesMax: 7000000.0,
-        caloriesLoss: -1166.66663,
-        milkConsummer: true,
-        spacePerCritter: 16.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      DivergentWormBaby: {
-        hp: 25,
-        mass: 200.0,
-        decor: 10.0,
-        decorRadius: 1.0,
-        primaryElement: "Creature",
-        age: 5.0,
-        caloriesMax: 7000000.0,
-        caloriesLoss: -1166.66663,
-        milkConsummer: true,
-        spacePerCritter: 16.0,
-        happy: 4.0,
-        glum: -1.0,
-        miserable: -10.0
-      },
-      DivergentBeetleBaby: {
-        hp: 25,
-        mass: 50.0,
+      HatchHardBaby: {
+        menuOrder: 1.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain"
+        ],
+        hp: 200,
+        mass: 100.0,
         decor: 10.0,
         decorRadius: 1.0,
         primaryElement: "Creature",
@@ -11142,278 +15973,293 @@ var db = {
         happy: 4.0,
         glum: -1.0,
         miserable: -10.0
-      }
-    }
-  },
-  Egg: {
-    SquirrelSpecies: {
-      SquirrelEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
       },
-      SquirrelHugEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      }
-    },
-    StaterpillarSpecies: {
-      StaterpillarEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      StaterpillarLiquidEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      StaterpillarGasEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      }
-    },
-    PuftSpecies: {
-      PuftEgg: {
-        mass: 0.5,
-        primaryElement: "Creature"
-      },
-      PuftOxyliteEgg: {
-        mass: 0.5,
-        primaryElement: "Creature"
-      },
-      PuftAlphaEgg: {
-        mass: 0.5,
-        primaryElement: "Creature"
-      },
-      PuftBleachstoneEgg: {
-        mass: 0.5,
-        primaryElement: "Creature"
-      }
-    },
-    DreckoSpecies: {
-      DreckoEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      DreckoPlasticEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      }
-    },
-    LightBugSpecies: {
-      LightBugBlackEgg: {
-        mass: 0.2,
-        primaryElement: "Creature"
-      },
-      LightBugBlueEgg: {
-        mass: 0.2,
-        primaryElement: "Creature"
-      },
-      LightBugEgg: {
-        mass: 0.2,
-        primaryElement: "Creature"
-      },
-      LightBugCrystalEgg: {
-        mass: 0.2,
-        primaryElement: "Creature"
-      },
-      LightBugPinkEgg: {
-        mass: 0.2,
-        primaryElement: "Creature"
-      },
-      LightBugPurpleEgg: {
-        mass: 0.2,
-        primaryElement: "Creature"
-      },
-      LightBugOrangeEgg: {
-        mass: 0.2,
-        primaryElement: "Creature"
-      }
-    },
-    MoleSpecies: {
-      MoleEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      MoleDelicacyEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      }
-    },
-    OilFloaterSpecies: {
-      OilfloaterEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      OilfloaterDecorEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      OilfloaterHighTempEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      }
-    },
-    HatchSpecies: {
-      HatchVeggieEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      HatchEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      HatchHardEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      HatchMetalEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      }
-    },
-    CrabSpecies: {
-      CrabEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      CrabWoodEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      CrabFreshWaterEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      }
-    },
-    PacuSpecies: {
-      PacuCleanerEgg: {
-        mass: 4.0,
-        primaryElement: "Creature"
-      },
-      PacuTropicalEgg: {
-        mass: 4.0,
-        primaryElement: "Creature"
-      },
-      PacuEgg: {
-        mass: 4.0,
-        primaryElement: "Creature"
-      }
-    },
-    DivergentSpecies: {
-      DivergentBeetleEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
-      },
-      DivergentWormEgg: {
-        mass: 2.0,
-        primaryElement: "Creature"
+      SquirrelBaby: {
+        menuOrder: 8.0,
+        tags: [
+          "Creature",
+          "BagableCreature",
+          "Walker",
+          "CreatureBrain",
+          "OriginalCreature"
+        ],
+        hp: 25,
+        mass: 100.0,
+        decor: 10.0,
+        decorRadius: 1.0,
+        primaryElement: "Creature",
+        age: 5.0,
+        caloriesMax: 1000000.0,
+        caloriesLoss: -166.666672,
+        milkConsummer: true,
+        spacePerCritter: 12.0,
+        happy: 4.0,
+        glum: -1.0,
+        miserable: -10.0
       }
     }
   },
   Seed: {
     Crop: {
       BasicFabricMaterialPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "WaterSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       BasicSingleHarvestPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       BeanPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "PedestalDisplayable",
+          "CookingIngredient"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       ColdBreatherSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       ColdWheatSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "PedestalDisplayable",
+          "CookingIngredient"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       CritterTrapPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       FilterPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       ForestTreeSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       GasGrassSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SaltPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       PrickleFlowerSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SeaLettuceSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "WaterSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SpiceVineSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       OxyfernSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SwampHarvestPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       SwampLilySeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       WormPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       MushroomSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "CropSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       }
     },
     Decor: {
       CactusPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "DecorSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       CylindricaSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "DecorSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       EvilFlowerSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "DecorSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       BulbPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "DecorSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       PrickleGrassSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "DecorSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       WineCupsSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "DecorSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       ToePlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "DecorSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       },
       LeafyPlantSeed: {
+        menuOrder: 177013.0,
+        tags: [
+          "DecorSeed",
+          "Seed",
+          "PedestalDisplayable"
+        ],
         mass: 1.0,
         primaryElement: "Creature"
       }
@@ -11422,6 +16268,10 @@ var db = {
   Plant: {
     Crop: {
       BasicFabricPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 10.0,
         decorRadius: 1.0,
@@ -11430,6 +16280,10 @@ var db = {
         age: 2.0
       },
       BasicSingleHarvestPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: -10.0,
         decorRadius: 2.0,
@@ -11438,6 +16292,10 @@ var db = {
         age: 3.0
       },
       BeanPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 2.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11446,6 +16304,10 @@ var db = {
         age: 21.0
       },
       ColdWheat: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11454,6 +16316,10 @@ var db = {
         age: 18.0
       },
       CritterTrapPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 4.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11461,15 +16327,11 @@ var db = {
         maxRadiation: 2200.0,
         age: 30.0
       },
-      ForestTreeBranch: {
-        mass: 8.0,
-        decor: 15.0,
-        decorRadius: 2.0,
-        primaryElement: "Creature",
-        maxRadiation: 9800.0,
-        age: 4.5
-      },
       ForestTree: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 2.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11478,6 +16340,10 @@ var db = {
         age: 4.5
       },
       GasGrass: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 25.0,
         decorRadius: 4.0,
@@ -11487,6 +16353,11 @@ var db = {
         minLight: 10000.0
       },
       SaltPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Hanging",
+          "Plant"
+        ],
         mass: 2.0,
         decor: -10.0,
         decorRadius: 2.0,
@@ -11495,6 +16366,10 @@ var db = {
         age: 6.0
       },
       PrickleFlower: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11504,6 +16379,10 @@ var db = {
         minLight: 200.0
       },
       SeaLettuce: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 10.0,
         decorRadius: 1.0,
@@ -11512,6 +16391,11 @@ var db = {
         age: 12.0
       },
       SpiceVine: {
+        menuOrder: 177013.0,
+        tags: [
+          "Hanging",
+          "Plant"
+        ],
         mass: 2.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11520,6 +16404,10 @@ var db = {
         age: 8.0
       },
       SuperWormPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11528,6 +16416,10 @@ var db = {
         age: 8.0
       },
       SwampHarvestPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: -10.0,
         decorRadius: 2.0,
@@ -11536,6 +16428,10 @@ var db = {
         age: 6.6
       },
       SwampLily: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11544,6 +16440,10 @@ var db = {
         age: 12.0
       },
       WormPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: -5.0,
         decorRadius: 1.0,
@@ -11552,6 +16452,10 @@ var db = {
         age: 4.0
       },
       MushroomPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11562,18 +16466,24 @@ var db = {
     },
     Forage: {
       BasicForagePlantPlanted: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 100.0,
         decor: 15.0,
         decorRadius: 2.0,
         primaryElement: "Creature"
       },
       ForestForagePlantPlanted: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 100.0,
         decor: 15.0,
         decorRadius: 2.0,
         primaryElement: "Creature"
       },
       SwampForagePlantPlanted: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 100.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11582,6 +16492,10 @@ var db = {
     },
     Decor: {
       CactusPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 25.0,
         decorRadius: 4.0,
@@ -11589,12 +16503,18 @@ var db = {
         maxRadiation: 2200.0
       },
       ColdBreather: {
+        menuOrder: 177013.0,
+        tags: [],
         mass: 400.0,
         decor: 15.0,
         decorRadius: 2.0,
         primaryElement: "Creature"
       },
       Cylindrica: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 25.0,
         decorRadius: 4.0,
@@ -11602,6 +16522,10 @@ var db = {
         maxRadiation: 2200.0
       },
       EvilFlower: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 80.0,
         decorRadius: 7.0,
@@ -11609,6 +16533,10 @@ var db = {
         maxRadiation: 12200.0
       },
       BulbPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 15.0,
         decorRadius: 2.0,
@@ -11616,6 +16544,10 @@ var db = {
         maxRadiation: 2200.0
       },
       PrickleGrass: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 25.0,
         decorRadius: 4.0,
@@ -11623,6 +16555,10 @@ var db = {
         maxRadiation: 900.0
       },
       Oxyfern: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: -10.0,
         decorRadius: 2.0,
@@ -11630,6 +16566,10 @@ var db = {
         maxRadiation: 2200.0
       },
       WineCups: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 25.0,
         decorRadius: 4.0,
@@ -11637,6 +16577,10 @@ var db = {
         maxRadiation: 900.0
       },
       ToePlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 25.0,
         decorRadius: 4.0,
@@ -11644,6 +16588,10 @@ var db = {
         maxRadiation: 2200.0
       },
       LeafyPlant: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plant"
+        ],
         mass: 1.0,
         decor: 25.0,
         decorRadius: 4.0,
@@ -11655,156 +16603,314 @@ var db = {
   Geyser: {
     Geyser: {
       GeyserGeneric_steam: {
+        menuOrder: 0.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_hot_steam: {
+        menuOrder: 0.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_hot_water: {
+        menuOrder: 1.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_slush_water: {
+        menuOrder: 1.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_filthy_water: {
+        menuOrder: 1.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_slush_salt_water: {
+        menuOrder: 1.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_salt_water: {
+        menuOrder: 1.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_small_volcano: {
+        menuOrder: 2.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_big_volcano: {
+        menuOrder: 2.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_liquid_co2: {
+        menuOrder: 1.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_hot_co2: {
+        menuOrder: 0.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_hot_hydrogen: {
+        menuOrder: 0.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_hot_po2: {
+        menuOrder: 0.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_slimy_po2: {
+        menuOrder: 0.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_chlorine_gas: {
+        menuOrder: 0.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_methane: {
+        menuOrder: 0.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_molten_copper: {
+        menuOrder: 2.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_molten_iron: {
+        menuOrder: 2.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_molten_gold: {
+        menuOrder: 2.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_molten_aluminum: {
+        menuOrder: 2.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_molten_tungsten: {
+        menuOrder: 2.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_molten_niobium: {
+        menuOrder: 2.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_molten_cobalt: {
+        menuOrder: 2.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_oil_drip: {
+        menuOrder: 1.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       GeyserGeneric_liquid_sulfur: {
+        menuOrder: 1.0,
+        tags: [
+          "GeyserFeature",
+          "Solid",
+          "Other"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
         primaryElement: "Katairite"
       },
       OilWell: {
+        menuOrder: 177013.0,
+        tags: [
+          "Plumbable",
+          "Crushable",
+          "BuildableAny",
+          "Solid",
+          "BuildableRaw"
+        ],
         mass: 2000.0,
         decor: 10.0,
         decorRadius: 2.0,
@@ -11815,62 +16921,128 @@ var db = {
   Equipment: {
     Suit: {
       Atmo_Suit: {
+        menuOrder: 177013.0,
+        tags: [
+          "Clothes",
+          "PedestalDisplayable",
+          "AirtightSuit"
+        ],
         mass: 200.0,
         primaryElement: "Dirt"
       },
       Jet_Suit: {
+        menuOrder: 177013.0,
+        tags: [
+          "Clothes",
+          "PedestalDisplayable",
+          "AirtightSuit"
+        ],
         mass: 200.0,
         primaryElement: "Steel"
       },
       Lead_Suit: {
+        menuOrder: 177013.0,
+        tags: [
+          "Clothes",
+          "PedestalDisplayable",
+          "AirtightSuit"
+        ],
         mass: 200.0,
         primaryElement: "Dirt"
       },
       Oxygen_Mask: {
+        menuOrder: 177013.0,
+        tags: [
+          "Clothes",
+          "PedestalDisplayable"
+        ],
         mass: 15.0,
         primaryElement: "Dirt"
       }
     },
     Worn: {
       Worn_Atmo_Suit: {
+        menuOrder: 177013.0,
+        tags: [
+          "Suit",
+          "Clothes",
+          "PedestalDisplayable",
+          "AirtightSuit"
+        ],
         mass: 200.0,
         primaryElement: "Creature"
       },
       Worn_Jet_Suit: {
+        menuOrder: 177013.0,
+        tags: [
+          "Suit",
+          "Clothes"
+        ],
         mass: 200.0,
         primaryElement: "Creature"
       },
       Worn_Lead_Suit: {
+        menuOrder: 177013.0,
+        tags: [
+          "Suit",
+          "Clothes"
+        ],
         mass: 200.0,
         primaryElement: "Creature"
       },
       Worn_Oxygen_Mask: {
+        menuOrder: 177013.0,
+        tags: [
+          "Suit",
+          "Clothes"
+        ],
         mass: 15.0,
         primaryElement: "Creature"
       }
     },
     Clothes: {
       Cool_Vest: {
+        menuOrder: 177013.0,
+        tags: [
+          "Clothes",
+          "PedestalDisplayable"
+        ],
         mass: 4.0,
         primaryElement: "Carbon"
       },
       CustomClothing: {
+        menuOrder: 177013.0,
+        tags: [
+          "Clothes",
+          "PedestalDisplayable"
+        ],
         mass: 7.0,
         primaryElement: "Carbon"
       },
-      EquippableBalloon: {
-        mass: 1.0,
-        primaryElement: "Carbon"
-      },
       Funky_Vest: {
+        menuOrder: 177013.0,
+        tags: [
+          "Clothes",
+          "PedestalDisplayable"
+        ],
         mass: 4.0,
         primaryElement: "Carbon"
       },
       SleepClinicPajamas: {
+        menuOrder: 177013.0,
+        tags: [
+          "Clothes",
+          "PedestalDisplayable"
+        ],
         mass: 4.0,
         primaryElement: "Carbon"
       },
       Warm_Vest: {
+        menuOrder: 177013.0,
+        tags: [
+          "Clothes",
+          "PedestalDisplayable"
+        ],
         mass: 4.0,
         primaryElement: "Carbon"
       }

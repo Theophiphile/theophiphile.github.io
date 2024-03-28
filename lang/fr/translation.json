@@ -1,584 +1,4 @@
 {
-  "CrushedIce": {
-    "name": "Glace pilée",
-    "desc": "(H<sub>2</sub>O) Une bouillie de glace à moitié solide."
-  },
-  "Diamond": {
-    "name": "Diamant",
-    "desc": "Le diamant (C) est un carbone de haute densité de niveau industriel\n\nIl est très difficile à extraire."
-  },
-  "Isoresin": {
-    "name": "Isorésine",
-    "desc": "L'isorésine est une sève cristallisée composée de chaînes  de polymères longues.\n\nElle est utilisée dans la production de matériaux rares de haute qualité."
-  },
-  "Sucrose": {
-    "name": "Saccharose",
-    "desc": "Le saccharose (C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>) est la forme brute du sucre.\n\nIl peut être utilisé tel quel pour la cuisine, ou raffiné pour accompagner les repas, ce qui améliorera le Moral du Duplicant."
-  },
-  "Algae": {
-    "name": "Algue",
-    "desc": "L'algue est un amas de formes de vie monocellulaires et non-mobiles.\n\nElle peut être utilisée pour produire de l'oxygène lorsqu'elle est utilisée dans un diffuseur d'oxygène"
-  },
-  "MilkFat": {
-    "name": "Cire Brack",
-    "desc": "La cire brack est un sous-produit solide issu du brackène."
-  },
-  "Niobium": {
-    "name": "Niobium",
-    "desc": "(Nb) Niobium is a rare metal with many practical applications in metallurgy and superconductor Research."
-  },
-  "MilkIce": {
-    "name": "Brackène Gelé",
-    "desc": "Le brackène gelé est constitué de brackène congelé à l'état Solide."
-  },
-  "Cuprite": {
-    "name": "Minerai de Cuivre",
-    "desc": "Le minerai de cuivre (Cu<sub>2</sub>O) est un métal conducteur.\n\nIl peut être utilisé pour construire des systèmes d'énergie."
-  },
-  "Copper": {
-    "name": "Cuivre",
-    "desc": "Le Cuivre (Cu) est un métal conducteur.\n\nIl est adapté pour fabriquer des systèmes électriques."
-  },
-  "CrushedRock": {
-    "name": "Roche Concassée",
-    "desc": "La roche concassée est une roche magmatique écrasée en un mélange mécanique."
-  },
-  "SuperInsulator": {
-    "name": "Isolant",
-    "desc": "L'isolant réduit les Transferts de Chaleur et est composé d'Abyssalite recristallisée."
-  },
-  "BrineIce": {
-    "name": "Glace saumurée",
-    "desc": "La glace saumurée est une solution naturelle contenant une concentration élevée de sel dissout dans l'eau et gelée jusqu'à atteindre un état solide.\n\nElle peut être utilisée dans les processus de dessalement afin de séparer le sel utilisable."
-  },
-  "SolidViscoGel": {
-    "name": "Visco-Gel Solide",
-    "desc": "Le visco-gel est un polymère possédant une tension de surface élevée lorsqu'il est dans sa forme liquide.\n\nCelui-ci est à l'état solide."
-  },
-  "Ceramic": {
-    "name": "Céramique",
-    "desc": "La céramique est un matériau fragile et dur formé à partir d'argile chauffée.\n\nC'est un <b>matériau de construction</b> fiable."
-  },
-  "Cobaltite": {
-    "name": "Minerai de Cobalt",
-    "desc": "Le minerai de cobalt (Co) est un métal de couleur bleutée.\n\nIl peut être utilisé pour construire des systèmes d'énergie."
-  },
-  "Fertilizer": {
-    "name": "Engrais",
-    "desc": "L'engrais est un mélange de nutriments biologiques.\n\nIl permet à certaines plantes de pousser."
-  },
-  "SolidCrudeOil": {
-    "name": "Pétrole Brut Solide",
-    "desc": ""
-  },
-  "Wolframite": {
-    "name": "Wolframite",
-    "desc": "La wolframite ((Fe,Mn)WO<sub>4</sub>) est un élément métallique dense à l'état solide.\n\nC'est une source de tungstène et elle peut être utilisée pour construire des systèmes d'énergie."
-  },
-  "SlimeMold": {
-    "name": "Vase",
-    "desc": "La vase est un mélange biologique épais d'algue, de champignon et de mucopolysaccharides.\n\nElle peut être distillée en algue et émet de l'oxygène pollué lorsqu'elle est creusée."
-  },
-  "Polypropylene": {
-    "name": "Plastique",
-    "desc": "Le plastique (C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> est un polymère thermoplastique.\n\nIl est utilisé pour construire une grande quantité d'équipements."
-  },
-  "SolidNaphtha": {
-    "name": "Naphtha Solide",
-    "desc": "Le naphta est un mélange d'hydrocarbures distillés à l'état solide."
-  },
-  "Tungsten": {
-    "name": "Tungstène",
-    "desc": "Le tungstène (W) est un métal cristallin extrêmement dur.\n\nIl est adapté pour la construction de systèmes d'énergie."
-  },
-  "RefinedCarbon": {
-    "name": "Carbone Raffiné",
-    "desc": "Le carbone raffiné (C) est un élément solide issue de la purification du charbon."
-  },
-  "Steel": {
-    "name": "Acier",
-    "desc": "L'Acier est un alliage métallique composé de fer et de carbone."
-  },
-  "Phosphorite": {
-    "name": "Phosphorite",
-    "desc": "La phosphorite est un composite de roches sédimentaires saturées en phosphate."
-  },
-  "SolidHydrogen": {
-    "name": "Hydrogène Solide",
-    "desc": "L'Hydrogène solide (H) est l'élément le plus commun dans l'univers à l'état Solide."
-  },
-  "BleachStone": {
-    "name": "Roche Chlorée",
-    "desc": "La roche chlorée est un composant instable qui diffuse du chlore gazeux irrespirable\n\nElle a des applications hygiéniques."
-  },
-  "Lead": {
-    "name": "Plomb",
-    "desc": "Le plomb (Pb) est un métal raffiné tendre bien qu'extrêmement dense.\n\nIl possède une température de surchauffe faible et peut être utilisé pour construire des systèmes d'énergie."
-  },
-  "Sulfur": {
-    "name": "Soufre",
-    "desc": "Le soufre (S) est un élément chimique commun et généralement un sous-produit issu de la production de gaz naturel.\n\nCelui-ci est à l'état solide."
-  },
-  "Lime": {
-    "name": "Chaux",
-    "desc": "La chaux (CaCO<sub>3</sub>) est un minéral généralement issu de coquilles d'œufs de créatures.\n\nElle est utilisée comme <b>matériau de construction</b>."
-  },
-  "SolidChlorine": {
-    "name": "Chlore Solide",
-    "desc": "Le Chlore (Cl) est un élément tueur de germes naturel à l'état Solide."
-  },
-  "SolidNuclearWaste": {
-    "name": "Déchet Nucléaire Solide",
-    "desc": "Un solide hautement toxique rempli de contaminants radioactifs."
-  },
-  "Obsidian": {
-    "name": "Obsidienne",
-    "desc": "L'obsidienne est un composite fragile de verre volcanique."
-  },
-  "SolidPetroleum": {
-    "name": "Pétrole Solide",
-    "desc": "Le pétrole est une source d'énergie.\n\nCelui-ci est à l'état solide."
-  },
-  "SolidSuperCoolant": {
-    "name": "Super Refroidissant Solide",
-    "desc": "Le super refroidissant est un refroidissant de qualité industrielle à base de fullerène.\n\nCelui-ci est à l'état solide."
-  },
-  "IgneousRock": {
-    "name": "Roche Magmatique",
-    "desc": "La roche magmatique est un composite constitué de roche volcanique solidifiée.\n\nElle est utilisée comme <b>matériau de construction</b>."
-  },
-  "EnrichedUranium": {
-    "name": "Uranium Enrichi",
-    "desc": "L'uranium enrichi (U) est une substance raffinée fortement radioactive.\n\nIl est utilisé essentiellement pour alimenter des  réacteurs nucléaires."
-  },
-  "Gold": {
-    "name": "Or",
-    "desc": "L'or (Au) est un métal conducteur précieux.\n\nIl peut être utilisé pour construire des systèmes d'énergie."
-  },
-  "Rust": {
-    "name": "Rouille",
-    "desc": "La rouille est un oxyde de fer qui se forme lors de la décomposition du Fer.\n\nElle est utilisée dans certains processus de production d'Oxygène."
-  },
-  "Corium": {
-    "name": "Corium",
-    "desc": "Un mélange radioactif de déchets nucléaires et d'éléments fondus provenant d'un réacteur.\n\nRelâche des gaz chargés en radioactivité."
-  },
-  "Phosphorus": {
-    "name": "Phosphore raffiné",
-    "desc": "Le phosphore raffiné (P) est un élément chimique à l'état Solide."
-  },
-  "Granite": {
-    "name": "Granite",
-    "desc": "Le granite est un composite dense de roche magmatique.\n\nIl est utilisé comme <b>matériau de construction</b>."
-  },
-  "SolidCarbonDioxide": {
-    "name": "Dioxyde de Carbone Solide",
-    "desc": "Le dioxyde de carbone (CO<sub>2</sub>) est un composé irrespirable à l'état Solide."
-  },
-  "Cobalt": {
-    "name": "Cobalt",
-    "desc": "Le cobalt (Co) est un métal raffiné fabriqué à partir de minerai de cobalt."
-  },
-  "UraniumOre": {
-    "name": "Minerai d'Uranium",
-    "desc": "Le minerai d'uranium (U) est une substance hautement radioactive.\n\nIl peut être raffiné avant d'être utilisé dans des réacteurs nucléaires."
-  },
-  "SolidPropane": {
-    "name": "Propane Solide",
-    "desc": " Le propane (C<sub>3</sub>H<sub>8</sub>) est un gaz naturel à l'état solide."
-  },
-  "AluminumOre": {
-    "name": "Minerai d'Aluminium",
-    "desc": "Le minerai d'aluminium, aussi appelé bauxite, est une roche sédimentaire riche en métaux.\n\nIl peut être raffiné pour obtenir de l'aluminum."
-  },
-  "SedimentaryRock": {
-    "name": "Roche Sédimentaire",
-    "desc": "La roche sédimentaire est un composite durci composé de couches sédimentaires.\n\nElle est utilisée comme <b>matériau de construction</b>."
-  },
-  "Fullerene": {
-    "name": "Fullerène",
-    "desc": "Le fullerène (C<sub>60</sub>) est une formation de carbone constituée de molécules de formes sphériques."
-  },
-  "GoldAmalgam": {
-    "name": "Amalgame d'Or",
-    "desc": "L'amalgame d'or est un amalgame conducteur composé d'or et de mercure.\n\nIl peut être utilisé pour construire des systèmes d'énergie."
-  },
-  "Salt": {
-    "name": "Sel",
-    "desc": "Le chlorure de sodium (NaCl), communément appelé sel, est un composé chimique comestible.\n\nUne fois raffiné, il peut accompagner les repas pour améliorer le moral des Duplicants."
-  },
-  "Sand": {
-    "name": "Sable",
-    "desc": "Le sable est un composite de roche granulaire.\n\nIl est utilisé comme milieu filtrant."
-  },
-  "Snow": {
-    "name": "Neige",
-    "desc": "La neige (H<sub>2</sub>O) est une masse de particules de glace cristalline.\n\nElle se transforme en eau lorsqu'elle fond."
-  },
-  "SandStone": {
-    "name": "Grès",
-    "desc": "Le grès est un composite de roches sédimentaires relativement tendres.\n\nIl est utilisé comme <b>matériau de construction</b>."
-  },
-  "Glass": {
-    "name": "Verre",
-    "desc": "Le verre est une substance fragile et transparente créée à partir de sable chauffé à haute température."
-  },
-  "Clay": {
-    "name": "Argile",
-    "desc": "L'argile est un mélange naturel de pierre et de terre qui durcit à haute Température.\n\nC'est un <b>matériau de construction</b> fiable."
-  },
-  "ToxicSand": {
-    "name": "Terre Polluée",
-    "desc": "La terre polluée est un déchet toxique non traité.\n\nElle émet de l'oxygène pollué."
-  },
-  "Ice": {
-    "name": "Glace",
-    "desc": "La glace (H<sub>2</sub>O) est de l'eau propre gelée à l'état Solide."
-  },
-  "Graphite": {
-    "name": "Graphite",
-    "desc": "Le Graphite (C) est la forme de carbone la plus stable.\n\nIl possède une conductivité thermique élevée et peut être utilisé comme <b>matériau de construction</b>."
-  },
-  "ToxicMud": {
-    "name": "Boue Polluée",
-    "desc": "Un mélange de terre polluée et d'eau polluée.\n\nPeut être séparé en éléments de base en utilisant une presse à boue."
-  },
-  "Mud": {
-    "name": "Boue",
-    "desc": "Un mélange de terre et d'eau.\n\nPeut être séparé en éléments de base en utilisant une presse à boue."
-  },
-  "Carbon": {
-    "name": "Charbon",
-    "desc": "Le charbon (C) est un combustible fossile composé de carbone.\n\nIl est utilisé pour la production d'énergie."
-  },
-  "SolidOxygen": {
-    "name": "Oxygène Solide",
-    "desc": "L'Oxygène solide (O<sub>2</sub>) est un élément respirable à l'état Solide."
-  },
-  "Creature": {
-    "name": "Limon Génétique",
-    "desc": "Le limon (DuPe) est une bouillie à base d'eau, de carbone et de dizaines d'autres éléments.\n\nLes Duplicants sont imprimés à partir de limon pur."
-  },
-  "DepletedUranium": {
-    "name": "Uranium Appauvri",
-    "desc": "L’uranium appauvri (U) est de l'uranium avec une faible teneur en U-235.\n\nC'est un sous-produit obtenu après fabrication d'uranium enrichi et il ne peut plus être utilisé comme combustible."
-  },
-  "Katairite": {
-    "name": "Abyssalite",
-    "desc": "L'Abyssalite (Ab) est un élément cristallin résilient."
-  },
-  "SolidMethane": {
-    "name": "Méthane Solide",
-    "desc": "Le méthane (CH<sub>4</sub>) est un alcane à l'état solide."
-  },
-  "HardPolypropylene": {
-    "name": "Plastium",
-    "desc": "Le plastium est un polymère thermoplastique réalisé à l'aide de Thermium, de plastique et de cire brack.\n\nIl présente une résistance élevée à la chaleur et est adapté pour la conception d'équipements spatiaux."
-  },
-  "OxyRock": {
-    "name": "Oxylite",
-    "desc": "L'oxylite (Ir<sub>3</sub>O<sub>2</sub>) est un composé chimique qui diffuse de l'oxygène lentement.\n\nLe taux d'oxygène augmente lorsque l'oxylite est excavé, mais cela épuise le minerai plus rapidement."
-  },
-  "MaficRock": {
-    "name": "Roche Mafique",
-    "desc": "La roche mafique est une variété de roche magmatique riche en Fer.\n\nElle est utilisée comme <b>matériau de construction</b>."
-  },
-  "Iron": {
-    "name": "Fer",
-    "desc": "Le Fer (Fe) est un métal industriel commun."
-  },
-  "Regolith": {
-    "name": "Régolithe",
-    "desc": "Le régolithe est une substance sableuse composée des diverses particules qui s'accumulent à la surface des objets terrestres.\n\nIl est utilisé comme milieu filtrant."
-  },
-  "SolidResin": {
-    "name": "Résine Solide",
-    "desc": "Glu collante récoltée sur un arbre ronchon.\n\nElle est utilisée pour la production d'isorésine."
-  },
-  "Bitumen": {
-    "name": "Bitume",
-    "desc": "Le bitume est un dépôt visqueux et collant issu de la production pétrolière."
-  },
-  "TempConductorSolid": {
-    "name": "Thermium",
-    "desc": "Le thermium est un alliage métallique industriel élaboré pour maximiser le transfert de chaleur et la dispersion thermique."
-  },
-  "IronOre": {
-    "name": "Minerai de Fer",
-    "desc": "Le minerai de fer (Fe) est un métal tendre.\n\nIl peut être utilisé pour construire des systèmes d'énergie."
-  },
-  "Dirt": {
-    "name": "Terre",
-    "desc": "La terre est une substance riche en nutriments qui est capable d'apporter la vie.\n\nElle est nécessaire pour la production de certains Aliments."
-  },
-  "DirtyIce": {
-    "name": "Glace Polluée",
-    "desc": "La glace polluée est constituée d'eau sale, non filtrée, à l'état Solide."
-  },
-  "Fossil": {
-    "name": "Fossile",
-    "desc": "Le fossile est une matière organique, fortement compressée et durcie jusqu'à atteindre un état minéral.\n\nIl est utilisé comme <b>matériau de construction</b>."
-  },
-  "Unobtanium": {
-    "name": "Neutronium",
-    "desc": "Le neutronium (Nt) est un élément mystérieux et extrêmement résilient.\n\nIl ne peut être excavé par aucun outil de Duplicant."
-  },
-  "SolidEthanol": {
-    "name": "Éthanol Solide",
-    "desc": "L'éthanol (C<sub>2</sub>H<sub>6</sub>O) est un composé chimique avancé.\n\nLorsqu'il est brûlé, il devient un carburant très efficace."
-  },
-  "FoolsGold": {
-    "name": "Pyrite",
-    "desc": "La pyrite (FeS<sub>2</sub>) est un métal conducteur.\n\nAussi connu comme \"l'or des fous\", elle peut être utilisée pour construire des systèmes d'énergie."
-  },
-  "Aluminum": {
-    "name": "Aluminum",
-    "desc": "L'aluminium (Al) est un métal avec une densité faible.\n\nSa conductivité thermique est élevée et il peut être utilisé pour construire des systèmes d'énergie."
-  },
-  "LiquidOxygen": {
-    "name": "Oxygène Liquide",
-    "desc": "L'Oxygène (O<sub>2</sub>) est un élément chimique respirable.\n\nCelui-ci est à l'état liquide."
-  },
-  "ViscoGel": {
-    "name": "Visco-Gel",
-    "desc": "Le visco-gel est un polymère liquide avec une tension de surface élevée, ce qui l'empêche de s'écouler comme des liquides normaux et permet des configurations inhabituelles."
-  },
-  "MoltenAluminum": {
-    "name": "Aluminium Fondu",
-    "desc": "L'aluminium fondu (Al) est un métal de faible densité qui a été chauffé pour passer à l'état liquide."
-  },
-  "MoltenLead": {
-    "name": "Plomb Fondu",
-    "desc": "Le plomb (Pb) est un métal raffiné extrêmement dense qui, une fois chauffé, passe à l'état liquide."
-  },
-  "LiquidCarbonDioxide": {
-    "name": "Dioxyde de Carbone Liquide",
-    "desc": "Le dioxyde de carbone (CO<sub>2</sub>) est un composé chimique irrespirable.\n\nCet échantillon est actuellement à l'état liquide."
-  },
-  "CrudeOil": {
-    "name": "Pétrole Brut",
-    "desc": "Le pétrole Brut est un source d'énergie brute composée de milliards d'organismes primordiaux morts."
-  },
-  "MoltenGlass": {
-    "name": "Verre Fondu",
-    "desc": "Le verre en fusion est un composite de roches granuleuses qui, une fois chauffées, passent à l'état liquide."
-  },
-  "LiquidSulfur": {
-    "name": "Soufre Liquide",
-    "desc": "Le soufre (S) est un élément chimique commun et généralement un sous-produit issu de la production de gaz naturel.\n\nCelui-ci est à l'état liquide."
-  },
-  "MoltenGold": {
-    "name": "Or Fondu",
-    "desc": "L'or (Au) est un métal conducteur précieux qui a été chauffé pour passer à l'état liquide."
-  },
-  "Magma": {
-    "name": "Magma",
-    "desc": "Le magma est un composite de roche magmatique fondue à l'état liquide."
-  },
-  "Chlorine": {
-    "name": "Chlore Liquide",
-    "desc": "Le Chlore (Cl) est un élément tueur de germes naturel à l'état liquide."
-  },
-  "LiquidHydrogen": {
-    "name": "Hydrogène Liquide",
-    "desc": "L'Hydrogène (H) dans son état liquide.\n\nIl gèle la plupart des substances qui entrent en contact avec lui."
-  },
-  "Resin": {
-    "name": "Résine Liquide",
-    "desc": "Glu collante récoltée à partir d’un arbre grincheux.\n\nElle peut être polymérisée en isorésine après évaporation de l'humidité excédentaire."
-  },
-  "LiquidPropane": {
-    "name": "Propane Liquide",
-    "desc": "Le propane (C<sub>3</sub>H<sub>8</sub>) est un alcane.\n\nCelui-ci est à l'état liquide.\n\nIl est utilisé pour la production d'énergie."
-  },
-  "MoltenTungsten": {
-    "name": "Tungstène Fondu",
-    "desc": "Le tungstène fondu (W) est un métal cristallin qui a été chauffé pour atteindre un état liquide."
-  },
-  "Petroleum": {
-    "name": "Pétrole",
-    "desc": "Le pétrole est une source d'énergie, raffinée à partir de pétrole brut.\n\nC'est aussi un ingrédient essentiel pour la production de plastique."
-  },
-  "MoltenSalt": {
-    "name": "Sel Fondu",
-    "desc": "Le sel fondu (NaCl) est un composé chimique comestible qui a été chauffé pour atteindre un état liquide."
-  },
-  "MoltenCobalt": {
-    "name": "Cobalt Fondu",
-    "desc": "Le cobalt fondu (Co) est un métal raffiné qui a été chauffé pour passer à l'état liquide."
-  },
-  "Brine": {
-    "name": "Saumure",
-    "desc": "La saumure est une solution naturelle contenant une concentration élevée de sel dissout dans l'eau.\n\nElle peut être utilisée dans les processus de dessalement afin de séparer le sel utilisable."
-  },
-  "NuclearWaste": {
-    "name": "Déchet Nucléaire Liquide",
-    "desc": "Liquide hautement toxique chargé en contaminants radioactifs. Émet des radiations qui peuvent être absorbées par un générateur à radbolts."
-  },
-  "SuperCoolant": {
-    "name": "Super Refroidissant",
-    "desc": "Le super refroidissant est un refroidissant de qualité industrielle à base de fullerène.\n\nCelui-ci est à l'état solide."
-  },
-  "Ethanol": {
-    "name": "Éthanol",
-    "desc": " L'éthanol (C<sub>2</sub>H<sub>6</sub>O) est un composé chimique avancé.\n\nLorsqu'il est brûlé, il devient un carburant très efficace."
-  },
-  "Milk": {
-    "name": "Brackène",
-    "desc": "Le brackène est un liquide riche en sodium.\n\nIl est utilisé pour l'élevage."
-  },
-  "LiquidMethane": {
-    "name": "Méthane Liquide",
-    "desc": "Le méthane (CH<sub>4</sub>) est un alcane.\n\nCelui-ci est à l'état liquide."
-  },
-  "MoltenIron": {
-    "name": "Fer Fondu",
-    "desc": "Le Fer fondu (Fe) est un métal industriel commun qui a été chauffé pour passer à l'état liquide."
-  },
-  "MoltenCarbon": {
-    "name": "Carbone Liquide",
-    "desc": "Le carbone (C) est un élément abondant et polyvalent qui, une fois chauffé, passe à l'état liquide."
-  },
-  "Naphtha": {
-    "name": "Naphtha Liquide",
-    "desc": "Le naphta est un mélange d'hydrocarbures distillés, produit par la combustion du plastique."
-  },
-  "MoltenSucrose": {
-    "name": "Saccharose Liquide",
-    "desc": "Le saccharose (C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>) est la forme brute du sucre, qui, une fois chauffé, passe à l'état liquide.\n\nIl peut être utilisé tel quel pour la cuisine, ou raffiné pour accompagner les repas, ce qui améliorera le Moral du Duplicant."
-  },
-  "LiquidPhosphorus": {
-    "name": "Phosphore Liquide",
-    "desc": "Le phosphore (P) est un élément chimique.\n\nCelui-ci est à l'état liquide."
-  },
-  "MoltenSteel": {
-    "name": "Acier Fondu",
-    "desc": "L'acier fondu est un alliage de métal composé de fer et de carbone, qui devient un liquide dangereux en chauffant."
-  },
-  "MoltenNiobium": {
-    "name": "Niobium Fondu",
-    "desc": "(Nb) Molten Niobium is a rare metal heated into a Liquid state."
-  },
-  "DirtyWater": {
-    "name": "Eau Polluée",
-    "desc": "L'eau polluée est consituée d'eau sale, non filtrée.\n\nElle est impropre à la consommation."
-  },
-  "Water": {
-    "name": "Eau",
-    "desc": "Eau propre (H<sub>2</sub>O), adaptée à la consommation."
-  },
-  "SaltWater": {
-    "name": "Eau Saline",
-    "desc": "L'eau saline est une solution naturelle contenant une concentration élevée de sel dissout dans l'eau.\n\nElle peut être utilisée dans les processus de dessalement afin d'en extraire le sel."
-  },
-  "MoltenUranium": {
-    "name": "Uranium Liquide",
-    "desc": "L’uranium liquide (U) est une substance hautement Radioactive, dangereuse lorsqu'elle est chauffée pour atteindre un état liquide.\n\nC’est un sous-produit de l'Uranium Enrichi."
-  },
-  "MoltenCopper": {
-    "name": "Cuivre Fondu",
-    "desc": "Le cuivre fondu (Cu) est un métal conducteur qui a été chauffé pour passer à l'état liquide."
-  },
-  "SulfurGas": {
-    "name": "Gaz de Soufre",
-    "desc": "Le soufre (S) est un élément chimique commun et un sous-produit issu de la production de gaz naturel.\n\nCelui-ci est à l'état gazeux."
-  },
-  "SaltGas": {
-    "name": "Gaz de Sel",
-    "desc": "Le gaz de sel (NaCl) est un composé chimique comestible passée à l'état gazeux après avoir été surchauffée."
-  },
-  "NiobiumGas": {
-    "name": "Gaz de Niobium",
-    "desc": "(Nb) Niobium Gas is a rare metal.\n\nThis selection is in a Gaseous state."
-  },
-  "Oxygen": {
-    "name": "Oxygène",
-    "desc": "L'Oxygène (O<sub>2</sub>) est un gaz atomiquement léger et respirable, nécessaire pour rester en vie.\n\nIl a tendance à s'élever au dessus des autres gaz."
-  },
-  "CobaltGas": {
-    "name": "Gaz de Cobalt",
-    "desc": "Le cobalt (Co) est un métal raffiné qui, une fois chauffé, se transforme en gaz."
-  },
-  "SteelGas": {
-    "name": "Gaz d'Acier",
-    "desc": "Le gaz d'acier est un gaz métallique surchauffé qui est composé de fer et de carbone."
-  },
-  "ChlorineGas": {
-    "name": "Chlore Gazeux",
-    "desc": "Le Chlore (Cl) est un élément tueur de germes naturel à l'état gazeux."
-  },
-  "Hydrogen": {
-    "name": "Hydrogène Gazeux",
-    "desc": "L'Hydrogène gazeux (H) est l'élément chimique le plus commun dans l'univers à l'état gazeux."
-  },
-  "SourGas": {
-    "name": "Gaz Corrosif",
-    "desc": "Le gaz corrosif est un gaz hydrocarbure contenant des quantités importantes de sulfure d'hydrogène.\n\nC'est un déchet issu du pétrole chauffé à haute température."
-  },
-  "Steam": {
-    "name": "Vapeur",
-    "desc": " La vapeur (H<sub>2</sub>O) est constituée d'eau qui a été chauffée pour atteindre un état gazeux."
-  },
-  "Methane": {
-    "name": "Gaz Naturel",
-    "desc": "Le gaz naturel est un mélange de plusieurs alcanes à l'état gazeux.\n\nIl est utilisé pour la production d'énergie."
-  },
-  "GoldGas": {
-    "name": "Gaz d'Or",
-    "desc": "Le gaz d'or (Au) est un métal conducteur précieux qui a été chauffé pour passer à l'état gazeux."
-  },
-  "EthanolGas": {
-    "name": "Éthanol Gazeux",
-    "desc": "L'éthanol gazeux (C<sub>2</sub>H<sub>6</sub>O)  est un composé chimique avancé qui a été chauffé pour passer à l'état gazeux."
-  },
-  "RockGas": {
-    "name": "Gaz de Roche",
-    "desc": "Le gaz de roche est constitué de roche passée à l'état gazeux après avoir été surchauffée."
-  },
-  "CarbonGas": {
-    "name": "Gaz Carbonique",
-    "desc": "Le carbone (C) est un élément abondant et versatile qui a été chauffé pour passer à l'état gazeux."
-  },
-  "SuperCoolantGas": {
-    "name": "Super Refroidissant",
-    "desc": "Le super refroidissant est un refroidissant de qualité industrielle à base de fullerène.\n\nCelui-ci est à l'état gazeux."
-  },
-  "AluminumGas": {
-    "name": "Gaz d'Aluminum",
-    "desc": "Le gaz d'aluminium (Al) est un métal qui a été chauffé pour passer à l'état gazeux."
-  },
-  "TungstenGas": {
-    "name": "Gaz de Tungstène",
-    "desc": "Le tungstène (W) est un métal cristallin surchauffé.\n\nCelui-ci est à l'état gazeux."
-  },
-  "ContaminatedOxygen": {
-    "name": "Oxygène Pollué",
-    "desc": "L'oxygène pollué (O<sub>2</sub>) est sale et non filtré.\n\nIl est respirable."
-  },
-  "LeadGas": {
-    "name": "Gaz de Plomb",
-    "desc": "Le gaz de plomb (Pb) est un métal raffiné tendre bien qu'extrêmement dense qui a été chauffé pour passer à l'état gazeux."
-  },
-  "Fallout": {
-    "name": "Retombées Radioactives",
-    "desc": "La retombée nucléaire est un gaz hautement toxique chargé en contaminants radioactifs. Elle se condense en déchet nucléaire."
-  },
-  "IronGas": {
-    "name": "Gaz de Fer",
-    "desc": "Le Gaz Fer (Fe) est un métal industriel commun qui a été chauffé pour atteindre un état gazeux."
-  },
-  "PhosphorusGas": {
-    "name": "Gaz de Phosphore",
-    "desc": "Le phosphore gazeux (P) est l'état gazeux du phosphore raffiné."
-  },
-  "CarbonDioxide": {
-    "name": "Dioxyde de Carbone",
-    "desc": "Dioxyde de carbone (CO<sub>2</sub>) toxique, un composé chimique atomiquement lourd dans un état gazeux.\n\nIl a tendance à stagner sous les autres gaz."
-  },
-  "CopperGas": {
-    "name": "Gaz de Cuivre",
-    "desc": "Le gaz de cuivre (Cu) est un métal conducteur qui a été chauffé pour passer à l'état gazeux."
-  },
   "AdvancedDoctorStation": {
     "name": "Chambre de Décontamination",
     "desc": "Les chambres de décontamination ont besoin d'énergie, mais permettent de traiter les affections plus sévères que les lits médicaux."
@@ -613,7 +33,7 @@
   },
   "ArcadeMachine": {
     "name": "Borne d'Arcade",
-    "desc": "Komet Kablam-O!\nPour deux joueurs maximum."
+    "desc": "Komet Kablam-O!<br>Pour deux joueurs maximum."
   },
   "ArtifactAnalysisStation": {
     "name": "Station d'Analyse d'Artefact",
@@ -2099,9 +1519,617 @@
     "name": "Piège à Poisson",
     "desc": "Les poissons emprisonnés seront ensachés pour le transport."
   },
+  "Algae": {
+    "name": "Algue",
+    "desc": "L'algue est un amas de formes de vie monocellulaires et non-mobiles.<br>Elle peut être utilisée pour produire de l'oxygène lorsqu'elle est utilisée dans un diffuseur d'oxygène"
+  },
+  "BleachStone": {
+    "name": "Roche Chlorée",
+    "desc": "La roche chlorée est un composant instable qui diffuse du chlore gazeux irrespirable<br>Elle a des applications hygiéniques."
+  },
+  "DirtyWater": {
+    "name": "Eau Polluée",
+    "desc": "L'eau polluée est consituée d'eau sale, non filtrée.<br>Elle est impropre à la consommation."
+  },
+  "NuclearWaste": {
+    "name": "Déchet Nucléaire Liquide",
+    "desc": "Liquide hautement toxique chargé en contaminants radioactifs. Émet des radiations qui peuvent être absorbées par un générateur à radbolts."
+  },
+  "OxyRock": {
+    "name": "Oxylite",
+    "desc": "L'oxylite (Ir<sub>3</sub>O<sub>2</sub>) est un composé chimique qui diffuse de l'oxygène lentement.<br>Le taux d'oxygène augmente lorsque l'oxylite est excavé, mais cela épuise le minerai plus rapidement."
+  },
+  "SlimeMold": {
+    "name": "Vase",
+    "desc": "La vase est un mélange biologique épais d'algue, de champignon et de mucopolysaccharides.<br>Elle peut être distillée en algue et émet de l'oxygène pollué lorsqu'elle est creusée."
+  },
+  "ToxicSand": {
+    "name": "Terre Polluée",
+    "desc": "La terre polluée est un déchet toxique non traité.<br>Elle émet de l'oxygène pollué."
+  },
+  "CrushedIce": {
+    "name": "Glace pilée",
+    "desc": "(H<sub>2</sub>O) Une bouillie de glace à moitié solide."
+  },
+  "Diamond": {
+    "name": "Diamant",
+    "desc": "Le diamant (C) est un carbone de haute densité de niveau industriel<br>Il est très difficile à extraire."
+  },
+  "Isoresin": {
+    "name": "Isorésine",
+    "desc": "L'isorésine est une sève cristallisée composée de chaînes  de polymères longues.<br>Elle est utilisée dans la production de matériaux rares de haute qualité."
+  },
+  "Sucrose": {
+    "name": "Saccharose",
+    "desc": "Le saccharose (C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>) est la forme brute du sucre.<br>Il peut être utilisé tel quel pour la cuisine, ou raffiné pour accompagner les repas, ce qui améliorera le Moral du Duplicant."
+  },
+  "MilkFat": {
+    "name": "Cire Brack",
+    "desc": "La cire brack est un sous-produit solide issu du brackène."
+  },
+  "Niobium": {
+    "name": "Niobium",
+    "desc": "(Nb) Niobium is a rare metal with many practical applications in metallurgy and superconductor Research."
+  },
+  "MilkIce": {
+    "name": "Brackène Gelé",
+    "desc": "Le brackène gelé est constitué de brackène congelé à l'état Solide."
+  },
+  "Cuprite": {
+    "name": "Minerai de Cuivre",
+    "desc": "Le minerai de cuivre (Cu<sub>2</sub>O) est un métal conducteur.<br>Il peut être utilisé pour construire des systèmes d'énergie."
+  },
+  "Copper": {
+    "name": "Cuivre",
+    "desc": "Le Cuivre (Cu) est un métal conducteur.<br>Il est adapté pour fabriquer des systèmes électriques."
+  },
+  "CrushedRock": {
+    "name": "Roche Concassée",
+    "desc": "La roche concassée est une roche magmatique écrasée en un mélange mécanique."
+  },
+  "SuperInsulator": {
+    "name": "Isolant",
+    "desc": "L'isolant réduit les Transferts de Chaleur et est composé d'Abyssalite recristallisée."
+  },
+  "BrineIce": {
+    "name": "Glace saumurée",
+    "desc": "La glace saumurée est une solution naturelle contenant une concentration élevée de sel dissout dans l'eau et gelée jusqu'à atteindre un état solide.<br>Elle peut être utilisée dans les processus de dessalement afin de séparer le sel utilisable."
+  },
+  "SolidViscoGel": {
+    "name": "Visco-Gel Solide",
+    "desc": "Le visco-gel est un polymère possédant une tension de surface élevée lorsqu'il est dans sa forme liquide.<br>Celui-ci est à l'état solide."
+  },
+  "Ceramic": {
+    "name": "Céramique",
+    "desc": "La céramique est un matériau fragile et dur formé à partir d'argile chauffée.<br>C'est un <b>matériau de construction</b> fiable."
+  },
+  "Cobaltite": {
+    "name": "Minerai de Cobalt",
+    "desc": "Le minerai de cobalt (Co) est un métal de couleur bleutée.<br>Il peut être utilisé pour construire des systèmes d'énergie."
+  },
+  "Fertilizer": {
+    "name": "Engrais",
+    "desc": "L'engrais est un mélange de nutriments biologiques.<br>Il permet à certaines plantes de pousser."
+  },
+  "SolidCrudeOil": {
+    "name": "Pétrole Brut Solide",
+    "desc": ""
+  },
+  "Wolframite": {
+    "name": "Wolframite",
+    "desc": "La wolframite ((Fe,Mn)WO<sub>4</sub>) est un élément métallique dense à l'état solide.<br>C'est une source de tungstène et elle peut être utilisée pour construire des systèmes d'énergie."
+  },
+  "Polypropylene": {
+    "name": "Plastique",
+    "desc": "Le plastique (C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> est un polymère thermoplastique.<br>Il est utilisé pour construire une grande quantité d'équipements."
+  },
+  "SolidNaphtha": {
+    "name": "Naphtha Solide",
+    "desc": "Le naphta est un mélange d'hydrocarbures distillés à l'état solide."
+  },
+  "Tungsten": {
+    "name": "Tungstène",
+    "desc": "Le tungstène (W) est un métal cristallin extrêmement dur.<br>Il est adapté pour la construction de systèmes d'énergie."
+  },
+  "RefinedCarbon": {
+    "name": "Carbone Raffiné",
+    "desc": "Le carbone raffiné (C) est un élément solide issue de la purification du charbon."
+  },
+  "Steel": {
+    "name": "Acier",
+    "desc": "L'Acier est un alliage métallique composé de fer et de carbone."
+  },
+  "Phosphorite": {
+    "name": "Phosphorite",
+    "desc": "La phosphorite est un composite de roches sédimentaires saturées en phosphate."
+  },
+  "SolidHydrogen": {
+    "name": "Hydrogène Solide",
+    "desc": "L'Hydrogène solide (H) est l'élément le plus commun dans l'univers à l'état Solide."
+  },
+  "Lead": {
+    "name": "Plomb",
+    "desc": "Le plomb (Pb) est un métal raffiné tendre bien qu'extrêmement dense.<br>Il possède une température de surchauffe faible et peut être utilisé pour construire des systèmes d'énergie."
+  },
+  "Sulfur": {
+    "name": "Soufre",
+    "desc": "Le soufre (S) est un élément chimique commun et généralement un sous-produit issu de la production de gaz naturel.<br>Celui-ci est à l'état solide."
+  },
+  "Lime": {
+    "name": "Chaux",
+    "desc": "La chaux (CaCO<sub>3</sub>) est un minéral généralement issu de coquilles d'œufs de créatures.<br>Elle est utilisée comme <b>matériau de construction</b>."
+  },
+  "SolidChlorine": {
+    "name": "Chlore Solide",
+    "desc": "Le Chlore (Cl) est un élément tueur de germes naturel à l'état Solide."
+  },
+  "SolidNuclearWaste": {
+    "name": "Déchet Nucléaire Solide",
+    "desc": "Un solide hautement toxique rempli de contaminants radioactifs."
+  },
+  "Obsidian": {
+    "name": "Obsidienne",
+    "desc": "L'obsidienne est un composite fragile de verre volcanique."
+  },
+  "SolidPetroleum": {
+    "name": "Pétrole Solide",
+    "desc": "Le pétrole est une source d'énergie.<br>Celui-ci est à l'état solide."
+  },
+  "SolidSuperCoolant": {
+    "name": "Super Refroidissant Solide",
+    "desc": "Le super refroidissant est un refroidissant de qualité industrielle à base de fullerène.<br>Celui-ci est à l'état solide."
+  },
+  "IgneousRock": {
+    "name": "Roche Magmatique",
+    "desc": "La roche magmatique est un composite constitué de roche volcanique solidifiée.<br>Elle est utilisée comme <b>matériau de construction</b>."
+  },
+  "EnrichedUranium": {
+    "name": "Uranium Enrichi",
+    "desc": "L'uranium enrichi (U) est une substance raffinée fortement radioactive.<br>Il est utilisé essentiellement pour alimenter des  réacteurs nucléaires."
+  },
+  "Gold": {
+    "name": "Or",
+    "desc": "L'or (Au) est un métal conducteur précieux.<br>Il peut être utilisé pour construire des systèmes d'énergie."
+  },
+  "Rust": {
+    "name": "Rouille",
+    "desc": "La rouille est un oxyde de fer qui se forme lors de la décomposition du Fer.<br>Elle est utilisée dans certains processus de production d'Oxygène."
+  },
+  "Corium": {
+    "name": "Corium",
+    "desc": "Un mélange radioactif de déchets nucléaires et d'éléments fondus provenant d'un réacteur.<br>Relâche des gaz chargés en radioactivité."
+  },
+  "Phosphorus": {
+    "name": "Phosphore raffiné",
+    "desc": "Le phosphore raffiné (P) est un élément chimique à l'état Solide."
+  },
+  "Granite": {
+    "name": "Granite",
+    "desc": "Le granite est un composite dense de roche magmatique.<br>Il est utilisé comme <b>matériau de construction</b>."
+  },
+  "SolidCarbonDioxide": {
+    "name": "Dioxyde de Carbone Solide",
+    "desc": "Le dioxyde de carbone (CO<sub>2</sub>) est un composé irrespirable à l'état Solide."
+  },
+  "Cobalt": {
+    "name": "Cobalt",
+    "desc": "Le cobalt (Co) est un métal raffiné fabriqué à partir de minerai de cobalt."
+  },
+  "UraniumOre": {
+    "name": "Minerai d'Uranium",
+    "desc": "Le minerai d'uranium (U) est une substance hautement radioactive.<br>Il peut être raffiné avant d'être utilisé dans des réacteurs nucléaires."
+  },
+  "AluminumOre": {
+    "name": "Minerai d'Aluminium",
+    "desc": "Le minerai d'aluminium, aussi appelé bauxite, est une roche sédimentaire riche en métaux.<br>Il peut être raffiné pour obtenir de l'aluminum."
+  },
+  "SedimentaryRock": {
+    "name": "Roche Sédimentaire",
+    "desc": "La roche sédimentaire est un composite durci composé de couches sédimentaires.<br>Elle est utilisée comme <b>matériau de construction</b>."
+  },
+  "Fullerene": {
+    "name": "Fullerène",
+    "desc": "Le fullerène (C<sub>60</sub>) est une formation de carbone constituée de molécules de formes sphériques."
+  },
+  "GoldAmalgam": {
+    "name": "Amalgame d'Or",
+    "desc": "L'amalgame d'or est un amalgame conducteur composé d'or et de mercure.<br>Il peut être utilisé pour construire des systèmes d'énergie."
+  },
+  "Salt": {
+    "name": "Sel",
+    "desc": "Le chlorure de sodium (NaCl), communément appelé sel, est un composé chimique comestible.<br>Une fois raffiné, il peut accompagner les repas pour améliorer le moral des Duplicants."
+  },
+  "Sand": {
+    "name": "Sable",
+    "desc": "Le sable est un composite de roche granulaire.<br>Il est utilisé comme milieu filtrant."
+  },
+  "Snow": {
+    "name": "Neige",
+    "desc": "La neige (H<sub>2</sub>O) est une masse de particules de glace cristalline.<br>Elle se transforme en eau lorsqu'elle fond."
+  },
+  "SandStone": {
+    "name": "Grès",
+    "desc": "Le grès est un composite de roches sédimentaires relativement tendres.<br>Il est utilisé comme <b>matériau de construction</b>."
+  },
+  "Glass": {
+    "name": "Verre",
+    "desc": "Le verre est une substance fragile et transparente créée à partir de sable chauffé à haute température."
+  },
+  "Clay": {
+    "name": "Argile",
+    "desc": "L'argile est un mélange naturel de pierre et de terre qui durcit à haute Température.<br>C'est un <b>matériau de construction</b> fiable."
+  },
+  "Ice": {
+    "name": "Glace",
+    "desc": "La glace (H<sub>2</sub>O) est de l'eau propre gelée à l'état Solide."
+  },
+  "Graphite": {
+    "name": "Graphite",
+    "desc": "Le Graphite (C) est la forme de carbone la plus stable.<br>Il possède une conductivité thermique élevée et peut être utilisé comme <b>matériau de construction</b>."
+  },
+  "ToxicMud": {
+    "name": "Boue Polluée",
+    "desc": "Un mélange de terre polluée et d'eau polluée.<br>Peut être séparé en éléments de base en utilisant une presse à boue."
+  },
+  "Mud": {
+    "name": "Boue",
+    "desc": "Un mélange de terre et d'eau.<br>Peut être séparé en éléments de base en utilisant une presse à boue."
+  },
+  "Carbon": {
+    "name": "Charbon",
+    "desc": "Le charbon (C) est un combustible fossile composé de carbone.<br>Il est utilisé pour la production d'énergie."
+  },
+  "SolidOxygen": {
+    "name": "Oxygène Solide",
+    "desc": "L'Oxygène solide (O<sub>2</sub>) est un élément respirable à l'état Solide."
+  },
+  "Creature": {
+    "name": "Limon Génétique",
+    "desc": "Le limon (DuPe) est une bouillie à base d'eau, de carbone et de dizaines d'autres éléments.<br>Les Duplicants sont imprimés à partir de limon pur."
+  },
+  "DepletedUranium": {
+    "name": "Uranium Appauvri",
+    "desc": "L’uranium appauvri (U) est de l'uranium avec une faible teneur en U-235.<br>C'est un sous-produit obtenu après fabrication d'uranium enrichi et il ne peut plus être utilisé comme combustible."
+  },
+  "Katairite": {
+    "name": "Abyssalite",
+    "desc": "L'Abyssalite (Ab) est un élément cristallin résilient."
+  },
+  "SolidMethane": {
+    "name": "Méthane Solide",
+    "desc": "Le méthane (CH<sub>4</sub>) est un alcane à l'état solide."
+  },
+  "HardPolypropylene": {
+    "name": "Plastium",
+    "desc": "Le plastium est un polymère thermoplastique réalisé à l'aide de Thermium, de plastique et de cire brack.<br>Il présente une résistance élevée à la chaleur et est adapté pour la conception d'équipements spatiaux."
+  },
+  "MaficRock": {
+    "name": "Roche Mafique",
+    "desc": "La roche mafique est une variété de roche magmatique riche en Fer.<br>Elle est utilisée comme <b>matériau de construction</b>."
+  },
+  "Iron": {
+    "name": "Fer",
+    "desc": "Le Fer (Fe) est un métal industriel commun."
+  },
+  "Regolith": {
+    "name": "Régolithe",
+    "desc": "Le régolithe est une substance sableuse composée des diverses particules qui s'accumulent à la surface des objets terrestres.<br>Il est utilisé comme milieu filtrant."
+  },
+  "SolidResin": {
+    "name": "Résine Solide",
+    "desc": "Glu collante récoltée sur un arbre ronchon.<br>Elle est utilisée pour la production d'isorésine."
+  },
+  "TempConductorSolid": {
+    "name": "Thermium",
+    "desc": "Le thermium est un alliage métallique industriel élaboré pour maximiser le transfert de chaleur et la dispersion thermique."
+  },
+  "IronOre": {
+    "name": "Minerai de Fer",
+    "desc": "Le minerai de fer (Fe) est un métal tendre.<br>Il peut être utilisé pour construire des systèmes d'énergie."
+  },
+  "Dirt": {
+    "name": "Terre",
+    "desc": "La terre est une substance riche en nutriments qui est capable d'apporter la vie.<br>Elle est nécessaire pour la production de certains Aliments."
+  },
+  "DirtyIce": {
+    "name": "Glace Polluée",
+    "desc": "La glace polluée est constituée d'eau sale, non filtrée, à l'état Solide."
+  },
+  "Fossil": {
+    "name": "Fossile",
+    "desc": "Le fossile est une matière organique, fortement compressée et durcie jusqu'à atteindre un état minéral.<br>Il est utilisé comme <b>matériau de construction</b>."
+  },
+  "Unobtanium": {
+    "name": "Neutronium",
+    "desc": "Le neutronium (Nt) est un élément mystérieux et extrêmement résilient.<br>Il ne peut être excavé par aucun outil de Duplicant."
+  },
+  "SolidEthanol": {
+    "name": "Éthanol Solide",
+    "desc": "L'éthanol (C<sub>2</sub>H<sub>6</sub>O) est un composé chimique avancé.<br>Lorsqu'il est brûlé, il devient un carburant très efficace."
+  },
+  "FoolsGold": {
+    "name": "Pyrite",
+    "desc": "La pyrite (FeS<sub>2</sub>) est un métal conducteur.<br>Aussi connu comme \"l'or des fous\", elle peut être utilisée pour construire des systèmes d'énergie."
+  },
+  "Aluminum": {
+    "name": "Aluminum",
+    "desc": "L'aluminium (Al) est un métal avec une densité faible.<br>Sa conductivité thermique est élevée et il peut être utilisé pour construire des systèmes d'énergie."
+  },
+  "LiquidOxygen": {
+    "name": "Oxygène Liquide",
+    "desc": "L'Oxygène (O<sub>2</sub>) est un élément chimique respirable.<br>Celui-ci est à l'état liquide."
+  },
+  "ViscoGel": {
+    "name": "Visco-Gel",
+    "desc": "Le visco-gel est un polymère liquide avec une tension de surface élevée, ce qui l'empêche de s'écouler comme des liquides normaux et permet des configurations inhabituelles."
+  },
+  "MoltenAluminum": {
+    "name": "Aluminium Fondu",
+    "desc": "L'aluminium fondu (Al) est un métal de faible densité qui a été chauffé pour passer à l'état liquide."
+  },
+  "MoltenLead": {
+    "name": "Plomb Fondu",
+    "desc": "Le plomb (Pb) est un métal raffiné extrêmement dense qui, une fois chauffé, passe à l'état liquide."
+  },
+  "LiquidCarbonDioxide": {
+    "name": "Dioxyde de Carbone Liquide",
+    "desc": "Le dioxyde de carbone (CO<sub>2</sub>) est un composé chimique irrespirable.<br>Cet échantillon est actuellement à l'état liquide."
+  },
+  "CrudeOil": {
+    "name": "Pétrole Brut",
+    "desc": "Le pétrole Brut est un source d'énergie brute composée de milliards d'organismes primordiaux morts."
+  },
+  "MoltenGlass": {
+    "name": "Verre Fondu",
+    "desc": "Le verre en fusion est un composite de roches granuleuses qui, une fois chauffées, passent à l'état liquide."
+  },
+  "LiquidSulfur": {
+    "name": "Soufre Liquide",
+    "desc": "Le soufre (S) est un élément chimique commun et généralement un sous-produit issu de la production de gaz naturel.<br>Celui-ci est à l'état liquide."
+  },
+  "MoltenGold": {
+    "name": "Or Fondu",
+    "desc": "L'or (Au) est un métal conducteur précieux qui a été chauffé pour passer à l'état liquide."
+  },
+  "Magma": {
+    "name": "Magma",
+    "desc": "Le magma est un composite de roche magmatique fondue à l'état liquide."
+  },
+  "Chlorine": {
+    "name": "Chlore Liquide",
+    "desc": "Le Chlore (Cl) est un élément tueur de germes naturel à l'état liquide."
+  },
+  "LiquidHydrogen": {
+    "name": "Hydrogène Liquide",
+    "desc": "L'Hydrogène (H) dans son état liquide.<br>Il gèle la plupart des substances qui entrent en contact avec lui."
+  },
+  "Resin": {
+    "name": "Résine Liquide",
+    "desc": "Glu collante récoltée à partir d’un arbre grincheux.<br>Elle peut être polymérisée en isorésine après évaporation de l'humidité excédentaire."
+  },
+  "MoltenTungsten": {
+    "name": "Tungstène Fondu",
+    "desc": "Le tungstène fondu (W) est un métal cristallin qui a été chauffé pour atteindre un état liquide."
+  },
+  "Petroleum": {
+    "name": "Pétrole",
+    "desc": "Le pétrole est une source d'énergie, raffinée à partir de pétrole brut.<br>C'est aussi un ingrédient essentiel pour la production de plastique."
+  },
+  "MoltenSalt": {
+    "name": "Sel Fondu",
+    "desc": "Le sel fondu (NaCl) est un composé chimique comestible qui a été chauffé pour atteindre un état liquide."
+  },
+  "MoltenCobalt": {
+    "name": "Cobalt Fondu",
+    "desc": "Le cobalt fondu (Co) est un métal raffiné qui a été chauffé pour passer à l'état liquide."
+  },
+  "Brine": {
+    "name": "Saumure",
+    "desc": "La saumure est une solution naturelle contenant une concentration élevée de sel dissout dans l'eau.<br>Elle peut être utilisée dans les processus de dessalement afin de séparer le sel utilisable."
+  },
+  "SuperCoolant": {
+    "name": "Super Refroidissant",
+    "desc": "Le super refroidissant est un refroidissant de qualité industrielle à base de fullerène.<br>Celui-ci est à l'état solide."
+  },
+  "Ethanol": {
+    "name": "Éthanol",
+    "desc": " L'éthanol (C<sub>2</sub>H<sub>6</sub>O) est un composé chimique avancé.<br>Lorsqu'il est brûlé, il devient un carburant très efficace."
+  },
+  "Milk": {
+    "name": "Brackène",
+    "desc": "Le brackène est un liquide riche en sodium.<br>Il est utilisé pour l'élevage."
+  },
+  "LiquidMethane": {
+    "name": "Méthane Liquide",
+    "desc": "Le méthane (CH<sub>4</sub>) est un alcane.<br>Celui-ci est à l'état liquide."
+  },
+  "MoltenIron": {
+    "name": "Fer Fondu",
+    "desc": "Le Fer fondu (Fe) est un métal industriel commun qui a été chauffé pour passer à l'état liquide."
+  },
+  "MoltenCarbon": {
+    "name": "Carbone Liquide",
+    "desc": "Le carbone (C) est un élément abondant et polyvalent qui, une fois chauffé, passe à l'état liquide."
+  },
+  "Naphtha": {
+    "name": "Naphtha Liquide",
+    "desc": "Le naphta est un mélange d'hydrocarbures distillés, produit par la combustion du plastique."
+  },
+  "MoltenSucrose": {
+    "name": "Saccharose Liquide",
+    "desc": "Le saccharose (C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>) est la forme brute du sucre, qui, une fois chauffé, passe à l'état liquide.<br>Il peut être utilisé tel quel pour la cuisine, ou raffiné pour accompagner les repas, ce qui améliorera le Moral du Duplicant."
+  },
+  "LiquidPhosphorus": {
+    "name": "Phosphore Liquide",
+    "desc": "Le phosphore (P) est un élément chimique.<br>Celui-ci est à l'état liquide."
+  },
+  "MoltenSteel": {
+    "name": "Acier Fondu",
+    "desc": "L'acier fondu est un alliage de métal composé de fer et de carbone, qui devient un liquide dangereux en chauffant."
+  },
+  "MoltenNiobium": {
+    "name": "Niobium Fondu",
+    "desc": "(Nb) Molten Niobium is a rare metal heated into a Liquid state."
+  },
+  "Water": {
+    "name": "Eau",
+    "desc": "Eau propre (H<sub>2</sub>O), adaptée à la consommation."
+  },
+  "SaltWater": {
+    "name": "Eau Saline",
+    "desc": "L'eau saline est une solution naturelle contenant une concentration élevée de sel dissout dans l'eau.<br>Elle peut être utilisée dans les processus de dessalement afin d'en extraire le sel."
+  },
+  "MoltenUranium": {
+    "name": "Uranium Liquide",
+    "desc": "L’uranium liquide (U) est une substance hautement Radioactive, dangereuse lorsqu'elle est chauffée pour atteindre un état liquide.<br>C’est un sous-produit de l'Uranium Enrichi."
+  },
+  "MoltenCopper": {
+    "name": "Cuivre Fondu",
+    "desc": "Le cuivre fondu (Cu) est un métal conducteur qui a été chauffé pour passer à l'état liquide."
+  },
+  "SulfurGas": {
+    "name": "Gaz de Soufre",
+    "desc": "Le soufre (S) est un élément chimique commun et un sous-produit issu de la production de gaz naturel.<br>Celui-ci est à l'état gazeux."
+  },
+  "SaltGas": {
+    "name": "Gaz de Sel",
+    "desc": "Le gaz de sel (NaCl) est un composé chimique comestible passée à l'état gazeux après avoir été surchauffée."
+  },
+  "NiobiumGas": {
+    "name": "Gaz de Niobium",
+    "desc": "(Nb) Niobium Gas is a rare metal.<br>This selection is in a Gaseous state."
+  },
+  "Oxygen": {
+    "name": "Oxygène",
+    "desc": "L'Oxygène (O<sub>2</sub>) est un gaz atomiquement léger et respirable, nécessaire pour rester en vie.<br>Il a tendance à s'élever au dessus des autres gaz."
+  },
+  "CobaltGas": {
+    "name": "Gaz de Cobalt",
+    "desc": "Le cobalt (Co) est un métal raffiné qui, une fois chauffé, se transforme en gaz."
+  },
+  "SteelGas": {
+    "name": "Gaz d'Acier",
+    "desc": "Le gaz d'acier est un gaz métallique surchauffé qui est composé de fer et de carbone."
+  },
+  "ChlorineGas": {
+    "name": "Chlore Gazeux",
+    "desc": "Le Chlore (Cl) est un élément tueur de germes naturel à l'état gazeux."
+  },
+  "Hydrogen": {
+    "name": "Hydrogène Gazeux",
+    "desc": "L'Hydrogène gazeux (H) est l'élément chimique le plus commun dans l'univers à l'état gazeux."
+  },
+  "SourGas": {
+    "name": "Gaz Corrosif",
+    "desc": "Le gaz corrosif est un gaz hydrocarbure contenant des quantités importantes de sulfure d'hydrogène.<br>C'est un déchet issu du pétrole chauffé à haute température."
+  },
+  "Steam": {
+    "name": "Vapeur",
+    "desc": " La vapeur (H<sub>2</sub>O) est constituée d'eau qui a été chauffée pour atteindre un état gazeux."
+  },
+  "Methane": {
+    "name": "Gaz Naturel",
+    "desc": "Le gaz naturel est un mélange de plusieurs alcanes à l'état gazeux.<br>Il est utilisé pour la production d'énergie."
+  },
+  "GoldGas": {
+    "name": "Gaz d'Or",
+    "desc": "Le gaz d'or (Au) est un métal conducteur précieux qui a été chauffé pour passer à l'état gazeux."
+  },
+  "EthanolGas": {
+    "name": "Éthanol Gazeux",
+    "desc": "L'éthanol gazeux (C<sub>2</sub>H<sub>6</sub>O)  est un composé chimique avancé qui a été chauffé pour passer à l'état gazeux."
+  },
+  "RockGas": {
+    "name": "Gaz de Roche",
+    "desc": "Le gaz de roche est constitué de roche passée à l'état gazeux après avoir été surchauffée."
+  },
+  "CarbonGas": {
+    "name": "Gaz Carbonique",
+    "desc": "Le carbone (C) est un élément abondant et versatile qui a été chauffé pour passer à l'état gazeux."
+  },
+  "SuperCoolantGas": {
+    "name": "Super Refroidissant",
+    "desc": "Le super refroidissant est un refroidissant de qualité industrielle à base de fullerène.<br>Celui-ci est à l'état gazeux."
+  },
+  "AluminumGas": {
+    "name": "Gaz d'Aluminum",
+    "desc": "Le gaz d'aluminium (Al) est un métal qui a été chauffé pour passer à l'état gazeux."
+  },
+  "TungstenGas": {
+    "name": "Gaz de Tungstène",
+    "desc": "Le tungstène (W) est un métal cristallin surchauffé.<br>Celui-ci est à l'état gazeux."
+  },
+  "ContaminatedOxygen": {
+    "name": "Oxygène Pollué",
+    "desc": "L'oxygène pollué (O<sub>2</sub>) est sale et non filtré.<br>Il est respirable."
+  },
+  "LeadGas": {
+    "name": "Gaz de Plomb",
+    "desc": "Le gaz de plomb (Pb) est un métal raffiné tendre bien qu'extrêmement dense qui a été chauffé pour passer à l'état gazeux."
+  },
+  "Fallout": {
+    "name": "Retombées Radioactives",
+    "desc": "La retombée nucléaire est un gaz hautement toxique chargé en contaminants radioactifs. Elle se condense en déchet nucléaire."
+  },
+  "IronGas": {
+    "name": "Gaz de Fer",
+    "desc": "Le Gaz Fer (Fe) est un métal industriel commun qui a été chauffé pour atteindre un état gazeux."
+  },
+  "PhosphorusGas": {
+    "name": "Gaz de Phosphore",
+    "desc": "Le phosphore gazeux (P) est l'état gazeux du phosphore raffiné."
+  },
+  "CarbonDioxide": {
+    "name": "Dioxyde de Carbone",
+    "desc": "Dioxyde de carbone (CO<sub>2</sub>) toxique, un composé chimique atomiquement lourd dans un état gazeux.<br>Il a tendance à stagner sous les autres gaz."
+  },
+  "CopperGas": {
+    "name": "Gaz de Cuivre",
+    "desc": "Le gaz de cuivre (Cu) est un métal conducteur qui a été chauffé pour passer à l'état gazeux."
+  },
   "ClustercraftInteriorDoor": {
     "name": "écoutille intérieure",
     "desc": "Une écoutille pour entrer et sortir de la fusée."
+  },
+  "RockComet": {
+    "name": "Météore rocheux",
+    "desc": "Météore rocheux"
+  },
+  "ArtifactSpacePOI_GravitasSpaceStation1": {
+    "name": "Satellite détruit",
+    "desc": "Les vestiges d'une époque lointaine.<br>La récolte de débris spatiaux nécessite d'utiliser une fusée équipée d'une coiffe perforante."
+  },
+  "ArtifactSpacePOI_GravitasSpaceStation2": {
+    "name": "Fusée démolie",
+    "desc": "Les vestige d'une fusée appartenant à une entreprise disparue depuis longtemps.<br>La récolte de débris spatiaux nécessite d'utiliser une fusée équipée d'une coiffe perforante."
+  },
+  "ArtifactSpacePOI_GravitasSpaceStation3": {
+    "name": "Fusée hors d'état",
+    "desc": "Les restes d'une fusée qui a cessé de fonctionner il y a bien longtemps.<br>La récolte de débris spatiaux nécessite d'utiliser une fusée équipée d'une coiffe perforante."
+  },
+  "ArtifactSpacePOI_GravitasSpaceStation4": {
+    "name": "Module d'excursion planétaire déclassé",
+    "desc": "Un morceau de fusée venant d'une civilisation qui a été décimée.<br>La récolte de débris spatiaux nécessite d'utiliser une fusée équipée d'une coiffe perforante."
+  },
+  "ArtifactSpacePOI_GravitasSpaceStation5": {
+    "name": "Satellite Détruit",
+    "desc": "Un satellite de Gravitas détruit.<br>La récolte de débris spatiaux nécessite d'utiliser une fusée équipée d'une coiffe perforante."
+  },
+  "ArtifactSpacePOI_GravitasSpaceStation6": {
+    "name": "Satellite détruit",
+    "desc": "Les restes d'un satellite fabriqué il y a fort longtemps.<br>La récolte de débris spatiaux nécessite d'utiliser une fusée équipée d'une coiffe perforante."
+  },
+  "ArtifactSpacePOI_GravitasSpaceStation7": {
+    "name": "Épave de navette spatiale",
+    "desc": "Une navette spatiale défectueuse qui erre dans l'espace sans surveillance.<br>La récolte de débris spatiaux nécessite d'utiliser une fusée équipée d'une coiffe perforante."
+  },
+  "ArtifactSpacePOI_GravitasSpaceStation8": {
+    "name": "Module de Station Spatiale ancien",
+    "desc": "Le module d'une station spatiale qui n'existe plus depuis fort longtemps.<br>La récolte de débris spatiaux nécessite d'utiliser une fusée équipée d'une coiffe perforante."
+  },
+  "ArtifactSpacePOI_RussellsTeapot": {
+    "name": "Théière de Russell",
+    "desc": "Il n'est pas possible de prouver sa non-existence."
   },
   "artifact_sandstone": {
     "name": "Grès",
@@ -2121,7 +2149,7 @@
   },
   "artifact_obelisk": {
     "name": "Petite obélisque",
-    "desc": "Un morceau de roche rectangulaire.\n\nSa fonction n'est pas claire."
+    "desc": "Un morceau de roche rectangulaire.<br>Sa fonction n'est pas claire."
   },
   "artifact_okayxray": {
     "name": "Ancienne radiographie",
@@ -2213,7 +2241,7 @@
   },
   "artifact_rainboweggrock": {
     "name": "Caillou en forme d'œuf",
-    "desc": "Déterminer si sa forme est naturelle ou s'il a été sculpté n'est pas simple.\n\nCelui-ci est aux couleurs de l'arc en ciel."
+    "desc": "Déterminer si sa forme est naturelle ou s'il a été sculpté n'est pas simple.<br>Celui-ci est aux couleurs de l'arc en ciel."
   },
   "artifact_plasmalamp": {
     "name": "Lampe à plasma",
@@ -2234,10 +2262,6 @@
   "artifact_reactormodel": {
     "name": "Modèle de Centrale Électrique",
     "desc": "Ça se prononce nu-clé-aire."
-  },
-  "IntermediateRadPill": {
-    "name": "Pilule contre les radiations intermédiaires",
-    "desc": "Améliore le taux d'absorption naturelle des radiations par un Duplicant."
   },
   "IntermediateCure": {
     "name": "Pack médical",
@@ -2263,9 +2287,73 @@
     "name": "Antihistaminique",
     "desc": "Soulage et prévient les réactions allergiques."
   },
+  "IronComet": {
+    "name": "Météore ferreux",
+    "desc": "Météore ferreux"
+  },
+  "CopperCometConfig": {
+    "name": "Météore de cuivre",
+    "desc": "Météore de cuivre"
+  },
+  "GoldComet": {
+    "name": "Météore d'or",
+    "desc": "Météore d'or"
+  },
+  "FullereneComet": {
+    "name": "Météore de fullerène",
+    "desc": "Météore de fullerène"
+  },
+  "BleachStoneComet": {
+    "name": "Météores de roche chlorée",
+    "desc": "Météores de roche chlorée"
+  },
+  "OxyliteComet": {
+    "name": "Météore d'oxylite",
+    "desc": "Météore d'oxylite"
+  },
+  "PhosphoricComet": {
+    "name": "Météore phosphorique",
+    "desc": "Météore phosphorique"
+  },
+  "AlgaeComet": {
+    "name": "Météore d'algue",
+    "desc": "Météore d'algue"
+  },
+  "LightDustComet": {
+    "name": "Météore cotonneux de poussière",
+    "desc": "Météore cotonneux de poussière"
+  },
   "AdvancedCure": {
     "name": "Flacon de sérum",
     "desc": "Un traitement administré par un docteur pour traiter les affections sévères."
+  },
+  "HardIceComet": {
+    "name": "Météore de glace",
+    "desc": "Météore de glace"
+  },
+  "SlimeComet": {
+    "name": "Météore de vase",
+    "desc": "Météore de vase"
+  },
+  "UraniumComet": {
+    "name": "Météore d'uranium",
+    "desc": "Météore d'uranium"
+  },
+  "GassyMoo": {
+    "name": "Meutéore gazeux",
+    "desc": "Meutéore gazeux"
+  },
+  "NuclearWasteComet": {
+    "name": "Météore radioactif",
+    "desc": "Météore radioactif"
+  },
+  "DustComet": {
+    "name": "Météore de poussière",
+    "desc": "Météore de poussière"
+  },
+  "SnowballComet": {
+    "name": "Météore de neige",
+    "desc": "Météore de neige"
   },
   "LandingPod": {
     "name": "Nacelle de Déploiement du space-trotter",
@@ -2281,39 +2369,39 @@
   },
   "CompostWormBasicFruit": {
     "name": "Fruitver Chétif",
-    "desc": "Un Fruitver qui n'a pas réussi à se développer correctement.\n\nIl est néanmoins comestible et a un peu de goût."
+    "desc": "Un Fruitver qui n'a pas réussi à se développer correctement.<br>Il est néanmoins comestible et a un peu de goût."
   },
   "WormBasicFruit": {
     "name": "Fruitver Chétif",
-    "desc": "Un Fruitver qui n'a pas réussi à se développer correctement.\n\nIl est néanmoins comestible et a un peu de goût."
+    "desc": "Un Fruitver qui n'a pas réussi à se développer correctement.<br>Il est néanmoins comestible et a un peu de goût."
   },
   "CompostWormBasicFood": {
     "name": "Noix de Fruitver Grillée",
-    "desc": "Un Fruitver chétif grillé lentement.\n\nIl a un arôme fumé et son goût est agréable."
+    "desc": "Un Fruitver chétif grillé lentement.<br>Il a un arôme fumé et son goût est agréable."
   },
   "WormBasicFood": {
     "name": "Noix de Fruitver Grillée",
-    "desc": "Un Fruitver chétif grillé lentement.\n\nIl a un arôme fumé et son goût est agréable."
+    "desc": "Un Fruitver chétif grillé lentement.<br>Il a un arôme fumé et son goût est agréable."
   },
   "CompostTofu": {
     "name": "Tofu",
-    "desc": "Du tofu nature fait à partir de haricots.\n\nLa consistance est inhabituelle mais plaisante."
+    "desc": "Du tofu nature fait à partir de haricots.<br>La consistance est inhabituelle mais plaisante."
   },
   "Tofu": {
     "name": "Tofu",
-    "desc": "Du tofu nature fait à partir de haricots.\n\nLa consistance est inhabituelle mais plaisante."
+    "desc": "Du tofu nature fait à partir de haricots.<br>La consistance est inhabituelle mais plaisante."
   },
   "TableSalt": {
     "name": "Sel de table",
-    "desc": "Un assaisonnement que les Duplicants peuvent ajouter à leurs aliments pour améliorer leur moral.\n\nLes Duplicants utiliseront le sel de table automatiquement lorsqu'ils sont assis à une table d'hôte à l'heure du repas.\n\n<i>Seuls les meilleurs grains sont sélectionnés.</i>"
+    "desc": "Un assaisonnement que les Duplicants peuvent ajouter à leurs aliments pour améliorer leur moral.<br>Les Duplicants utiliseront le sel de table automatiquement lorsqu'ils sont assis à une table d'hôte à l'heure du repas.<br><i>Seuls les meilleurs grains sont sélectionnés.</i>"
   },
   "CompostSwampLilyFlower": {
     "name": "Fleur de Lys des Marais",
-    "desc": "Une plante médicinale qui apaise les maladies les plus mineures.\n\nSon parfum est exceptionnel."
+    "desc": "Une plante médicinale qui apaise les maladies les plus mineures.<br>Son parfum est exceptionnel."
   },
   "SwampLilyFlower": {
     "name": "Fleur de Lys des Marais",
-    "desc": "Une plante médicinale qui apaise les maladies les plus mineures.\n\nSon parfum est exceptionnel."
+    "desc": "Une plante médicinale qui apaise les maladies les plus mineures.<br>Son parfum est exceptionnel."
   },
   "CompostSwampFruit": {
     "name": "Gelée des Marais",
@@ -2325,47 +2413,47 @@
   },
   "CompostSwampDelights": {
     "name": "Délice Boueux",
-    "desc": "Des cubes gélatineux déshydratés issus de la gelée des marais.\n\nChaque cube a une texture moelleuse fantastique et est légèrement recouvert d'une poudre délicieuse."
+    "desc": "Des cubes gélatineux déshydratés issus de la gelée des marais.<br>Chaque cube a une texture moelleuse fantastique et est légèrement recouvert d'une poudre délicieuse."
   },
   "SwampDelights": {
     "name": "Délice Boueux",
-    "desc": "Des cubes gélatineux déshydratés issus de la gelée des marais.\n\nChaque cube a une texture moelleuse fantastique et est légèrement recouvert d'une poudre délicieuse."
+    "desc": "Des cubes gélatineux déshydratés issus de la gelée des marais.<br>Chaque cube a une texture moelleuse fantastique et est légèrement recouvert d'une poudre délicieuse."
   },
   "CompostWormSuperFood": {
     "name": "Conserve de Fruitver",
-    "desc": "Une marmelade de longue conservation à base de Grubfruits conservés dans le saccharose.\n\nLa marmelade épaisse et gluante garde l'aspect du réservoir lorsqu'on la sort, mais sa saveur douce est sans égale."
+    "desc": "Une marmelade de longue conservation à base de Grubfruits conservés dans le saccharose.<br>La marmelade épaisse et gluante garde l'aspect du réservoir lorsqu'on la sort, mais sa saveur douce est sans égale."
   },
   "WormSuperFood": {
     "name": "Conserve de Fruitver",
-    "desc": "Une marmelade de longue conservation à base de Grubfruits conservés dans le saccharose.\n\nLa marmelade épaisse et gluante garde l'aspect du réservoir lorsqu'on la sort, mais sa saveur douce est sans égale."
+    "desc": "Une marmelade de longue conservation à base de Grubfruits conservés dans le saccharose.<br>La marmelade épaisse et gluante garde l'aspect du réservoir lorsqu'on la sort, mais sa saveur douce est sans égale."
   },
   "DehydratedSurfAndTurf": {
     "name": "Surf'n'Turf déshydraté",
-    "desc": "Une portion de surf'n'turf déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.\n\nLes rations sèches n'ont pas de  date de péremption."
+    "desc": "Une portion de surf'n'turf déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
   },
   "DehydratedSpicyTofu": {
     "name": "Tofu Épicé déshydraté",
-    "desc": "Une portion de tofu épicé déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.\n\nLes rations sèches n'ont pas de  date de péremption."
+    "desc": "Une portion de tofu épicé déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
   },
   "CompostSpicyTofu": {
     "name": "Tofu Épicé",
-    "desc": "Du tofu mariné dans une sauce au poivre pincha.\n\nLe choc des saveurs le rend délicieux."
+    "desc": "Du tofu mariné dans une sauce au poivre pincha.<br>Le choc des saveurs le rend délicieux."
   },
   "SpicyTofu": {
     "name": "Tofu Épicé",
-    "desc": "Du tofu mariné dans une sauce au poivre pincha.\n\nLe choc des saveurs le rend délicieux."
+    "desc": "Du tofu mariné dans une sauce au poivre pincha.<br>Le choc des saveurs le rend délicieux."
   },
   "CompostSpiceNut": {
     "name": "Noix Poivrée Pincha",
-    "desc": "Toute la saveur du poivre pincha.\n\nLa coque amère dissimule un noyau riche et poivré, utilisé en cuisine."
+    "desc": "Toute la saveur du poivre pincha.<br>La coque amère dissimule un noyau riche et poivré, utilisé en cuisine."
   },
   "SpiceNut": {
     "name": "Noix Poivrée Pincha",
-    "desc": "Toute la saveur du poivre pincha.\n\nLa coque amère dissimule un noyau riche et poivré, utilisé en cuisine."
+    "desc": "Toute la saveur du poivre pincha.<br>La coque amère dissimule un noyau riche et poivré, utilisé en cuisine."
   },
   "DehydratedSpiceBread": {
     "name": "Pain au Poivre Déshydraté",
-    "desc": "Une portion de pain au poivre déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.\n\nLes rations sèches n'ont pas de  date de péremption."
+    "desc": "Une portion de pain au poivre déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
   },
   "CompostSpiceBread": {
     "name": "Pain au Poivre",
@@ -2385,15 +2473,15 @@
   },
   "DehydratedSalsa": {
     "name": "Baie Farcie Déshydratée",
-    "desc": "Une portion de baie farcie déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.\n\nLes rations sèches n'ont pas de  date de péremption."
+    "desc": "Une portion de baie farcie déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
   },
   "CompostSurfAndTurf": {
     "name": "Surf'n'Turf",
-    "desc": "Un peu de viande venant de la terre et un produit de la mer cuisiné.\n\nC'est copieux et satisfaisant."
+    "desc": "Un peu de viande venant de la terre et un produit de la mer cuisiné.<br>C'est copieux et satisfaisant."
   },
   "SurfAndTurf": {
     "name": "Surf'n'Turf",
-    "desc": "Un peu de viande venant de la terre et un produit de la mer cuisiné.\n\nC'est copieux et satisfaisant."
+    "desc": "Un peu de viande venant de la terre et un produit de la mer cuisiné.<br>C'est copieux et satisfaisant."
   },
   "CompostWormSuperFruit": {
     "name": "Fruitver",
@@ -2413,7 +2501,7 @@
   },
   "PowerStationTools": {
     "name": "Micro-Puce",
-    "desc": "Une Micro-Puce spécialisée, créée par un ingénieur professionnel.\n\nAméliore les générateurs pour augmenter l'énergie en sortie."
+    "desc": "Une Micro-Puce spécialisée, créée par un ingénieur professionnel.<br>Améliore les générateurs pour augmenter l'énergie en sortie."
   },
   "OrbitalResearchDatabank": {
     "name": "Banque de Données",
@@ -2421,11 +2509,11 @@
   },
   "MachineParts": {
     "name": "Pièces Personnalisées",
-    "desc": "Pièces spécialisées fabriquées par un ingénieur professionnel.\n\nAméliore les machines pour augmenter leur potentiel."
+    "desc": "Pièces spécialisées fabriquées par un ingénieur professionnel.<br>Améliore les machines pour augmenter leur potentiel."
   },
   "FarmStationTools": {
     "name": "Engrais à base de micronutriments",
-    "desc": "Un engrais spécialisé, mélangé par un Duplicant possédant la compétence entretien des cultures.\n\nAugmente le taux de croissance d'une plante."
+    "desc": "Un engrais spécialisé, mélangé par un Duplicant possédant la compétence entretien des cultures.<br>Augmente le taux de croissance d'une plante."
   },
   "CompostEggShell": {
     "name": "Coquille d'œuf",
@@ -2437,7 +2525,7 @@
   },
   "DreamJournal": {
     "name": "Journal de Rêve",
-    "desc": "La retranscription d'un rêve provoqué par le port d'un pyjama.\n\nPeut être analysée à l'aide du synthétiseur somnium."
+    "desc": "La retranscription d'un rêve provoqué par le port d'un pyjama.<br>Peut être analysée à l'aide du synthétiseur somnium."
   },
   "FoodSplat": {
     "name": "Éclaboussure de Nourriture",
@@ -2469,19 +2557,19 @@
   },
   "GeneShuffler": {
     "name": "Vacillateur Neuronal",
-    "desc": "Un cerveau synthétique volumineux qui baigne dans une solution saline.\n\nIl y a une chaise fixée à l'appareil et de la place pour une personne."
+    "desc": "Un cerveau synthétique volumineux qui baigne dans une solution saline.<br>Il y a une chaise fixée à l'appareil et de la place pour une personne."
   },
   "FossilRock": {
     "name": "Fossile Pétrifié",
-    "desc": "Les restes partiels et bien conservés d'une créature d'origine inconnue.\n\nIls semblent appartenir au même spécimen ancien trouvé sur un autre site.\n\nCe fragment a été conservé dans la terre pétrifiée."
+    "desc": "Les restes partiels et bien conservés d'une créature d'origine inconnue.<br>Ils semblent appartenir au même spécimen ancien trouvé sur un autre site.<br>Ce fragment a été conservé dans la terre pétrifiée."
   },
   "FossilResin": {
     "name": "Fossile d'ambre",
-    "desc": "Les restes partiels et bien conservés d'une créature d'origine inconnue.\n\nIls semblent appartenir au même spécimen ancien trouvé sur un autre site.\n\nCe fragment a été conservé dans une subtance résineuse."
+    "desc": "Les restes partiels et bien conservés d'une créature d'origine inconnue.<br>Ils semblent appartenir au même spécimen ancien trouvé sur un autre site.<br>Ce fragment a été conservé dans une subtance résineuse."
   },
   "FossilIce": {
     "name": "Fossile Gelé",
-    "desc": "Les restes partiels et bien conservés d'une créature d'origine inconnue.\n\nIls semblent appartenir au même spécimen ancien trouvé sur un autre site.\n\nCe fragment a été conservé dans la glace."
+    "desc": "Les restes partiels et bien conservés d'une créature d'origine inconnue.<br>Ils semblent appartenir au même spécimen ancien trouvé sur un autre site.<br>Ce fragment a été conservé dans la glace."
   },
   "FossilBitsSmall": {
     "name": "Fragments de Fossile",
@@ -2501,7 +2589,7 @@
   },
   "PropGravitasLabTable": {
     "name": "Paillasse de labo",
-    "desc": "Le bureau d'un technicien de labo aujourd'hui disparu.\n\nPeut-être que l'ordinateur contient quelque chose d'intéressant."
+    "desc": "Le bureau d'un technicien de labo aujourd'hui disparu.<br>Peut-être que l'ordinateur contient quelque chose d'intéressant."
   },
   "PropGravitasJar2": {
     "name": "Bocal d'échantillon",
@@ -2513,7 +2601,7 @@
   },
   "PropGravitasHandScanner": {
     "name": "Scanner Manuel",
-    "desc": "Une interface de sécurité sophistiquée.\n\nVisiblement, elle n'utilise pas les empreintes digitales pour vérifier l'identité d'un individu."
+    "desc": "Une interface de sécurité sophistiquée.<br>Visiblement, elle n'utilise pas les empreintes digitales pour vérifier l'identité d'un individu."
   },
   "PropGravitasFloorRobot": {
     "name": "Bras Robotique",
@@ -2525,7 +2613,7 @@
   },
   "PropGravitasDisplay4": {
     "name": "Afficheur Électronique",
-    "desc": "Un afficheur électronique projetant le schéma d'un appareil robotisé.\n\nCela ressemble à un robot suspendu."
+    "desc": "Un afficheur électronique projetant le schéma d'un appareil robotisé.<br>Cela ressemble à un robot suspendu."
   },
   "PropGravitasRobitcTable": {
     "name": "Bureau de Recherche Robotique",
@@ -2533,11 +2621,11 @@
   },
   "PropGravitasDeskPodium": {
     "name": "Présentoir pour Ordinateur",
-    "desc": "Un bureau parfaitement ordonné pour éviter toute distraction.\n\nIl semble y avoir quelque chose de stocké dans l'ordinateur."
+    "desc": "Un bureau parfaitement ordonné pour éviter toute distraction.<br>Il semble y avoir quelque chose de stocké dans l'ordinateur."
   },
   "PropGravitasCreaturePoster": {
     "name": "Affiche d'anatomie",
-    "desc": "L'illustration anatomique du tout premier glouton jamais produit.\n\nBien que le rapport entre le sac d'œufs et le cerveau puisse sembler bizarre, il est en fait à l'échelle."
+    "desc": "L'illustration anatomique du tout premier glouton jamais produit.<br>Bien que le rapport entre le sac d'œufs et le cerveau puisse sembler bizarre, il est en fait à l'échelle."
   },
   "PropGravitasCeilingRobot": {
     "name": "Robot Suspendu",
@@ -2553,15 +2641,15 @@
   },
   "PropFacilityStatue": {
     "name": "Monument Gravitas",
-    "desc": "Une grande sculpture moderne qui trône au milieu du complexe.\n\nC'est un croisement artistique entre un sablier et une double hélice."
+    "desc": "Une grande sculpture moderne qui trône au milieu du complexe.<br>C'est un croisement artistique entre un sablier et une double hélice."
   },
   "PropFacilityPainting": {
     "name": "Un paysage",
-    "desc": "Une peinture mettant en scène un bosquet de sapins et une montagne magnifique à l'horizon.\n\nL'air dans la pièce picote et donne la sensation que je ne suis pas sensé être ici."
+    "desc": "Une peinture mettant en scène un bosquet de sapins et une montagne magnifique à l'horizon.<br>L'air dans la pièce picote et donne la sensation que je ne suis pas sensé être ici."
   },
   "PropFacilityHangingLight": {
     "name": "Luminaire",
-    "desc": "Un grand luminaire qui pend du plafond.\n\nIl n'a pas l'air de fonctionner."
+    "desc": "Un grand luminaire qui pend du plafond.<br>Il n'a pas l'air de fonctionner."
   },
   "PropGravitasDecorativeWindow": {
     "name": "Fenêtre",
@@ -2569,7 +2657,7 @@
   },
   "PropFacilityGlobeDroors": {
     "name": "Classeur à tiroirs",
-    "desc": "Un classeur à tiroir pour conserver des copies papiers des dossiers sur les employés.\n\nCe qu'il contenait a été détruit."
+    "desc": "Un classeur à tiroir pour conserver des copies papiers des dossiers sur les employés.<br>Ce qu'il contenait a été détruit."
   },
   "PropGravitasShelf": {
     "name": "Étagère",
@@ -2577,15 +2665,15 @@
   },
   "PropReceptionDesk": {
     "name": "Guichet d'accueil",
-    "desc": "Une tasse de café pleine et une note abandonnée au milieu d'une phrase se trouvent derrière le bureau.\n\nÇa me donne une impression étrange, comme si le réceptionniste s'était absenté et allait revenir à n'importe quel moment."
+    "desc": "Une tasse de café pleine et une note abandonnée au milieu d'une phrase se trouvent derrière le bureau.<br>Ça me donne une impression étrange, comme si le réceptionniste s'était absenté et allait revenir à n'importe quel moment."
   },
   "WarpReceiver": {
     "name": "Réceptacle de Téléporteur",
-    "desc": "Les vestiges encore fonctionnels de ce qui fut un système de téléportation complexe.\n\nCeci est le côté entrant."
+    "desc": "Les vestiges encore fonctionnels de ce qui fut un système de téléportation complexe.<br>Ceci est le côté entrant."
   },
   "WarpPortal": {
     "name": "Transmetteur de Téléporteur",
-    "desc": "Les vestiges encore fonctionnels de ce qui fut un système de téléportation complexe.\n\nCeci est le côté sortant et possède une destination pré-programmée."
+    "desc": "Les vestiges encore fonctionnels de ce qui fut un système de téléportation complexe.<br>Ceci est le côté sortant et possède une destination pré-programmée."
   },
   "StickerBomb": {
     "name": "Sticker Bombe",
@@ -2597,15 +2685,15 @@
   },
   "SetLocker": {
     "name": "Casier",
-    "desc": "Un casier basique en métal.\n\nIl contient un assortiment d'effets personnels."
+    "desc": "Un casier basique en métal.<br>Il contient un assortiment d'effets personnels."
   },
   "PropGravitasSmallSeedLocker": {
     "name": "Armoire suspendue",
-    "desc": "Une petite armoire en verre.\n\nIl y a un symbole avertissant d'un danger biologique sur celle-ci."
+    "desc": "Une petite armoire en verre.<br>Il y a un symbole avertissant d'un danger biologique sur celle-ci."
   },
   "CryoTank": {
     "name": "Cryocuve 3000",
-    "desc": "Le réservoir semble terriblement vieux, mais il sent pourtant encore le neuf.\n\nUne silhouette est à peine visible à travers la glace sur la vitre."
+    "desc": "Le réservoir semble terriblement vieux, mais il sent pourtant encore le neuf.<br>Une silhouette est à peine visible à travers la glace sur la vitre."
   },
   "PropLight": {
     "name": "Luminaire",
@@ -2617,7 +2705,7 @@
   },
   "RailGunPayload": {
     "name": "Chargement Interplanétaire",
-    "desc": "Contient des ressources empaquetées destinées à l'envoi interstellaire.\n\nPeut être expédié par unlanceur interplanétaire ou déballé à l'aide d'un ouvre-conteneur."
+    "desc": "Contient des ressources empaquetées destinées à l'envoi interstellaire.<br>Peut être expédié par unlanceur interplanétaire ou déballé à l'aide d'un ouvre-conteneur."
   },
   "PropTallPlant": {
     "name": "Plante de bureau",
@@ -2641,11 +2729,11 @@
   },
   "PropSkeleton": {
     "name": "Modèle de squelette",
-    "desc": "Un modèle anatomique détaillé.\n\nIl semble être fait en résine."
+    "desc": "Un modèle anatomique détaillé.<br>Il semble être fait en résine."
   },
   "SweepBot": {
     "name": "Sweepy",
-    "desc": "Un robot nettoyeur automatisé.\n\nRamasse les débris solides et les résidus liquides puis stocke les matériaux dans sa base."
+    "desc": "Un robot nettoyeur automatisé.<br>Ramasse les débris solides et les résidus liquides puis stocke les matériaux dans sa base."
   },
   "CompostSalsa": {
     "name": "Baie Farcie",
@@ -2657,15 +2745,15 @@
   },
   "PropFacilityDisplay": {
     "name": "Afficheur électronique",
-    "desc": "Un afficheur électronique projetant le schéma d'une machine familière.\n\nCela ressemble à une station d'impression."
+    "desc": "Un afficheur électronique projetant le schéma d'une machine familière.<br>Cela ressemble à une station d'impression."
   },
   "PropFacilityDisplay2": {
     "name": "Afficheur électronique",
-    "desc": "Un afficheur électronique projetant le schéma d'un appareil familier.\n\nCela ressemble à un pistolet de minage."
+    "desc": "Un afficheur électronique projetant le schéma d'un appareil familier.<br>Cela ressemble à un pistolet de minage."
   },
   "MissileBasic": {
     "name": "Missile Explosif",
-    "desc": "Un projectile explosif conçu pour se défendre contre les pluies de météores.\n\nDoit être lancée par un Atomiseur de Météore."
+    "desc": "Un projectile explosif conçu pour se défendre contre les pluies de météores.<br>Doit être lancée par un Atomiseur de Météore."
   },
   "keepsake_megabrain": {
     "name": "Modèle d'avion",
@@ -2673,7 +2761,7 @@
   },
   "keepsake_crittermanipulator": {
     "name": "Morb Céramique",
-    "desc": "Un projet de poterie réalisé pendant un cours d'art-thérapie imposé par les ressources humaines.\n\nElle est recouverte d'une substance qui a déjà conduit un technicien de laboratoire trop curieux aux aux urgences."
+    "desc": "Un projet de poterie réalisé pendant un cours d'art-thérapie imposé par les ressources humaines.<br>Elle est recouverte d'une substance qui a déjà conduit un technicien de laboratoire trop curieux aux aux urgences."
   },
   "keepsake_lonelyminion": {
     "name": "Boîte à outils rouillée",
@@ -2681,15 +2769,99 @@
   },
   "keepsake_fossilhunt": {
     "name": "Collier pour Créature",
-    "desc": "L'étiquette indique \"Molly\".\n\nAu verso, on peut lire \"Conçu par B363\" au-dessus de ce qui semble être une empreinte de patte de forme inhabituelle."
+    "desc": "L'étiquette indique \"Molly\".<br>Au verso, on peut lire \"Conçu par B363\" au-dessus de ce qui semble être une empreinte de patte de forme inhabituelle."
   },
   "keepsake_morbrovermaker": {
     "name": "Robot Jouet",
-    "desc": "Un bio-robot personnalisé et programmé pour faire des blagues en prenant la voix de célébrités.\n\nIl sert aussi de déchiqueteur à papier."
+    "desc": "Un bio-robot personnalisé et programmé pour faire des blagues en prenant la voix de célébrités.<br>Il sert aussi de déchiqueteur à papier."
   },
-  "HeatCube": {
-    "name": "Heat Cube",
-    "desc": "A cube that holds heat."
+  "HarvestableSpacePOI_MetallicAsteroidField": {
+    "name": "Champ d'astéroïdes métalliques",
+    "desc": "Un champ d'astéroïdes composé de fer, de cuivre et d'obsidienne.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_SatelliteField": {
+    "name": "Débris Spatial",
+    "desc": "Un débris spatial venant de temps oubliés.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_RockyAsteroidField": {
+    "name": "Champ d'astéroïdes rocheux",
+    "desc": "Un champ d'astéroïdes composés de minerai de cuivre, de roche sédimentaire et de roche ignée.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_InterstellarIceField": {
+    "name": "Champ d'astéroïdes de glace",
+    "desc": "Un champ d'astéroïdes composé de glace, de dioxyde de carbone et d'oxygène.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_OrganicMassField": {
+    "name": "Amas Organique",
+    "desc": "Un amas de ressources collectibles composé d'algue, de vase, d'oxygène polluée et de terre.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_IceAsteroidField": {
+    "name": "Géante de glace morcelée",
+    "desc": "Un nuage de débris planétaires composé de glace, de dioxyde de carbone, d'oxygène et de méthane.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_GasGiantCloud": {
+    "name": "Géante Gazeuse morcelée",
+    "desc": "Les reste d'une planète contenant de l'hydrogène à l'état gazeux et du méthane à l'état  solide et liquide.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_ChlorineCloud": {
+    "name": "Nuage de chlore",
+    "desc": "Un nuage de débris récoltables composé de chlore gazeux et de roche chlorée.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_GildedAsteroidField": {
+    "name": "Champs d'astéroïdes dorés",
+    "desc": "Un champ d'astéroïdes composé d'or, fullerène, de régolithe et d'autres choses.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_GlimmeringAsteroidField": {
+    "name": "Champs d'astéroïdes scintillants",
+    "desc": "Un champ d'astéroïdes composé de tungstène, de wolframite et d'autres choses.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_HeliumCloud": {
+    "name": "Nuage d'hélium",
+    "desc": "Un nuage de ressources composé d'eau et d'hydrogène.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_OilyAsteroidField": {
+    "name": "Champ d'astéroïdes pétrolifères",
+    "desc": "Un champ d'astéroïdes composé de méthane solide, de dioxyde de carbone et de pétrole brut.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_OxidizedAsteroidField": {
+    "name": "Champs d'astéroïdes oxydés",
+    "desc": "Un champ d'astéroïdes composé de dioxyde de carbone et de rouille.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_SaltyAsteroidField": {
+    "name": "Champs d'astéroïdes salins",
+    "desc": "Un amas de ressources collectibles composé d'eau salée, de saumure et de dioxyde de carbone.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_FrozenOreField": {
+    "name": "Champs d'astéroïdes gelés",
+    "desc": "Un champ d'astéroïdes composé de glace polluée, glace, neige et minerai d'aluminum.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_ForestyOreField": {
+    "name": "Champs de minerai boisé",
+    "desc": "Un amas de ressources collectibles composé de dioxyde de carbone, de roche ignée et de minerai d'aluminium.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_SwampyOreField": {
+    "name": "Champs de minerai marécageux",
+    "desc": "Un champ d'astéroïdes composé de boue, de terre polluée et de minerai de cobalt.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_SandyOreField": {
+    "name": "Champs de minerai sablonneux",
+    "desc": "Un champ d'astéroïdes composé de grès, d'algue, de minerai de cuivre et de sable.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_RadioactiveGasCloud": {
+    "name": "Nuage de gaz radioactif",
+    "desc": "Un nuage de ressources composé de chlore gazeux, de minerai d'uranium et de dioxyde de carbone.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_RadioactiveAsteroidField": {
+    "name": "Champ d'astéroïdes radioactifs",
+    "desc": "Un champ d'astéroïdes composé de roche chlorée, de rouille, de minerai d'uranium et de sulfure.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_OxygenRichAsteroidField": {
+    "name": "Champs d'astéroïdes riches en oxygène",
+    "desc": "Un champ d'astéroïdes composé de glace, d'oxygène pollué et d'eau.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+  },
+  "HarvestableSpacePOI_InterstellarOcean": {
+    "name": "Océan interstellaire",
+    "desc": "Un corps interplanétaire composé d'eau salée, de saumure, de sel et de glace.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
   },
   "GeneShufflerRecharge": {
     "name": "Recharge de vacillateur",
@@ -2697,11 +2869,11 @@
   },
   "PropFacilityDisplay3": {
     "name": "Afficheur électronique",
-    "desc": "Un afficheur électronique projetant le schéma d'une étrange machine.\n\nPeut-être que ces afficheurs étaient utilisés pour séduire les visiteurs."
+    "desc": "Un afficheur électronique projetant le schéma d'une étrange machine.<br>Peut-être que ces afficheurs étaient utilisés pour séduire les visiteurs."
   },
   "PropFacilityDesk": {
     "name": "Bureau de direction",
-    "desc": "Un bureau immaculé recouvert de fournitures de bureau rangées impeccablement.\n\nUne photo dépasse du sous-main, représentant deux jeunes femmes rayonnantes portant des blouses et des bonnets.\n\nLa photo est vieille."
+    "desc": "Un bureau immaculé recouvert de fournitures de bureau rangées impeccablement.<br>Une photo dépasse du sous-main, représentant deux jeunes femmes rayonnantes portant des blouses et des bonnets.<br>La photo est vieille."
   },
   "PropFacilityCouch": {
     "name": "Canapé",
@@ -2709,7 +2881,7 @@
   },
   "PropFacilityChandelier": {
     "name": "Lustre",
-    "desc": "Un lustre imposant qui pend du plafond.\n\nIl n'a pas l'air de fonctionner."
+    "desc": "Un lustre imposant qui pend du plafond.<br>Il n'a pas l'air de fonctionner."
   },
   "PropFacilityChairFlip": {
     "name": "Fauteuil de bureau",
@@ -2721,7 +2893,7 @@
   },
   "PropElevator": {
     "name": "Ascenseur cassé",
-    "desc": "Hors-service.\n\nLes boutons à l'intérieur indiquent qu'il est descendu de plus d'une douzaine d'étages à un certain moment."
+    "desc": "Hors-service.<br>Les boutons à l'intérieur indiquent qu'il est descendu de plus d'une douzaine d'étages à un certain moment."
   },
   "PropDesk": {
     "name": "Bureau d'ordinateur",
@@ -2729,7 +2901,7 @@
   },
   "PropClock": {
     "name": "Horloge",
-    "desc": "Une horloge murale simple.\n\nElle ne tourne plus."
+    "desc": "Une horloge murale simple.<br>Elle ne tourne plus."
   },
   "PioneerLander": {
     "name": "Capsule de Pionnier",
@@ -2737,43 +2909,43 @@
   },
   "RotPile": {
     "name": "Pile de pourriture",
-    "desc": "Une bouillie non comestible de ce qui fut autrefois de la nourriture.\n\nLes piles de pourriture se transforment en terre polluée au fil du temps."
+    "desc": "Une bouillie non comestible de ce qui fut autrefois de la nourriture.<br>Les piles de pourriture se transforment en terre polluée au fil du temps."
   },
   "CompostRawEgg": {
     "name": "Œuf Cru",
-    "desc": "Un œuf cru qui a été cassé pour être utilisé dans une préparation culinaire\n\nIl n'éclora jamais."
+    "desc": "Un œuf cru qui a été cassé pour être utilisé dans une préparation culinaire<br>Il n'éclora jamais."
   },
   "RawEgg": {
     "name": "Œuf Cru",
-    "desc": "Un œuf cru qui a été cassé pour être utilisé dans une préparation culinaire\n\nIl n'éclora jamais."
+    "desc": "Un œuf cru qui a été cassé pour être utilisé dans une préparation culinaire<br>Il n'éclora jamais."
   },
   "DehydratedQuiche": {
     "name": "Quiche aux Champignons Déshydratée",
-    "desc": "Une portion de quiche aux champignons déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.\n\nLes rations sèches n'ont pas de  date de péremption."
+    "desc": "Une portion de quiche aux champignons déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
   },
   "SquirrelEgg": {
     "name": "Œuf de Pip",
-    "desc": "Les pips sont de petites créatures espiègles et pacifiques qui vivent près des roseaux et dans les branches d'arbors.\n\nIls sont connus pour enterrer des graines dans le sol s'ils trouvent une zone propice avec suffisamment d'espace."
+    "desc": "Les pips sont de petites créatures espiègles et pacifiques qui vivent près des roseaux et dans les branches d'arbors.<br>Ils sont connus pour enterrer des graines dans le sol s'ils trouvent une zone propice avec suffisamment d'espace."
   },
   "Squirrel": {
     "name": "Pip",
-    "desc": "Les pips sont de petites créatures espiègles et pacifiques qui vivent près des roseaux et dans les branches d'arbors.\n\nIls sont connus pour enterrer des graines dans le sol s'ils trouvent une zone propice avec suffisamment d'espace."
+    "desc": "Les pips sont de petites créatures espiègles et pacifiques qui vivent près des roseaux et dans les branches d'arbors.<br>Ils sont connus pour enterrer des graines dans le sol s'ils trouvent une zone propice avec suffisamment d'espace."
   },
   "SquirrelHugEgg": {
     "name": "Œuf de Pip Cajoleur",
-    "desc": "Les pips cajoleurs sont des créatures douces et affectueuses qui aiment câliner tous les types d'œufs instinctivement.\n\nLe phénomène est amplifié temporairement lorsqu'ils sont étreints par un Duplicant de passage."
+    "desc": "Les pips cajoleurs sont des créatures douces et affectueuses qui aiment câliner tous les types d'œufs instinctivement.<br>Le phénomène est amplifié temporairement lorsqu'ils sont étreints par un Duplicant de passage."
   },
   "SquirrelHug": {
     "name": "Pip Cajoleur",
-    "desc": "Les pips cajoleurs sont des créatures douces et affectueuses qui aiment câliner tous les types d'œufs instinctivement.\n\nLe phénomène est amplifié temporairement lorsqu'ils sont étreints par un Duplicant de passage."
+    "desc": "Les pips cajoleurs sont des créatures douces et affectueuses qui aiment câliner tous les types d'œufs instinctivement.<br>Le phénomène est amplifié temporairement lorsqu'ils sont étreints par un Duplicant de passage."
   },
   "StaterpillarEgg": {
     "name": "Œuf de Limace",
-    "desc": "Les électrolimaces sont des créatures dynamiques qui génèrent de l'énergie électrique pendant la nuit.\n\nLeur énergie peut être canalisée en laissant un fil exposé près des zones où elles aiment dormir."
+    "desc": "Les électrolimaces sont des créatures dynamiques qui génèrent de l'énergie électrique pendant la nuit.<br>Leur énergie peut être canalisée en laissant un fil exposé près des zones où elles aiment dormir."
   },
   "Staterpillar": {
     "name": "Électrolimace",
-    "desc": "Les électrolimaces sont des créatures dynamiques qui génèrent de l'énergie électrique pendant la nuit.\n\nLeur énergie peut être canalisée en laissant un fil exposé près des zones où elles aiment dormir."
+    "desc": "Les électrolimaces sont des créatures dynamiques qui génèrent de l'énergie électrique pendant la nuit.<br>Leur énergie peut être canalisée en laissant un fil exposé près des zones où elles aiment dormir."
   },
   "HighEnergyParticle": {
     "name": "Radbolts",
@@ -2781,11 +2953,11 @@
   },
   "StaterpillarLiquidEgg": {
     "name": "Œuf de Limace Éponge",
-    "desc": "Les limaces éponges sont des créatures assoiffées qui stockent des liquides au cours de la journée.\n\nElles déposent les liquides dans les canalisations à côté desquelles elles dorment la nuit."
+    "desc": "Les limaces éponges sont des créatures assoiffées qui stockent des liquides au cours de la journée.<br>Elles déposent les liquides dans les canalisations à côté desquelles elles dorment la nuit."
   },
   "StaterpillarLiquid": {
     "name": "Limace Éponge",
-    "desc": "Les limaces éponges sont des créatures assoiffées qui stockent des liquides au cours de la journée.\n\nElles déposent les liquides dans les canalisations à côté desquelles elles dorment la nuit."
+    "desc": "Les limaces éponges sont des créatures assoiffées qui stockent des liquides au cours de la journée.<br>Elles déposent les liquides dans les canalisations à côté desquelles elles dorment la nuit."
   },
   "BasicFabric": {
     "name": "Fibre de roseau",
@@ -2793,11 +2965,11 @@
   },
   "CompostBasicFabricMaterialPlantSeed": {
     "name": "Graine de Roseau",
-    "desc": "Une graine de roseau.\n\nDéterrer des objets peut révéler une graine de roseau."
+    "desc": "Une graine de roseau.<br>Déterrer des objets peut révéler une graine de roseau."
   },
   "BasicFabricMaterialPlantSeed": {
     "name": "Graine de Roseau",
-    "desc": "Une graine de roseau.\n\nDéterrer des objets peut révéler une graine de roseau."
+    "desc": "Une graine de roseau.<br>Déterrer des objets peut révéler une graine de roseau."
   },
   "BasicFabricPlant": {
     "name": "Roseau",
@@ -2805,7 +2977,7 @@
   },
   "BasicForagePlant": {
     "name": "Tubercule Boueux",
-    "desc": "Un fruit sans pépins avec un arrière-goût fade.\nIl ne peut pas être replanté.\n\nDéterrer des objets enfouis peut mettre au jour un tubercule boueux."
+    "desc": "Un fruit sans pépins avec un arrière-goût fade.<br>Il ne peut pas être replanté.<br>Déterrer des objets enfouis peut mettre au jour un tubercule boueux."
   },
   "BasicForagePlantPlanted": {
     "name": "Tubercule Boueux",
@@ -2813,11 +2985,11 @@
   },
   "CompostBasicSingleHarvestPlantSeed": {
     "name": "Graine d'Arbre à Poux",
-    "desc": "Une graine d'arbre à poux.\n\nDéterrer des objets peut révéler une graine d'arbre à poux."
+    "desc": "Une graine d'arbre à poux.<br>Déterrer des objets peut révéler une graine d'arbre à poux."
   },
   "BasicSingleHarvestPlantSeed": {
     "name": "Graine d'Arbre à Poux",
-    "desc": "Une graine d'arbre à poux.\n\nDéterrer des objets peut révéler une graine d'arbre à poux."
+    "desc": "Une graine d'arbre à poux.<br>Déterrer des objets peut révéler une graine d'arbre à poux."
   },
   "BasicSingleHarvestPlant": {
     "name": "Arbre à Poux",
@@ -2825,11 +2997,11 @@
   },
   "CompostBeanPlantSeed": {
     "name": "Haricot",
-    "desc": "Une graine d'haricot.\n\nDéterrer des objets peut révéler un haricot."
+    "desc": "Une graine d'haricot.<br>Déterrer des objets peut révéler un haricot."
   },
   "BeanPlantSeed": {
     "name": "Haricot",
-    "desc": "Une graine d'haricot.\n\nDéterrer des objets peut révéler un haricot."
+    "desc": "Une graine d'haricot.<br>Déterrer des objets peut révéler un haricot."
   },
   "BeanPlant": {
     "name": "Haricot",
@@ -2837,11 +3009,11 @@
   },
   "CompostCactusPlantSeed": {
     "name": "Graine de Joya",
-    "desc": "Une graine de joya sauteur.\n\nDéterrer des objets peut révéler une graine de joya."
+    "desc": "Une graine de joya sauteur.<br>Déterrer des objets peut révéler une graine de joya."
   },
   "CactusPlantSeed": {
     "name": "Graine de Joya",
-    "desc": "Une graine de joya sauteur.\n\nDéterrer des objets peut révéler une graine de joya."
+    "desc": "Une graine de joya sauteur.<br>Déterrer des objets peut révéler une graine de joya."
   },
   "CactusPlant": {
     "name": "Joya Sauteur",
@@ -2849,11 +3021,11 @@
   },
   "CompostColdBreatherSeed": {
     "name": "Graine de Plante Sifflante",
-    "desc": "Une graine de plante sifflante.\n\nDéterrer des objets peut révéler une graine de plante sifflante."
+    "desc": "Une graine de plante sifflante.<br>Déterrer des objets peut révéler une graine de plante sifflante."
   },
   "ColdBreatherSeed": {
     "name": "Graine de Plante Sifflante",
-    "desc": "Une graine de plante sifflante.\n\nDéterrer des objets peut révéler une graine de plante sifflante."
+    "desc": "Une graine de plante sifflante.<br>Déterrer des objets peut révéler une graine de plante sifflante."
   },
   "ColdBreather": {
     "name": "Plante Sifflante",
@@ -2861,11 +3033,11 @@
   },
   "CompostColdWheatSeed": {
     "name": "Grain de Blé Grêle",
-    "desc": "Un Grain de blé grêle.\n\nLe grain peut être semé pour cultiver davantage de blé grêle ou être transformé en nourriture."
+    "desc": "Un Grain de blé grêle.<br>Le grain peut être semé pour cultiver davantage de blé grêle ou être transformé en nourriture."
   },
   "ColdWheatSeed": {
     "name": "Grain de Blé Grêle",
-    "desc": "Un Grain de blé grêle.\n\nLe grain peut être semé pour cultiver davantage de blé grêle ou être transformé en nourriture."
+    "desc": "Un Grain de blé grêle.<br>Le grain peut être semé pour cultiver davantage de blé grêle ou être transformé en nourriture."
   },
   "ColdWheat": {
     "name": "Blé Grêle",
@@ -2873,11 +3045,11 @@
   },
   "CompostCritterTrapPlantSeed": {
     "name": "Graine de Piège de Saturne",
-    "desc": "La graine d'un piège de saturne.\n\nDéterrer des objets peut révéler une graine de piège de saturne."
+    "desc": "La graine d'un piège de saturne.<br>Déterrer des objets peut révéler une graine de piège de saturne."
   },
   "CritterTrapPlantSeed": {
     "name": "Graine de Piège de Saturne",
-    "desc": "La graine d'un piège de saturne.\n\nDéterrer des objets peut révéler une graine de piège de saturne."
+    "desc": "La graine d'un piège de saturne.<br>Déterrer des objets peut révéler une graine de piège de saturne."
   },
   "CritterTrapPlant": {
     "name": "Piège de Saturne",
@@ -2885,11 +3057,11 @@
   },
   "CompostCylindricaSeed": {
     "name": "Graine d'éclat de joie",
-    "desc": "Une graine d'éclat de joie.\n\nDéterrer des objets peut révéler une graine d'éclat de joie."
+    "desc": "Une graine d'éclat de joie.<br>Déterrer des objets peut révéler une graine d'éclat de joie."
   },
   "CylindricaSeed": {
     "name": "Graine d'éclat de joie",
-    "desc": "Une graine d'éclat de joie.\n\nDéterrer des objets peut révéler une graine d'éclat de joie."
+    "desc": "Une graine d'éclat de joie.<br>Déterrer des objets peut révéler une graine d'éclat de joie."
   },
   "Cylindrica": {
     "name": "Éclat de Joie",
@@ -2897,11 +3069,11 @@
   },
   "CompostEvilFlowerSeed": {
     "name": "Graine de Sporchidée",
-    "desc": "Une graine de sporchidée.\n\nDéterrer des objets peut révéler une graine de sporchidée."
+    "desc": "Une graine de sporchidée.<br>Déterrer des objets peut révéler une graine de sporchidée."
   },
   "EvilFlowerSeed": {
     "name": "Graine de Sporchidée",
-    "desc": "Une graine de sporchidée.\n\nDéterrer des objets peut révéler une graine de sporchidée."
+    "desc": "Une graine de sporchidée.<br>Déterrer des objets peut révéler une graine de sporchidée."
   },
   "EvilFlower": {
     "name": "Sporchidée",
@@ -2909,31 +3081,27 @@
   },
   "CompostFilterPlantSeed": {
     "name": "Graine d'Hydrocactus",
-    "desc": "Une graine d'hydrocactus.\n\nDéterrer des objets peut révéler une graine d'hydrocactus."
+    "desc": "Une graine d'hydrocactus.<br>Déterrer des objets peut révéler une graine d'hydrocactus."
   },
   "FilterPlantSeed": {
     "name": "Graine d'Hydrocactus",
-    "desc": "Une graine d'hydrocactus.\n\nDéterrer des objets peut révéler une graine d'hydrocactus."
+    "desc": "Une graine d'hydrocactus.<br>Déterrer des objets peut révéler une graine d'hydrocactus."
   },
   "ForestForagePlant": {
     "name": "Fruit d'Hexalent",
-    "desc": "Un fruit sans pépin avec une texture caoutchouteuse.\nIl ne peut pas être replanté.\n\nLe fruit de l'hexalent est bien plus calorique que le tubercule boueux."
+    "desc": "Un fruit sans pépin avec une texture caoutchouteuse.<br>Il ne peut pas être replanté.<br>Le fruit de l'hexalent est bien plus calorique que le tubercule boueux."
   },
   "ForestForagePlantPlanted": {
     "name": "Hexalent",
     "desc": "Les hexalents sont incapables de se propager mais peuvent être récoltés pour fournir une seule portion de nourriture très calorique."
   },
-  "ForestTreeBranch": {
-    "name": "Arbor",
-    "desc": "Les arbors produisent des branches d'arbor qui peuvent être récoltées pour obtenir du bois."
-  },
   "CompostBulbPlantSeed": {
     "name": "Graine de Buddy Bud",
-    "desc": "Une graine de buddy bud.\n\nDéterrer des objets peut révéler une graine de buddy bud."
+    "desc": "Une graine de buddy bud.<br>Déterrer des objets peut révéler une graine de buddy bud."
   },
   "BulbPlantSeed": {
     "name": "Graine de Buddy Bud",
-    "desc": "Une graine de buddy bud.\n\nDéterrer des objets peut révéler une graine de buddy bud."
+    "desc": "Une graine de buddy bud.<br>Déterrer des objets peut révéler une graine de buddy bud."
   },
   "BulbPlant": {
     "name": "Buddy Bud",
@@ -2941,11 +3109,11 @@
   },
   "CompostForestTreeSeed": {
     "name": "Gland d'Arbor",
-    "desc": "Une graine d'arbor.\n\nDéterrer des objets peut révéler un gland d'arbor."
+    "desc": "Une graine d'arbor.<br>Déterrer des objets peut révéler un gland d'arbor."
   },
   "ForestTreeSeed": {
     "name": "Gland d'Arbor",
-    "desc": "Une graine d'arbor.\n\nDéterrer des objets peut révéler un gland d'arbor."
+    "desc": "Une graine d'arbor.<br>Déterrer des objets peut révéler un gland d'arbor."
   },
   "ForestTree": {
     "name": "Arbor",
@@ -2973,27 +3141,27 @@
   },
   "BeeHive": {
     "name": "Ruche de Radbeille",
-    "desc": "Un nid moyennement radioactif construit par des radbeilles.\n\nTransforme du minerai d'uranium en uranium enrichi lorsqu’une radbeille travaille dans le nid.\nNe fonctionnera pas si le sol en dessous a été détruit."
+    "desc": "Un nid moyennement radioactif construit par des radbeilles.<br>Transforme du minerai d'uranium en uranium enrichi lorsqu’une radbeille travaille dans le nid.<br>Ne fonctionnera pas si le sol en dessous a été détruit."
   },
   "Bee": {
     "name": "Radbeille",
-    "desc": "Les Radbeilles sont des créatures hostiles qui prospèrent dans les environnements radioactifs.\n\nEn général, elles collectent du minerai d'uranium pour leur ruche et produisent de l'uranium enrichi."
+    "desc": "Les Radbeilles sont des créatures hostiles qui prospèrent dans les environnements radioactifs.<br>En général, elles collectent du minerai d'uranium pour leur ruche et produisent de l'uranium enrichi."
   },
   "DreckoEgg": {
     "name": "Œuf de Drecko",
-    "desc": "Les dreckos sont des créatures pacifiques qui ne broutent que les plants de poivre pincha, de lys des marais ou d'arbre à poux.\n\nLeur dos est recouvert de fibres laineuses épaisses qui ne poussent que dans un milieu hydrogéné."
+    "desc": "Les dreckos sont des créatures pacifiques qui ne broutent que les plants de poivre pincha, de lys des marais ou d'arbre à poux.<br>Leur dos est recouvert de fibres laineuses épaisses qui ne poussent que dans un milieu hydrogéné."
   },
   "Drecko": {
     "name": "Drecko",
-    "desc": "Les dreckos sont des créatures pacifiques qui ne broutent que les plants de poivre pincha, de lys des marais ou d'arbre à poux.\n\nLeur dos est recouvert de fibres laineuses épaisses qui ne poussent que dans un milieu hydrogéné."
+    "desc": "Les dreckos sont des créatures pacifiques qui ne broutent que les plants de poivre pincha, de lys des marais ou d'arbre à poux.<br>Leur dos est recouvert de fibres laineuses épaisses qui ne poussent que dans un milieu hydrogéné."
   },
   "DreckoPlasticEgg": {
     "name": "Œuf de Drecko Brillant",
-    "desc": "Les dreckos brillants sont des créatures non hostiles qui ne broutent que les plants d'arbres à poux colonisés et les fleurs velues.\n\nLeur dos est recouvert d'écailles en bio-plastique qui ne poussent que dans un milieu hydrogéné."
+    "desc": "Les dreckos brillants sont des créatures non hostiles qui ne broutent que les plants d'arbres à poux colonisés et les fleurs velues.<br>Leur dos est recouvert d'écailles en bio-plastique qui ne poussent que dans un milieu hydrogéné."
   },
   "DreckoPlastic": {
     "name": "Drecko Brillant",
-    "desc": "Les dreckos brillants sont des créatures non hostiles qui ne broutent que les plants d'arbres à poux colonisés et les fleurs velues.\n\nLeur dos est recouvert d'écailles en bio-plastique qui ne poussent que dans un milieu hydrogéné."
+    "desc": "Les dreckos brillants sont des créatures non hostiles qui ne broutent que les plants d'arbres à poux colonisés et les fleurs velues.<br>Leur dos est recouvert d'écailles en bio-plastique qui ne poussent que dans un milieu hydrogéné."
   },
   "Glom": {
     "name": "Morb",
@@ -3009,11 +3177,11 @@
   },
   "LightBugBlueEgg": {
     "name": "Œuf de Nymphe Azurée",
-    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.\n\nLa lumière de l'espèce azurée est devenue bleue grâce à l'élevage sélectif."
+    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.<br>La lumière de l'espèce azurée est devenue bleue grâce à l'élevage sélectif."
   },
   "LightBugBlue": {
     "name": "Luciole Azurée",
-    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.\n\nLa lumière de l'espèce azurée est devenue bleue grâce à l'élevage sélectif."
+    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.<br>La lumière de l'espèce azurée est devenue bleue grâce à l'élevage sélectif."
   },
   "LightBugEgg": {
     "name": "Œuf de Nymphe Brillante",
@@ -3033,51 +3201,51 @@
   },
   "LightBugCrystalEgg": {
     "name": "Œuf de Nymphe Rayonnante",
-    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.\n\nLa lumière de l'espèce rayonnante a été amplifiée grâce à l'élevage sélectif."
+    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.<br>La lumière de l'espèce rayonnante a été amplifiée grâce à l'élevage sélectif."
   },
   "LightBugCrystal": {
     "name": "Luciole Rayonnante",
-    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.\n\nLa lumière de l'espèce rayonnante a été amplifiée grâce à l'élevage sélectif."
+    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.<br>La lumière de l'espèce rayonnante a été amplifiée grâce à l'élevage sélectif."
   },
   "LightBugPinkEgg": {
     "name": "Œuf de Nymphe Corallienne",
-    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.\n\nLa lumière de l'espèce corallienne est devenue rose grâce à l'élevage sélectif."
+    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.<br>La lumière de l'espèce corallienne est devenue rose grâce à l'élevage sélectif."
   },
   "LightBugPink": {
     "name": "Luciole Corallienne",
-    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.\n\nLa lumière de l'espèce corallienne est devenue rose grâce à l'élevage sélectif."
+    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.<br>La lumière de l'espèce corallienne est devenue rose grâce à l'élevage sélectif."
   },
   "LightBugPurpleEgg": {
     "name": "Œuf de Nymphe Royale",
-    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.\n\nLa lumière de l'espèce royale est devenue mauve grâce à la sélection naturelle."
+    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.<br>La lumière de l'espèce royale est devenue mauve grâce à la sélection naturelle."
   },
   "LightBugPurple": {
     "name": "Luciole Royale",
-    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.\n\nLa lumière de l'espèce royale est devenue mauve grâce à la sélection naturelle."
+    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.<br>La lumière de l'espèce royale est devenue mauve grâce à la sélection naturelle."
   },
   "MoleEgg": {
     "name": "Œuf de Rat Taupier",
-    "desc": "Les rats taupiers sont des créatures fouisseuses qui mangent le régolithe qui se trouve sur les surfaces terrestres.\n\nIls ne peuvent creuser les métaux raffinés."
+    "desc": "Les rats taupiers sont des créatures fouisseuses qui mangent le régolithe qui se trouve sur les surfaces terrestres.<br>Ils ne peuvent creuser les métaux raffinés."
   },
   "Mole": {
     "name": "Rat Taupier",
-    "desc": "Les rats taupiers sont des créatures fouisseuses qui mangent le régolithe qui se trouve sur les surfaces terrestres.\n\nIls ne peuvent creuser les métaux raffinés."
+    "desc": "Les rats taupiers sont des créatures fouisseuses qui mangent le régolithe qui se trouve sur les surfaces terrestres.<br>Ils ne peuvent creuser les métaux raffinés."
   },
   "MoleDelicacyEgg": {
     "name": "Œuf de Delecta Vole",
-    "desc": "Les Delecta Voles sont des créatures fouisseuses dont le corps produit une racine tonique lorsque le régolithe est ingéré à une certaine température.\n\nElles ne peuvent s'enterrer dans les métaux raffinés."
+    "desc": "Les Delecta Voles sont des créatures fouisseuses dont le corps produit une racine tonique lorsque le régolithe est ingéré à une certaine température.<br>Elles ne peuvent s'enterrer dans les métaux raffinés."
   },
   "MoleDelicacy": {
     "name": "Delecta Vole",
-    "desc": "Les Delecta Voles sont des créatures fouisseuses dont le corps produit une racine tonique lorsque le régolithe est ingéré à une certaine température.\n\nElles ne peuvent s'enterrer dans les métaux raffinés."
+    "desc": "Les Delecta Voles sont des créatures fouisseuses dont le corps produit une racine tonique lorsque le régolithe est ingéré à une certaine température.<br>Elles ne peuvent s'enterrer dans les métaux raffinés."
   },
   "Moo": {
     "name": "Meumeuh",
-    "desc": "Les meumeuhs sont des créatures extraterrestres qui se nourrissent d'herbe gaz et excrètent du gaz naturel.\n\nLorsqu'elles sont domestiquées et nourries, elles peuvent être traites pour obtenir du brackène."
+    "desc": "Les meumeuhs sont des créatures extraterrestres qui se nourrissent d'herbe gaz et excrètent du gaz naturel.<br>Lorsqu'elles sont domestiquées et nourries, elles peuvent être traites pour obtenir du brackène."
   },
   "MorbRover": {
     "name": "Bio-robots",
-    "desc": "P.E.G.G.Y. ou \"Pathogen-Fueled Extravehicular Geo-Exploratory Guidebot (model Y)\"\n\nOn peut lui assigner des tâches de fabrication ou d'excavation dans les environnements dangereux."
+    "desc": "P.E.G.G.Y. ou \"Pathogen-Fueled Extravehicular Geo-Exploratory Guidebot (model Y)\"<br>On peut lui assigner des tâches de fabrication ou d'excavation dans les environnements dangereux."
   },
   "OilfloaterEgg": {
     "name": "Œuf de Gluant",
@@ -3089,11 +3257,11 @@
   },
   "OilfloaterDecorEgg": {
     "name": "Œuf de Gluant Velu",
-    "desc": "Les gluants velus sont des créatures amicales qui consomment de l'oxygène et s'épanouissent au contact des Duplicants.\n\nLes velus ont une robe magnifique, d'apparence luxueuse."
+    "desc": "Les gluants velus sont des créatures amicales qui consomment de l'oxygène et s'épanouissent au contact des Duplicants.<br>Les velus ont une robe magnifique, d'apparence luxueuse."
   },
   "OilfloaterDecor": {
     "name": "Gluant Velu",
-    "desc": "Les gluants velus sont des créatures amicales qui consomment de l'oxygène et s'épanouissent au contact des Duplicants.\n\nLes velus ont une robe magnifique, d'apparence luxueuse."
+    "desc": "Les gluants velus sont des créatures amicales qui consomment de l'oxygène et s'épanouissent au contact des Duplicants.<br>Les velus ont une robe magnifique, d'apparence luxueuse."
   },
   "OilfloaterHighTempEgg": {
     "name": "Œuf de Gluant Fondu",
@@ -3121,11 +3289,11 @@
   },
   "LightBugOrangeEgg": {
     "name": "Œuf de Nymphe Solaire",
-    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.\n\nLa lumière de l'espèce solaire est devenue orange grâce à l'élevage sélectif."
+    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.<br>La lumière de l'espèce solaire est devenue orange grâce à l'élevage sélectif."
   },
   "LightBugOrange": {
     "name": "Luciole Solaire",
-    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.\n\nLa lumière de l'espèce solaire est devenue orange grâce à l'élevage sélectif."
+    "desc": "Les lucioles émettent une douce lumière dans l'espoir d'attirer des camarades pour leur tenir compagnie.<br>La lumière de l'espèce solaire est devenue orange grâce à l'élevage sélectif."
   },
   "CompostGasGrassSeed": {
     "name": "Graine d'Herbe Gaz",
@@ -3141,11 +3309,11 @@
   },
   "StaterpillarGasEgg": {
     "name": "Œuf de Limace Brumeuse",
-    "desc": "Les limaces brumeuses sont des créatures poreuses qui inhalent des gaz irrespirables pendant la journée.\n\nLa nuit, elles dorment près des conduites de gaz ouvertes, où elles déposent leurs résidus."
+    "desc": "Les limaces brumeuses sont des créatures poreuses qui inhalent des gaz irrespirables pendant la journée.<br>La nuit, elles dorment près des conduites de gaz ouvertes, où elles déposent leurs résidus."
   },
   "StaterpillarGas": {
     "name": "Limace Brumeuse",
-    "desc": "Les limaces brumeuses sont des créatures poreuses qui inhalent des gaz irrespirables pendant la journée.\n\nLa nuit, elles dorment près des conduites de gaz ouvertes, où elles déposent leurs résidus."
+    "desc": "Les limaces brumeuses sont des créatures poreuses qui inhalent des gaz irrespirables pendant la journée.<br>La nuit, elles dorment près des conduites de gaz ouvertes, où elles déposent leurs résidus."
   },
   "GeyserGeneric_steam": {
     "name": "Cheminée de Vapeur Refroidie",
@@ -3249,47 +3417,47 @@
   },
   "DehydratedFoodPackage": {
     "name": "Burger Gelé Déshydraté",
-    "desc": "Une portion de burger gelé déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.\n\nLes rations sèches n'ont pas de  date de péremption."
+    "desc": "Une portion de burger gelé déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
   },
   "CompostColdWheatBread": {
     "name": "Pain Gelé",
-    "desc": "Un petit pain simple fait à partir de grains de blé grêle.\n\nChaque bouchée laisse une légère sensation de fraîcheur dans la bouche, même lorsque le pain lui-même est chaud."
+    "desc": "Un petit pain simple fait à partir de grains de blé grêle.<br>Chaque bouchée laisse une légère sensation de fraîcheur dans la bouche, même lorsque le pain lui-même est chaud."
   },
   "ColdWheatBread": {
     "name": "Pain Gelé",
-    "desc": "Un petit pain simple fait à partir de grains de blé grêle.\n\nChaque bouchée laisse une légère sensation de fraîcheur dans la bouche, même lorsque le pain lui-même est chaud."
+    "desc": "Un petit pain simple fait à partir de grains de blé grêle.<br>Chaque bouchée laisse une légère sensation de fraîcheur dans la bouche, même lorsque le pain lui-même est chaud."
   },
   "CompostCookedEgg": {
     "name": "Omelette",
-    "desc": "Un œuf battu et replié.\n\nEn réalité, vous avez besoin de casser quelques œufs pour en faire une."
+    "desc": "Un œuf battu et replié.<br>En réalité, vous avez besoin de casser quelques œufs pour en faire une."
   },
   "CookedEgg": {
     "name": "Omelette",
-    "desc": "Un œuf battu et replié.\n\nEn réalité, vous avez besoin de casser quelques œufs pour en faire une."
+    "desc": "Un œuf battu et replié.<br>En réalité, vous avez besoin de casser quelques œufs pour en faire une."
   },
   "CompostCookedFish": {
     "name": "Produit de la mer Cuisiné",
-    "desc": "Un morceau cuisiné de créature aquatique.\n\nSans surprise, ça a un petit goût de poisson."
+    "desc": "Un morceau cuisiné de créature aquatique.<br>Sans surprise, ça a un petit goût de poisson."
   },
   "CookedFish": {
     "name": "Produit de la mer Cuisiné",
-    "desc": "Un morceau cuisiné de créature aquatique.\n\nSans surprise, ça a un petit goût de poisson."
+    "desc": "Un morceau cuisiné de créature aquatique.<br>Sans surprise, ça a un petit goût de poisson."
   },
   "CompostCookedMeat": {
     "name": "Brochette",
-    "desc": "La viande cuisinée d'une créature vaincue.\n\nElle a un arrière-goût de fumé délicieux."
+    "desc": "La viande cuisinée d'une créature vaincue.<br>Elle a un arrière-goût de fumé délicieux."
   },
   "CookedMeat": {
     "name": "Brochette",
-    "desc": "La viande cuisinée d'une créature vaincue.\n\nElle a un arrière-goût de fumé délicieux."
+    "desc": "La viande cuisinée d'une créature vaincue.<br>Elle a un arrière-goût de fumé délicieux."
   },
   "CompostCurry": {
     "name": "Curry d'Haricots",
-    "desc": "Haricots tendres mijotés avec des morceaux de racine tonique.\n\nC'est tellement épicé!"
+    "desc": "Haricots tendres mijotés avec des morceaux de racine tonique.<br>C'est tellement épicé!"
   },
   "Curry": {
     "name": "Curry d'Haricots",
-    "desc": "Haricots tendres mijotés avec des morceaux de racine tonique.\n\nC'est tellement épicé!"
+    "desc": "Haricots tendres mijotés avec des morceaux de racine tonique.<br>C'est tellement épicé!"
   },
   "FieldRation": {
     "name": "Barre Nutritive",
@@ -3305,37 +3473,33 @@
   },
   "CompostFriedMushBar": {
     "name": "Bouillie de Boue Frite",
-    "desc": "Un pâté de boue frite, épaisse et solidifiée.\n\nL'intérieur est presque cru, malgré le croustillant de la couche externe."
+    "desc": "Un pâté de boue frite, épaisse et solidifiée.<br>L'intérieur est presque cru, malgré le croustillant de la couche externe."
   },
   "FriedMushBar": {
     "name": "Bouillie de Boue Frite",
-    "desc": "Un pâté de boue frite, épaisse et solidifiée.\n\nL'intérieur est presque cru, malgré le croustillant de la couche externe."
+    "desc": "Un pâté de boue frite, épaisse et solidifiée.<br>L'intérieur est presque cru, malgré le croustillant de la couche externe."
   },
   "CompostFriedMushroom": {
     "name": "Champignon Frit",
-    "desc": "Un plat frit à base d'obscurignon.\n\nC'est épais et savoureux avec un subtil goût terreux."
+    "desc": "Un plat frit à base d'obscurignon.<br>C'est épais et savoureux avec un subtil goût terreux."
   },
   "FriedMushroom": {
     "name": "Champignon Frit",
-    "desc": "Un plat frit à base d'obscurignon.\n\nC'est épais et savoureux avec un subtil goût terreux."
+    "desc": "Un plat frit à base d'obscurignon.<br>C'est épais et savoureux avec un subtil goût terreux."
   },
   "FruitCake": {
     "name": "Baie Boueuse",
-    "desc": "Une purée de baie velue avec une durée de conservation exceptionnellement longue.\n\nSa douceur agressive et dominante peut laisser la langue temporairement engourdie."
+    "desc": "Une purée de baie velue avec une durée de conservation exceptionnellement longue.<br>Sa douceur agressive et dominante peut laisser la langue temporairement engourdie."
   },
   "CompostBurger": {
     "name": "Burger Gelé",
-    "desc": "De la viande et de la laitue accompagnant un pain gelé.\n\nC'est le seul burger qu'il vaut mieux servir froid."
+    "desc": "De la viande et de la laitue accompagnant un pain gelé.<br>C'est le seul burger qu'il vaut mieux servir froid."
   },
   "Burger": {
     "name": "Burger Gelé",
-    "desc": "De la viande et de la laitue accompagnant un pain gelé.\n\nC'est le seul burger qu'il vaut mieux servir froid."
+    "desc": "De la viande et de la laitue accompagnant un pain gelé.<br>C'est le seul burger qu'il vaut mieux servir froid."
   },
   "CompostGammaMush": {
-    "name": "Bouillie Gamma",
-    "desc": "Un mélange goûteux bien qu'étrange à base d'eau et de terre irradiées."
-  },
-  "GammaMush": {
     "name": "Bouillie Gamma",
     "desc": "Un mélange goûteux bien qu'étrange à base d'eau et de terre irradiées."
   },
@@ -3357,11 +3521,11 @@
   },
   "CompostMushBar": {
     "name": "Barre de Boue",
-    "desc": "Une bouillie de moisissures comestible.\n\nLa barre de boue est préférable à la faim, mais c'est tout juste."
+    "desc": "Une bouillie de moisissures comestible.<br>La barre de boue est préférable à la faim, mais c'est tout juste."
   },
   "MushBar": {
     "name": "Barre de Boue",
-    "desc": "Une bouillie de moisissures comestible.\n\nLa barre de boue est préférable à la faim, mais c'est tout juste."
+    "desc": "Une bouillie de moisissures comestible.<br>La barre de boue est préférable à la faim, mais c'est tout juste."
   },
   "CompostMushroom": {
     "name": "Champignon",
@@ -3373,15 +3537,15 @@
   },
   "CompostMushroomWrap": {
     "name": "Wrap aux Champignons",
-    "desc": "Des champignons goûteux entourés d'une feuille de laitue.\n\nLa saveur un peu terreuse du champignon est soulignée par le côté frais et craquant de la laitue."
+    "desc": "Des champignons goûteux entourés d'une feuille de laitue.<br>La saveur un peu terreuse du champignon est soulignée par le côté frais et craquant de la laitue."
   },
   "MushroomWrap": {
     "name": "Wrap aux Champignons",
-    "desc": "Des champignons goûteux entourés d'une feuille de laitue.\n\nLa saveur un peu terreuse du champignon est soulignée par le côté frais et craquant de la laitue."
+    "desc": "Des champignons goûteux entourés d'une feuille de laitue.<br>La saveur un peu terreuse du champignon est soulignée par le côté frais et craquant de la laitue."
   },
   "DehydratedMushroomWrap": {
     "name": "Wrap aux Champignons Déshydraté",
-    "desc": "Une portion de wrap aux champignons déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.\n\nLes rations sèches n'ont pas de  date de péremption."
+    "desc": "Une portion de wrap aux champignons déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
   },
   "CompostPacuFillet": {
     "name": "Viande",
@@ -3393,19 +3557,19 @@
   },
   "CompostPancakes": {
     "name": "Pancakes",
-    "desc": "Un disque moelleux fait avec de l'œuf et des grains de blé grêle.\n\nIls sont tellement épais!"
+    "desc": "Un disque moelleux fait avec de l'œuf et des grains de blé grêle.<br>Ils sont tellement épais!"
   },
   "Pancakes": {
     "name": "Pancakes",
-    "desc": "Un disque moelleux fait avec de l'œuf et des grains de blé grêle.\n\nIls sont tellement épais!"
+    "desc": "Un disque moelleux fait avec de l'œuf et des grains de blé grêle.<br>Ils sont tellement épais!"
   },
   "CompostPickledMeal": {
     "name": "Repas Mariné",
-    "desc": "Des larves de farine conservées dans le vinaigre.\n\nLe goût est très inhabituel."
+    "desc": "Des larves de farine conservées dans le vinaigre.<br>Le goût est très inhabituel."
   },
   "PickledMeal": {
     "name": "Repas Mariné",
-    "desc": "Des larves de farine conservées dans le vinaigre.\n\nLe goût est très inhabituel."
+    "desc": "Des larves de farine conservées dans le vinaigre.<br>Le goût est très inhabituel."
   },
   "CompostPlantMeat": {
     "name": "Viande Végétale",
@@ -3425,27 +3589,27 @@
   },
   "CompostQuiche": {
     "name": "Quiche aux Champignons",
-    "desc": "Omelette, champignon frit et Laitue empilés sur une pâte croustillante.\n\nBizarrement, c'est à la fois spongieux <i>et</i> croustillant."
+    "desc": "Omelette, champignon frit et Laitue empilés sur une pâte croustillante.<br>Bizarrement, c'est à la fois spongieux <i>et</i> croustillant."
   },
   "Quiche": {
     "name": "Quiche aux Champignons",
-    "desc": "Omelette, champignon frit et Laitue empilés sur une pâte croustillante.\n\nBizarrement, c'est à la fois spongieux <i>et</i> croustillant."
+    "desc": "Omelette, champignon frit et Laitue empilés sur une pâte croustillante.<br>Bizarrement, c'est à la fois spongieux <i>et</i> croustillant."
   },
   "CompostGrilledPrickleFruit": {
     "name": "Baie Fibreuse",
-    "desc": "Le bourgeon grillé d'une baie velue.\n\nLa cuisson révèle le goût exquis du fruit, bien que les épines brûlées laissent à désirer."
+    "desc": "Le bourgeon grillé d'une baie velue.<br>La cuisson révèle le goût exquis du fruit, bien que les épines brûlées laissent à désirer."
   },
   "GrilledPrickleFruit": {
     "name": "Baie Fibreuse",
-    "desc": "Le bourgeon grillé d'une baie velue.\n\nLa cuisson révèle le goût exquis du fruit, bien que les épines brûlées laissent à désirer."
+    "desc": "Le bourgeon grillé d'une baie velue.<br>La cuisson révèle le goût exquis du fruit, bien que les épines brûlées laissent à désirer."
   },
   "DehydratedBerryPie": {
     "name": "Tarte aux Baies Déshydratée",
-    "desc": "Une portion de tarte aux baies déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.\n\nLes rations sèches n'ont pas de  date de péremption."
+    "desc": "Une portion de tarte aux baies déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
   },
   "DehydratedCurry": {
     "name": "Curry d'Haricots Déshydraté",
-    "desc": "Une portion de curry d'haricots déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.\n\nLes rations sèches n'ont pas de  date de péremption."
+    "desc": "Une portion de curry d'haricots déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
   },
   "ClusterMapMeteorShower_Biological": {
     "name": "Pluie de météores gluants",
@@ -3501,11 +3665,11 @@
   },
   "CompostPrickleGrassSeed": {
     "name": "Graine de Bruyère",
-    "desc": "Une graine de fausse bruyère.\n\nDéterrer des objets peut révéler une graine de fausse bruyère."
+    "desc": "Une graine de fausse bruyère.<br>Déterrer des objets peut révéler une graine de fausse bruyère."
   },
   "PrickleGrassSeed": {
     "name": "Graine de Bruyère",
-    "desc": "Une graine de fausse bruyère.\n\nDéterrer des objets peut révéler une graine de fausse bruyère."
+    "desc": "Une graine de fausse bruyère.<br>Déterrer des objets peut révéler une graine de fausse bruyère."
   },
   "PrickleGrass": {
     "name": "Fausse Bruyère",
@@ -3513,11 +3677,11 @@
   },
   "CompostSaltPlantSeed": {
     "name": "Graine de Vigne Saline",
-    "desc": "Une graine de vigne saline.\n\nDéterrer des objets peut révéler une graine de vigne saline."
+    "desc": "Une graine de vigne saline.<br>Déterrer des objets peut révéler une graine de vigne saline."
   },
   "SaltPlantSeed": {
     "name": "Graine de Vigne Saline",
-    "desc": "Une graine de vigne saline.\n\nDéterrer des objets peut révéler une graine de vigne saline."
+    "desc": "Une graine de vigne saline.<br>Déterrer des objets peut révéler une graine de vigne saline."
   },
   "SaltPlant": {
     "name": "Vigne Saline",
@@ -3525,11 +3689,11 @@
   },
   "CompostPrickleFlowerSeed": {
     "name": "Graine Velue",
-    "desc": "Une graine de fleur velue.\n\nDéterrer des objets peut révéler une graine velue."
+    "desc": "Une graine de fleur velue.<br>Déterrer des objets peut révéler une graine velue."
   },
   "PrickleFlowerSeed": {
     "name": "Graine Velue",
-    "desc": "Une graine de fleur velue.\n\nDéterrer des objets peut révéler une graine velue."
+    "desc": "Une graine de fleur velue.<br>Déterrer des objets peut révéler une graine velue."
   },
   "PrickleFlower": {
     "name": "Fleur Velue",
@@ -3537,23 +3701,23 @@
   },
   "SapTree": {
     "name": "Expérience 52B",
-    "desc": "Un arbre cybernétique qui montre des signes de sentience et produit de la résine liquide.\n\nIl est solidement enraciné et attend qu'un âme courageuse lui apporte de la nourriture."
+    "desc": "Un arbre cybernétique qui montre des signes de sentience et produit de la résine liquide.<br>Il est solidement enraciné et attend qu'un âme courageuse lui apporte de la nourriture."
   },
   "CompostBerryPie": {
     "name": "Tarte aux Baies Mixées",
-    "desc": "Une tarte composée principalement de Grubfruit et de baies velues.\n\nLe mélange des baies donne une garniture colorée et parfumée qui se développe en bouche."
+    "desc": "Une tarte composée principalement de Grubfruit et de baies velues.<br>Le mélange des baies donne une garniture colorée et parfumée qui se développe en bouche."
   },
   "BerryPie": {
     "name": "Tarte aux Baies Mixées",
-    "desc": "Une tarte composée principalement de Grubfruit et de baies velues.\n\nLe mélange des baies donne une garniture colorée et parfumée qui se développe en bouche."
+    "desc": "Une tarte composée principalement de Grubfruit et de baies velues.<br>Le mélange des baies donne une garniture colorée et parfumée qui se développe en bouche."
   },
   "CompostSeaLettuceSeed": {
     "name": "Graine de Laitue d'eau",
-    "desc": "Une graine de laitue d'eau.\n\nDéterrer des objets peut révéler une graine de laitue d'eau."
+    "desc": "Une graine de laitue d'eau.<br>Déterrer des objets peut révéler une graine de laitue d'eau."
   },
   "SeaLettuceSeed": {
     "name": "Graine de Laitue d'eau",
-    "desc": "Une graine de laitue d'eau.\n\nDéterrer des objets peut révéler une graine de laitue d'eau."
+    "desc": "Une graine de laitue d'eau.<br>Déterrer des objets peut révéler une graine de laitue d'eau."
   },
   "SeaLettuce": {
     "name": "Laitue d'eau",
@@ -3561,11 +3725,11 @@
   },
   "CompostSpiceVineSeed": {
     "name": "Graine de Poivre Pincha",
-    "desc": "Une graine de poivre pincha\n\nDéterrer des objets peut révéler une graine de poivre pincha."
+    "desc": "Une graine de poivre pincha<br>Déterrer des objets peut révéler une graine de poivre pincha."
   },
   "SpiceVineSeed": {
     "name": "Graine de Poivre Pincha",
-    "desc": "Une graine de poivre pincha\n\nDéterrer des objets peut révéler une graine de poivre pincha."
+    "desc": "Une graine de poivre pincha<br>Déterrer des objets peut révéler une graine de poivre pincha."
   },
   "SpiceVine": {
     "name": "Plant de Poivre Pincha",
@@ -3585,15 +3749,15 @@
   },
   "SuperWormPlant": {
     "name": "Plant de Fruitver",
-    "desc": "Un plant de fruitver qui s’est épanoui après avoir été cajolé par une créature divergente.\n\nIl produira des fruitvers de haute qualité."
+    "desc": "Un plant de fruitver qui s’est épanoui après avoir été cajolé par une créature divergente.<br>Il produira des fruitvers de haute qualité."
   },
   "SwampForagePlant": {
     "name": "Cœur de Blette des Marais",
-    "desc": "Une plante sans graine avec un cœur juteux et une odeur horrible.\n\nElle ne peut pas être replantée."
+    "desc": "Une plante sans graine avec un cœur juteux et une odeur horrible.<br>Elle ne peut pas être replantée."
   },
   "OilWell": {
     "name": "Réservoir de Pétrole",
-    "desc": "Les réservoirs de pétrole sont des formations rocheuses avec des dépôts de pétrole brut sous leur surface.\n\nLe pétrole Brut peut être extrait d'un réservoir avec suffisamment de pression."
+    "desc": "Les réservoirs de pétrole sont des formations rocheuses avec des dépôts de pétrole brut sous leur surface.<br>Le pétrole Brut peut être extrait d'un réservoir avec suffisamment de pression."
   },
   "SwampForagePlantPlanted": {
     "name": "Blette des Marais",
@@ -3601,11 +3765,11 @@
   },
   "CompostSwampHarvestPlantSeed": {
     "name": "Graine de Godet des Marais",
-    "desc": "Une graine de godet des marais.\n\nDéterrer des objets peut révéler une graine de godet des marais."
+    "desc": "Une graine de godet des marais.<br>Déterrer des objets peut révéler une graine de godet des marais."
   },
   "SwampHarvestPlantSeed": {
     "name": "Graine de Godet des Marais",
-    "desc": "Une graine de godet des marais.\n\nDéterrer des objets peut révéler une graine de godet des marais."
+    "desc": "Une graine de godet des marais.<br>Déterrer des objets peut révéler une graine de godet des marais."
   },
   "SwampHarvestPlant": {
     "name": "Godet des Marais",
@@ -3613,11 +3777,11 @@
   },
   "CompostSwampLilySeed": {
     "name": "Graine de Lys des Marais",
-    "desc": "Une graine de lys des marais\n\nDéterrer des objets peut révéler une graine de lys des marais."
+    "desc": "Une graine de lys des marais<br>Déterrer des objets peut révéler une graine de lys des marais."
   },
   "SwampLilySeed": {
     "name": "Graine de Lys des Marais",
-    "desc": "Une graine de lys des marais\n\nDéterrer des objets peut révéler une graine de lys des marais."
+    "desc": "Une graine de lys des marais<br>Déterrer des objets peut révéler une graine de lys des marais."
   },
   "SwampLily": {
     "name": "Lys des Marais",
@@ -3625,11 +3789,11 @@
   },
   "CompostWineCupsSeed": {
     "name": "Graine de Mauve",
-    "desc": "Une graine de mauve sereine.\n\nDéterrer des objets peut révéler une graine de mauve."
+    "desc": "Une graine de mauve sereine.<br>Déterrer des objets peut révéler une graine de mauve."
   },
   "WineCupsSeed": {
     "name": "Graine de Mauve",
-    "desc": "Une graine de mauve sereine.\n\nDéterrer des objets peut révéler une graine de mauve."
+    "desc": "Une graine de mauve sereine.<br>Déterrer des objets peut révéler une graine de mauve."
   },
   "WineCups": {
     "name": "Mauve Sereine",
@@ -3637,11 +3801,11 @@
   },
   "CompostToePlantSeed": {
     "name": "Graine d'Orteils Sereins",
-    "desc": "Une graine d'orteils sereins.\n\nDéterrer des objets peut révéler une graine d'orteils sereins."
+    "desc": "Une graine d'orteils sereins.<br>Déterrer des objets peut révéler une graine d'orteils sereins."
   },
   "ToePlantSeed": {
     "name": "Graine d'Orteils Sereins",
-    "desc": "Une graine d'orteils sereins.\n\nDéterrer des objets peut révéler une graine d'orteils sereins."
+    "desc": "Une graine d'orteils sereins.<br>Déterrer des objets peut révéler une graine d'orteils sereins."
   },
   "ToePlant": {
     "name": "Orteils Sereins",
@@ -3649,15 +3813,15 @@
   },
   "CompostWormPlantSeed": {
     "name": "Graine de Fruitver",
-    "desc": "Une graine de fruitver chétif.\n\nDéterrer des objets peut révéler une graine de fruitver."
+    "desc": "Une graine de fruitver chétif.<br>Déterrer des objets peut révéler une graine de fruitver."
   },
   "WormPlantSeed": {
     "name": "Graine de Fruitver",
-    "desc": "Une graine de fruitver chétif.\n\nDéterrer des objets peut révéler une graine de fruitver."
+    "desc": "Une graine de fruitver chétif.<br>Déterrer des objets peut révéler une graine de fruitver."
   },
   "WormPlant": {
     "name": "Plant de Fruitver Chétif",
-    "desc": "Les plants de fruitver chétif produisent des fruitvers chétifs utilisés pour l'alimentation.\n\nS'il est bichonné par une créature divergente, le plant produira des fruits de haute qualité."
+    "desc": "Les plants de fruitver chétif produisent des fruitvers chétifs utilisés pour l'alimentation.<br>S'il est bichonné par une créature divergente, le plant produira des fruits de haute qualité."
   },
   "CompostBasicPlantFood": {
     "name": "Larve de Farine",
@@ -3673,11 +3837,11 @@
   },
   "CompostLeafyPlantSeed": {
     "name": "Graine de Feuille de Joie",
-    "desc": "Une graine de feuille de joie.\n\nDéterrer des objets peut révéler une graine de feuille de joie."
+    "desc": "Une graine de feuille de joie.<br>Déterrer des objets peut révéler une graine de feuille de joie."
   },
   "LeafyPlantSeed": {
     "name": "Graine de Feuille de Joie",
-    "desc": "Une graine de feuille de joie.\n\nDéterrer des objets peut révéler une graine de feuille de joie."
+    "desc": "Une graine de feuille de joie.<br>Déterrer des objets peut révéler une graine de feuille de joie."
   },
   "LeafyPlant": {
     "name": "Feuille de Joie",
@@ -3693,11 +3857,11 @@
   },
   "CompostMushroomSeed": {
     "name": "Spore Fongique",
-    "desc": "Une graine d'obscurignon.\n\nDéterrer des objets peut révéler un spore fongique."
+    "desc": "Une graine d'obscurignon.<br>Déterrer des objets peut révéler un spore fongique."
   },
   "MushroomSeed": {
     "name": "Spore Fongique",
-    "desc": "Une graine d'obscurignon.\n\nDéterrer des objets peut révéler un spore fongique."
+    "desc": "Une graine d'obscurignon.<br>Déterrer des objets peut révéler un spore fongique."
   },
   "MushroomPlant": {
     "name": "Obscurignon",
@@ -3721,27 +3885,27 @@
   },
   "CrabEgg": {
     "name": "Œuf de Carapoke",
-    "desc": "Les carapokes sont des créatures non-hostiles, sauf si leurs œufs se trouvent à proximité.\n\nIls se nourrissent de terre polluée et de tas de pourriture.\n\nLa carapace qu'ils abandonnent après chaque mue peut être broyée pour obtenir de la chaux."
+    "desc": "Les carapokes sont des créatures non-hostiles, sauf si leurs œufs se trouvent à proximité.<br>Ils se nourrissent de terre polluée et de tas de pourriture.<br>La carapace qu'ils abandonnent après chaque mue peut être broyée pour obtenir de la chaux."
   },
   "Crab": {
     "name": "Carapoke",
-    "desc": "Les carapokes sont des créatures non-hostiles, sauf si leurs œufs se trouvent à proximité.\n\nIls se nourrissent de terre polluée et de tas de pourriture.\n\nLa carapace qu'ils abandonnent après chaque mue peut être broyée pour obtenir de la chaux."
+    "desc": "Les carapokes sont des créatures non-hostiles, sauf si leurs œufs se trouvent à proximité.<br>Ils se nourrissent de terre polluée et de tas de pourriture.<br>La carapace qu'ils abandonnent après chaque mue peut être broyée pour obtenir de la chaux."
   },
   "CrabWoodEgg": {
     "name": "Oak Pinch Roe",
-    "desc": "Les Oakshells sont des non hostiles, sauf si leurs œufs se trouvent à proximité.\n\nIls se nourrissent de terre polluée, vase et tas de pourriture.\n\nLa carapace qu'ils abandonnent après chaque mue peut être broyée pour obtenir du bois.\n\nLes Oakshells prospèrent dans l'éthanol."
+    "desc": "Les Oakshells sont des non hostiles, sauf si leurs œufs se trouvent à proximité.<br>Ils se nourrissent de terre polluée, vase et tas de pourriture.<br>La carapace qu'ils abandonnent après chaque mue peut être broyée pour obtenir du bois.<br>Les Oakshells prospèrent dans l'éthanol."
   },
   "CrabWood": {
     "name": "Oakshell",
-    "desc": "Les Oakshells sont des non hostiles, sauf si leurs œufs se trouvent à proximité.\n\nIls se nourrissent de terre polluée, vase et tas de pourriture.\n\nLa carapace qu'ils abandonnent après chaque mue peut être broyée pour obtenir du bois.\n\nLes Oakshells prospèrent dans l'éthanol."
+    "desc": "Les Oakshells sont des non hostiles, sauf si leurs œufs se trouvent à proximité.<br>Ils se nourrissent de terre polluée, vase et tas de pourriture.<br>La carapace qu'ils abandonnent après chaque mue peut être broyée pour obtenir du bois.<br>Les Oakshells prospèrent dans l'éthanol."
   },
   "CrabFreshWaterEgg": {
     "name": "Sani Pinch Roe",
-    "desc": "Les sanishells sont des créatures non hostiles, sauf si leurs œufs se trouvent à proximité.\n\nIls vivent dans l'eau et éliminent les germes de tous les liquides dans lesquels ils évoluent.\n\nIls se nourrissent de terre polluée, de vase et de tas de pourriture."
+    "desc": "Les sanishells sont des créatures non hostiles, sauf si leurs œufs se trouvent à proximité.<br>Ils vivent dans l'eau et éliminent les germes de tous les liquides dans lesquels ils évoluent.<br>Ils se nourrissent de terre polluée, de vase et de tas de pourriture."
   },
   "CrabFreshWater": {
     "name": "Sanishell",
-    "desc": "Les sanishells sont des créatures non hostiles, sauf si leurs œufs se trouvent à proximité.\n\nIls vivent dans l'eau et éliminent les germes de tous les liquides dans lesquels ils évoluent.\n\nIls se nourrissent de terre polluée, de vase et de tas de pourriture."
+    "desc": "Les sanishells sont des créatures non hostiles, sauf si leurs œufs se trouvent à proximité.<br>Ils vivent dans l'eau et éliminent les germes de tous les liquides dans lesquels ils évoluent.<br>Ils se nourrissent de terre polluée, de vase et de tas de pourriture."
   },
   "PacuCleanerEgg": {
     "name": "Œuf de Poisson Gobeur",
@@ -3753,11 +3917,11 @@
   },
   "DivergentBeetleEgg": {
     "name": "Œuf de Scaradoux",
-    "desc": "Les scaradoux sont des créatures non hostiles qui excrètent de grandes quantités de saccharose.\n\nIls sont étroitement liés à l'astiver et présentent des comportements agricoles similaires, bien que moins efficaces."
+    "desc": "Les scaradoux sont des créatures non hostiles qui excrètent de grandes quantités de saccharose.<br>Ils sont étroitement liés à l'astiver et présentent des comportements agricoles similaires, bien que moins efficaces."
   },
   "DivergentBeetle": {
     "name": "Scaradoux",
-    "desc": "Les scaradoux sont des créatures non hostiles qui excrètent de grandes quantités de saccharose.\n\nIls sont étroitement liés à l'astiver et présentent des comportements agricoles similaires, bien que moins efficaces."
+    "desc": "Les scaradoux sont des créatures non hostiles qui excrètent de grandes quantités de saccharose.<br>Ils sont étroitement liés à l'astiver et présentent des comportements agricoles similaires, bien que moins efficaces."
   },
   "HatchHardEgg": {
     "name": "Œuf de Glouton Pierreux",
@@ -3777,11 +3941,11 @@
   },
   "DivergentWormEgg": {
     "name": "Œuf d'Astiver",
-    "desc": "Les astivers ont des relations symbiotiques avec les plantes, en particulier les Fruitvers dont ils prennent soin instinctivement.\n\nLes astivers sont de proches parents des scaradoux."
+    "desc": "Les astivers ont des relations symbiotiques avec les plantes, en particulier les Fruitvers dont ils prennent soin instinctivement.<br>Les astivers sont de proches parents des scaradoux."
   },
   "DivergentWorm": {
     "name": "Astiver",
-    "desc": "Les astivers ont des relations symbiotiques avec les plantes, en particulier les Fruitvers dont ils prennent soin instinctivement.\n\nLes astivers sont de proches parents des scaradoux."
+    "desc": "Les astivers ont des relations symbiotiques avec les plantes, en particulier les Fruitvers dont ils prennent soin instinctivement.<br>Les astivers sont de proches parents des scaradoux."
   },
   "HatchMetalEgg": {
     "name": "Œuf de Glouton Lisse",
@@ -3793,47 +3957,47 @@
   },
   "PacuEgg": {
     "name": "Œuf de Pacu",
-    "desc": "Les pacus sont des créatures aquatiques qui peuvent vivre dans n'importe quel liquide, tel que l'eau ou l'eau contaminée.\n\nTous les organismes dans l'univers connu trouvent le pacu particulièrement délicieux."
+    "desc": "Les pacus sont des créatures aquatiques qui peuvent vivre dans n'importe quel liquide, tel que l'eau ou l'eau contaminée.<br>Tous les organismes dans l'univers connu trouvent le pacu particulièrement délicieux."
   },
   "Pacu": {
     "name": "Pacu",
-    "desc": "Les pacus sont des créatures aquatiques qui peuvent vivre dans n'importe quel liquide, tel que l'eau ou l'eau contaminée.\n\nTous les organismes dans l'univers connu trouvent le pacu particulièrement délicieux."
+    "desc": "Les pacus sont des créatures aquatiques qui peuvent vivre dans n'importe quel liquide, tel que l'eau ou l'eau contaminée.<br>Tous les organismes dans l'univers connu trouvent le pacu particulièrement délicieux."
   },
   "DreckoPlasticBaby": {
     "name": "Bébé Drecko Brillant",
-    "desc": "Un bébé drecko avec des yeux globuleux.\n\nIl deviendra un drecko brillant en grandissant."
+    "desc": "Un bébé drecko avec des yeux globuleux.<br>Il deviendra un drecko brillant en grandissant."
   },
   "DivergentWormBaby": {
     "name": "Chenille d'Astiver",
-    "desc": "Une petite larve d'astiver.\n\nAvec le temps, elle deviendra un astiver adulte et aura une taille imposante."
+    "desc": "Une petite larve d'astiver.<br>Avec le temps, elle deviendra un astiver adulte et aura une taille imposante."
   },
   "BeeBaby": {
     "name": "Radruche",
-    "desc": "Une petite larve de radbeille.\n\nAvec le temps, elle deviendra une radbeille adulte."
+    "desc": "Une petite larve de radbeille.<br>Avec le temps, elle deviendra une radbeille adulte."
   },
   "DivergentBeetleBaby": {
     "name": "Larve de Scaradoux",
-    "desc": "Une petite larve de scaradoux.\n\nAvec le temps, elle deviendra un scaradoux adulte."
+    "desc": "Une petite larve de scaradoux.<br>Avec le temps, elle deviendra un scaradoux adulte."
   },
   "CrabFreshWaterBaby": {
     "name": "Rejeton de Sanishell",
-    "desc": "Un petit sanishell turbulent.\n\nIl deviendra un Sanishell en grandissant."
+    "desc": "Un petit sanishell turbulent.<br>Il deviendra un Sanishell en grandissant."
   },
   "DreckoBaby": {
     "name": "Bébé Drecko",
-    "desc": "Un bébé drecko avec des yeux globuleux.\n\nIl deviendra un drecko en grandissant."
+    "desc": "Un bébé drecko avec des yeux globuleux.<br>Il deviendra un drecko en grandissant."
   },
   "HatchBaby": {
     "name": "Bouftou",
-    "desc": "Un petit bouftou encore innocent.\n\nAvec le temps, il deviendra un glouton adulte."
+    "desc": "Un petit bouftou encore innocent.<br>Avec le temps, il deviendra un glouton adulte."
   },
   "CrabWoodBaby": {
     "name": "Oakshell Spawn",
-    "desc": "Un petit Oakshell noueux.\n\nIl deviendra un majestueux Oakshell en grandissant."
+    "desc": "Un petit Oakshell noueux.<br>Il deviendra un majestueux Oakshell en grandissant."
   },
   "CrabBaby": {
     "name": "Jeune Carapoke",
-    "desc": "Un petit carapoke turbulent.\n\nIl deviendra un Pokeshell en grandissant."
+    "desc": "Un petit carapoke turbulent.<br>Il deviendra un Pokeshell en grandissant."
   },
   "LightBugBaby": {
     "name": "Nymphe Brillante",
@@ -3841,15 +4005,15 @@
   },
   "HatchMetalBaby": {
     "name": "Bouftou Lisse",
-    "desc": "Un petit bouftou lisse encore maladroit.\n\nEn grandissant, il deviendra un glouton lisse, qui aimera grignoter différents types de métaux."
+    "desc": "Un petit bouftou lisse encore maladroit.<br>En grandissant, il deviendra un glouton lisse, qui aimera grignoter différents types de métaux."
   },
   "PuftOxyliteBaby": {
     "name": "Bouffie Compacte",
-    "desc": "Une petite bouffie trapue.\n\nEn grandissant, elle deviendra une bouffette compacte."
+    "desc": "Une petite bouffie trapue.<br>En grandissant, elle deviendra une bouffette compacte."
   },
   "SquirrelHugBaby": {
     "name": "Pipsqueak cajoleur",
-    "desc": "Un bébé pipsqueak cajoleur ébouriffé.\n\nIl deviendra un pip cajoleur en grandissant."
+    "desc": "Un bébé pipsqueak cajoleur ébouriffé.<br>Il deviendra un pip cajoleur en grandissant."
   },
   "PuftBaby": {
     "name": "Bouffie",
@@ -3857,91 +4021,91 @@
   },
   "PuftBleachstoneBaby": {
     "name": "Bouffie Couinante",
-    "desc": "Une petite bouffie couinante.\n\nEn grandissant, elle deviendra une bouffette couinante."
+    "desc": "Une petite bouffie couinante.<br>En grandissant, elle deviendra une bouffette couinante."
   },
   "StaterpillarBaby": {
     "name": "Électrolimaçon",
-    "desc": "Un électrolimaçon rondouillard.\n\nIl deviendra une électrolimace en grandissant."
+    "desc": "Un électrolimaçon rondouillard.<br>Il deviendra une électrolimace en grandissant."
   },
   "PuftAlphaBaby": {
     "name": "Bouffie Princière",
-    "desc": "Une petite bouffie princière pleine de gaz.\n\nEn grandissant, elle deviendra une bouffette princière.\n\nElle a l'air un peu snob..."
+    "desc": "Une petite bouffie princière pleine de gaz.<br>En grandissant, elle deviendra une bouffette princière.<br>Elle a l'air un peu snob..."
   },
   "PacuTropicalBaby": {
     "name": "Alevin de Pacu Tropical",
-    "desc": "Un jeune alevin de pacu tropical frétillant.\n\nAvec le temps, il deviendra un pacu tropical adulte."
+    "desc": "Un jeune alevin de pacu tropical frétillant.<br>Avec le temps, il deviendra un pacu tropical adulte."
   },
   "PacuBaby": {
     "name": "Alevin de Pacu",
-    "desc": "Un jeune alevin de pacu frétillant.\n\nAvec le temps, il deviendra un pacu adulte."
+    "desc": "Un jeune alevin de pacu frétillant.<br>Avec le temps, il deviendra un pacu adulte."
   },
   "PacuCleanerBaby": {
     "name": "Alevin de Poisson Gobeur",
-    "desc": "Un jeune alevin de poisson gobeur frétillant.\n\nAvec le temps, il deviendra un poisson gobeur adulte."
+    "desc": "Un jeune alevin de poisson gobeur frétillant.<br>Avec le temps, il deviendra un poisson gobeur adulte."
   },
   "OilfloaterHighTempBaby": {
     "name": "Larve de Gluant Fondu",
-    "desc": "Une petite larve de gluant fondu.\n\nUn jour elle deviendra un gluant fondu adulte."
+    "desc": "Une petite larve de gluant fondu.<br>Un jour elle deviendra un gluant fondu adulte."
   },
   "StaterpillarGasBaby": {
     "name": "Limaçon Brumeux",
-    "desc": "Un limaçon brumeux rondouillard.\n\nIl deviendra une limace brumeuse en grandissant."
+    "desc": "Un limaçon brumeux rondouillard.<br>Il deviendra une limace brumeuse en grandissant."
   },
   "OilfloaterDecorBaby": {
     "name": "Larve de Gluant Velu",
-    "desc": "Une petite larve de gluant velu pleine de vie.\n\nUn jour elle deviendra un gluant velu adulte."
+    "desc": "Une petite larve de gluant velu pleine de vie.<br>Un jour elle deviendra un gluant velu adulte."
   },
   "OilfloaterBaby": {
     "name": "Larve de Gluant",
-    "desc": "Une petite larve de gluant visqueuse.\n\nUn jour elle deviendra un gluant adulte."
+    "desc": "Une petite larve de gluant visqueuse.<br>Un jour elle deviendra un gluant adulte."
   },
   "StaterpillarLiquidBaby": {
     "name": "Limaçon Éponge",
-    "desc": "Un petit limaçon éponge.\n\nIl deviendra une limace éponge en grandissant."
+    "desc": "Un petit limaçon éponge.<br>Il deviendra une limace éponge en grandissant."
   },
   "MoleDelicacyBaby": {
     "name": "Jeune Delecta Vole",
-    "desc": "Un jeune et adorable delecta vole\n\nUn jour, il deviendra un type de shove vole adulte, le Delecta Vole."
+    "desc": "Un jeune et adorable delecta vole<br>Un jour, il deviendra un type de shove vole adulte, le Delecta Vole."
   },
   "MoleBaby": {
     "name": "Raton Taupier",
-    "desc": "Les rats taupiers sont des créatures fouisseuses qui mangent le régolithe qui se trouve sur les surfaces terrestres.\n\nIls ne peuvent creuser les métaux raffinés."
+    "desc": "Les rats taupiers sont des créatures fouisseuses qui mangent le régolithe qui se trouve sur les surfaces terrestres.<br>Ils ne peuvent creuser les métaux raffinés."
   },
   "LightBugPurpleBaby": {
     "name": "Nymphe Royale",
-    "desc": "Un bébé luciole potelé.\n\nCelui-ci appartient à l'espèce royale."
+    "desc": "Un bébé luciole potelé.<br>Celui-ci appartient à l'espèce royale."
   },
   "LightBugPinkBaby": {
     "name": "Nymphe Corallienne",
-    "desc": "Un bébé luciole potelé.\n\nCelui-ci appartient à l'espèce corallienne."
+    "desc": "Un bébé luciole potelé.<br>Celui-ci appartient à l'espèce corallienne."
   },
   "LightBugOrangeBaby": {
     "name": "Nymphe Solaire",
-    "desc": "Un bébé luciole potelé.\n\nCelui-ci appartient à l'espèce solaire."
+    "desc": "Un bébé luciole potelé.<br>Celui-ci appartient à l'espèce solaire."
   },
   "LightBugCrystalBaby": {
     "name": "Nymphe Rayonnante",
-    "desc": "Un bébé luciole potelé.\n\nCelui-ci appartient à l'espèce rayonnante."
+    "desc": "Un bébé luciole potelé.<br>Celui-ci appartient à l'espèce rayonnante."
   },
   "LightBugBlueBaby": {
     "name": "Nymphe Azurée",
-    "desc": "Un bébé luciole potelé.\n\nCelui-ci appartient à l'espèce azurée."
+    "desc": "Un bébé luciole potelé.<br>Celui-ci appartient à l'espèce azurée."
   },
   "LightBugBlackBaby": {
     "name": "Nymphe Abyssale",
-    "desc": "Un bébé luciole potelé.\n\nCelui-ci appartient à l'espèce abyssale."
+    "desc": "Un bébé luciole potelé.<br>Celui-ci appartient à l'espèce abyssale."
   },
   "HatchVeggieBaby": {
     "name": "Bouftou Sage",
-    "desc": "Un petit bouftou sage encore maladroit.\n\nEn grandissant, il deviendra un glouton sage, qui aimera grignoter les matériaux organiques."
+    "desc": "Un petit bouftou sage encore maladroit.<br>En grandissant, il deviendra un glouton sage, qui aimera grignoter les matériaux organiques."
   },
   "HatchHardBaby": {
     "name": "Bouftou Pierreux",
-    "desc": "Un petit bouftou pierreux encore maladroit.\n\nEn grandissant, il deviendra un glouton pierreux, qui aimera grignoter certaines roches et métaux."
+    "desc": "Un petit bouftou pierreux encore maladroit.<br>En grandissant, il deviendra un glouton pierreux, qui aimera grignoter certaines roches et métaux."
   },
   "SquirrelBaby": {
     "name": "Pipsqueak",
-    "desc": "Un bébé pipsqueak ronronnant.\n\nIl deviendra un pip en grandissant."
+    "desc": "Un bébé pipsqueak ronronnant.<br>Il deviendra un pip en grandissant."
   },
   "Atmo_Suit": {
     "name": "Combinaison Atmo",
@@ -3949,7 +4113,7 @@
   },
   "Worn_Atmo_Suit": {
     "name": "Combinaison Atmo usagée",
-    "desc": "Une combinaison atmo usagée.\n\nLes combinaisons peuvent être réparées en utilisant la forge d'exosuit."
+    "desc": "Une combinaison atmo usagée.<br>Les combinaisons peuvent être réparées en utilisant la forge d'exosuit."
   },
   "Cool_Vest": {
     "name": "Veste Légère",
@@ -3959,21 +4123,17 @@
     "name": "Tenue de jeune premier",
     "desc": "Améliore la décoration dans un petit rayon autour du Duplicant qui la porte"
   },
-  "EquippableBalloon": {
-    "name": "Ami ballon",
-    "desc": "null"
-  },
   "Funky_Vest": {
     "name": "Veste Tape-à-l'œil",
     "desc": "Améliore la décoration dans une petite zone autour du porteur. Peut être améliorée pour devenir une tenue à la mode à l'aide du refaçonneur de vêtements"
   },
   "Jet_Suit": {
     "name": "Combinaison à Propulsion",
-    "desc": "Fournit de l'oxygène aux Duplicants dans les environnements toxiques et difficilement respirables.\n\nPermet aux Duplicants de voler."
+    "desc": "Fournit de l'oxygène aux Duplicants dans les environnements toxiques et difficilement respirables.<br>Permet aux Duplicants de voler."
   },
   "Worn_Jet_Suit": {
     "name": "Combinaison à Propulsion usagée",
-    "desc": "Une combinaison à propulsion usagée.\n\nLes combinaisons peuvent être réparées en utilisant la forge d'exosuit."
+    "desc": "Une combinaison à propulsion usagée.<br>Les combinaisons peuvent être réparées en utilisant la forge d'exosuit."
   },
   "Lead_Suit": {
     "name": "Combinaison en Plomb",
@@ -3981,7 +4141,7 @@
   },
   "Worn_Lead_Suit": {
     "name": "Combinaison en Plomb usagée",
-    "desc": "Une Combinaison en Plomb usagée.\n\nLes combinaisons peuvent être réparées en utilisant la forge d'exosuit."
+    "desc": "Une Combinaison en Plomb usagée.<br>Les combinaisons peuvent être réparées en utilisant la forge d'exosuit."
   },
   "Oxygen_Mask": {
     "name": "Masque à Oxygène",
@@ -3989,11 +4149,11 @@
   },
   "Worn_Oxygen_Mask": {
     "name": "Masque à Oxygène Usagé",
-    "desc": "Un Masque à Oxygène usagé.\n\nLes masques peuvent être réparés grâce à un établi."
+    "desc": "Un Masque à Oxygène usagé.<br>Les masques peuvent être réparés grâce à un établi."
   },
   "SleepClinicPajamas": {
     "name": "Pyjama",
-    "desc": "Un ticket doux et pelucheux pour le pays des rêves.\n\nAide les Duplicants à s'endormir en réduisant leur endurance.\n\nPermet au porteur de rêver et de produire des journaux de rêve."
+    "desc": "Un ticket doux et pelucheux pour le pays des rêves.<br>Aide les Duplicants à s'endormir en réduisant leur endurance.<br>Permet au porteur de rêver et de produire des journaux de rêve."
   },
   "Warm_Vest": {
     "name": "Pull Chaud",

@@ -13,28 +13,31 @@ body {
 
 body {
   display: grid;
-  grid-auto-flow: row;
-  grid-template-rows: 30px 1fr 30px;
+  grid-template-areas: 
+    "top  top  top "
+    "list imgd desc"
+    "list prop prop"
+    "bot  bot  bot ";
+  grid-template-rows: 30px 140px 1fr 30px;
+  grid-template-columns: 1fr 140px 260px;
+  background-color: #363a4c;  
+  color: white;
 }
 
 #top {
-  grid-row: 1;
+  grid-area: top;
 }
 
-#bottom {
-  grid-row: 3;
+#bot {
+  grid-area: bot;
 }
 
-#middle {
-  grid-row: 2;
-  display: grid;
-  grid-template-columns: 1fr 400px;
-  min-height: 0px;
+#top,#bot {
+  background-color: #252834;  
 }
 
 #list {
-  background-color: #363a4c;
-  grid-column: 1;
+  grid-area: list;
   overflow: auto;
 
   h3 {
@@ -45,8 +48,10 @@ body {
 
 .category {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 100px);
-  margin-left: 10px;
+  grid-template-columns: repeat(auto-fill, 75px);
+  justify-content: center;
+  gap: 5px;
+  margin-right: 10px;
 }
 
 .box {
@@ -54,26 +59,22 @@ body {
   border-radius: 5px;
 
   grid-template-rows: 75px 55px;
-  margin: 3px;
-  width: 95px;
-  height: 130px;
   background-color: #3e4357;
 
   img {
     grid-row: 1;
     object-fit: contain;
-    margin-left: 10px;
-    margin-top: 5px;
-    margin-bottom: 0px;
-    height: 70px;
-    width: 75px;
+    margin: 5%;
+    width: 90%;
+    height: 90%;
   }
 
   .align {
     width: inherit;
-    height: 55px;
+    align-self: end;
     grid-row: 2;
     display: table;
+    min-height: 55px;
 
     p {
       color: rgba(255, 255, 255, 0.897);
@@ -93,26 +94,40 @@ body {
 }
 
 #properties {
-  display: flex;
-  flex-direction: column;
-  color: white;
+  display: grid;
+  grid-template-columns: 140px 60px 200px;
+  grid-template-rows: minmax(160px, min-content) repeat(auto-fit, minmax(10px, min-content));
+  width: inherit;
   background-color: #3e4357;
   grid-column: 2;
 
+  .left {
+    grid-column: 1 / 2;
+    text-align: right;
+    padding-right: 10px;
+  }
+
+  .right {
+    grid-column: 3;
+    padding-left: 10px;
+  }
 
 }
 
 #desc {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
-  img {
-    object-fit: contain;
-    margin: 10px;
-    height: 120px;
-    width: 120px;
-  }
-  p {
-    text-align: center;
-  }
+  grid-area: desc;
+  text-align: center;
+  padding: 2%;
+  background-color: #3e4357;
+  width: 96%;
+  height: 96%;
+}
+
+#descimg {
+  grid-area: imgd;
+  object-fit: contain;
+  padding: 5%;
+  width: 90%;
+  height: 90%;
+  background-color: #3e4357;
 }

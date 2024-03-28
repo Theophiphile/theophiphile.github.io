@@ -1,26 +1,30 @@
 function onChangeSelect(choice) {
   var list = document.getElementById("list");
   list.replaceChildren();
-  for (const [subCategory, entities] of Object.entries(db[choice])) {
+  menuOrder[choice].forEach(subCategory => {
     var title = document.createElement("h3");
-    console.log(translationUI);
     title.textContent = translationUI[subCategory];
     title.dataset.ui = subCategory;
     list.appendChild(title);
     var category = document.createElement("div");
     category.className = "category";
     list.appendChild(category);
-    Object.entries(entities)
-      .sort((a, b) => translationTag[a[0]].name.localeCompare(translationTag[b[0]].name))
-      .forEach(([tag, entity]) => {
+    Object.entries(db[choice][subCategory])
+  //    .sort((a, b) => a[1].menuOrder != b[1].menuOrder ?
+  //      a[1].menuOrder - b[1].menuOrder :
+  //      translationTag[a[0]].name.localeCompare(translationTag[b[0]].name))
+      .forEach(([tag, _]) => {
         var box = document.createElement("div");
         box.className = "box";
         var img = document.createElement("img");
-        img.setAttribute("src", "images/"+ tag[0] + "/" + tag + ".png");
+        img.setAttribute("src", "images/" + tag[0].toUpperCase() + "/" + tag + ".png");
         var d = document.createElement("div");
         d.className = "align";
         var p = document.createElement("p");
-        p.textContent = translationTag[tag].name;
+        if (translationTag[tag] == null)
+          p.textContent = tag;
+        else
+          p.textContent = translationTag[tag].name;
         p.dataset.tag = tag;
         d.appendChild(p);
         box.appendChild(img);
@@ -28,7 +32,82 @@ function onChangeSelect(choice) {
         category.appendChild(box);
         box.addEventListener("click", () => displayProperties(tag, db[choice][subCategory][tag]));
       });
-  }
+  });
+}
+
+var menuOrder = {
+  Element: [
+    "Solid",
+    "Liquid",
+    "Gas",
+    "Other",
+  ],
+  Building: [
+    "base",
+    "oxygen",
+    "power",
+    "food",
+    "plumbing",
+    "hvac",
+    "refining",
+    "medical",
+    "furniture",
+    "equipment",
+    "utilities",
+    "automation",
+    "conveyance",
+    "rocketry",
+    "RocketModule",
+    "hep",
+    "Gravitas",
+    "Quest",
+  ],
+  Food: [
+    "Cooked",
+    "Raw",
+    "Ingredient",
+    "Dehydrated",
+  ],
+  Critter: [
+    "Critter",
+    "Baby",
+    "Egg",
+    "Robot",
+  ],
+  Plant: [
+    "Crop",
+    "Forage",
+    "Decor",
+  ],
+  Geyser: [
+    "Geyser"
+  ],
+  Space: [
+    "HarvestablePOI",
+    "Comet",
+    "Shower",
+    "ArtifactPOI",
+  ],
+  Equipment: [
+    "Clothes",
+    "Suit",
+    "Worn",
+  ],
+  Artifact: [
+    "Terrestrial",
+    "Space",
+    "Any",
+    "Quest",
+  ],
+  Misc: [
+    "Medicine",
+    "Industrial",
+    "Other",
+    "Quest",
+  ],
+  NONE: [
+    "NONE"
+  ]
 }
 
 class info {
@@ -43,36 +122,17 @@ class info {
 }
 
 function displayProperties(tag, entity) {
-  let properties = document.getElementById("properties");
-  properties.replaceChildren();
-  var desc = document.createElement("div");
-  desc.id = "desc";
-  var img = document.createElement("img");
+  var img = document.getElementById("descimg");
   img.setAttribute("src", "images/" + tag[0] + "/" + tag + ".png");
-  var p = document.createElement("p");
-  p.dataset.desc = tag;
-  p.innerHTML = translationTag[tag].desc;
-  desc.appendChild(img);
-  desc.append(p);
-  var table = document.createElement("table");
-  var tbody = document.createElement("tbody");
-  let infos = new info(tbody);
-  propertiesOrder.forEach((prop) => {
-    let value = entity[prop];
-    if (value != null) {
-      var tr = document.createElement("tr");
-      var property = document.createElement("th");
-      var v = document.createElement("th");
-      property.textContent = prop;
-      v.textContent = value;
-      tr.appendChild(property);
-      tr.appendChild(v);
-      tbody.appendChild(tr);
-    }
-  });
-  table.appendChild(tbody);
-  properties.appendChild(desc);
-  properties.appendChild(table);
+  var desc = document.getElementById("desc");
+  desc.dataset.desc = tag;
+  desc.innerHTML = translationTag[tag].desc;
+ // Object.entries(propertiesOrder).forEach(([prop, fn]) => {
+ //   let value = entity[prop];
+ //   if (value != null) {
+ //     fn(properties, prop, value);
+ //   }
+ // });
 }
 
 function init() {
@@ -81,9 +141,4 @@ function init() {
 
 window.addEventListener('DOMContentLoaded', () => init());
 
-const propertiesOrder = [
-  "molarMass",
-  "hardness",
-  "shc",
-  "strength"
-]
+
