@@ -17,7 +17,7 @@ function onChangeSelect(choice) {
         var box = document.createElement("div");
         box.className = "box";
         var img = document.createElement("img");
-        img.setAttribute("src", "images/" + tag[0].toUpperCase() + "/" + tag + ".png");
+        img.src = image(tag).path;
         var d = document.createElement("div");
         d.className = "align";
         var p = document.createElement("p");
@@ -35,7 +35,47 @@ function onChangeSelect(choice) {
   });
 }
 
-var menuOrder = {
+
+class info {
+  tbody;
+  add(left, right) {
+
+    this.tbody.appendChild
+  };
+  constructor(tbody) {
+    this.tbody = tbody;
+  }
+}
+
+function displayProperties(tag, entity) {
+  var img = document.getElementById("descimg");
+  img.src = image(tag).path;
+
+  var desc = document.getElementById("desc");
+  desc.dataset.desc = tag;
+  desc.innerHTML = translationTag[tag].desc;
+
+  var properties = document.getElementById("properties");
+  properties.replaceChildren();
+  var mainTitle = document.createElement("h3");
+  mainTitle.textContent = "Properties";
+  properties.appendChild(mainTitle);
+  Object.entries(propertiesOrder).forEach(([prop, fn]) => {
+    let value = entity[prop];
+    if (value != null) {
+      fn(properties, prop, value);
+    }
+  });
+  recipeBuilding(properties, tag);
+}
+
+function init() {
+  setTranslation("fr").then(() => onChangeSelect("Element"));
+}
+
+window.addEventListener('DOMContentLoaded', () => init());
+
+const menuOrder = {
   Element: [
     "Solid",
     "Liquid",
@@ -109,36 +149,4 @@ var menuOrder = {
     "NONE"
   ]
 }
-
-class info {
-  tbody;
-  add(left, right) {
-
-    this.tbody.appendChild
-  };
-  constructor(tbody) {
-    this.tbody = tbody;
-  }
-}
-
-function displayProperties(tag, entity) {
-  var img = document.getElementById("descimg");
-  img.setAttribute("src", "images/" + tag[0] + "/" + tag + ".png");
-  var desc = document.getElementById("desc");
-  desc.dataset.desc = tag;
-  desc.innerHTML = translationTag[tag].desc;
- // Object.entries(propertiesOrder).forEach(([prop, fn]) => {
- //   let value = entity[prop];
- //   if (value != null) {
- //     fn(properties, prop, value);
- //   }
- // });
-}
-
-function init() {
-  setTranslation("fr").then(() => onChangeSelect("Element"));
-}
-
-window.addEventListener('DOMContentLoaded', () => init());
-
 

@@ -77,7 +77,7 @@ body {
     min-height: 55px;
 
     p {
-      color: rgba(255, 255, 255, 0.897);
+      color: rgba(255, 255, 255, 0.9);
       width: inherit;
       height: inherit;
       background-color: rgba(0, 0, 0, 0.4);
@@ -94,24 +94,77 @@ body {
 }
 
 #properties {
-  display: grid;
-  grid-template-columns: 140px 60px 200px;
-  grid-template-rows: minmax(160px, min-content) repeat(auto-fit, minmax(10px, min-content));
-  width: inherit;
+  grid-area: prop;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   background-color: #3e4357;
-  grid-column: 2;
+  overflow: auto;
+}
 
-  .left {
-    grid-column: 1 / 2;
-    text-align: right;
-    padding-right: 10px;
-  }
+#properties h3 {
+  text-align: center;
+  background-color: #874566;
+  margin: 10px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
 
-  .right {
-    grid-column: 3;
-    padding-left: 10px;
-  }
+summary {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
 
+summary::before {
+  padding-left: 10px;
+  content: '▸';
+  text-align: top;
+  line-height: 95%;
+}
+
+details[open] > summary::before {
+  content: '▾';
+}
+
+.propLeft, details, .detailsLeft, summary, .propRight {
+  width: 180px;
+  float: left;
+}
+
+.propLeft, .detailsLeft, summary, .propRight {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-top: 3px;
+  font-size: 14px;
+}
+
+.propLeft, details, .detailsLeft, summary {
+  text-align: right;
+  padding-right: 10px;
+  border-radius: 5px;
+}
+
+.propLeft, .detailsLeft, summary {
+  background-color: #363a4c;
+}
+
+.propLeft, details {
+  margin-left: 10px;
+}
+
+.propRight {
+  padding-left: 10px;
+  margin-right: 10px;
+}
+
+.propLeft > img, .detailsLeft > img {
+  height: 19px;
+  width: 25px;
+  object-fit: contain;
+  margin-top: -1px;
+  margin-bottom: -1px;
+  padding-left: 3px;
 }
 
 #desc {

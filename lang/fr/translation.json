@@ -1523,21 +1523,65 @@
     "name": "Algue",
     "desc": "L'algue est un amas de formes de vie monocellulaires et non-mobiles.<br>Elle peut être utilisée pour produire de l'oxygène lorsqu'elle est utilisée dans un diffuseur d'oxygène"
   },
+  "Life": {
+    "name": "Vie",
+    "desc": ""
+  },
+  "PedestalDisplayable": {
+    "name": "MISSING.STRINGS.MISC.TAGS.PEDESTALDISPLAYABLE",
+    "desc": ""
+  },
+  "Solid": {
+    "name": "Solide",
+    "desc": ""
+  },
+  "Organics": {
+    "name": "Organique",
+    "desc": ""
+  },
   "BleachStone": {
     "name": "Roche Chlorée",
     "desc": "La roche chlorée est un composant instable qui diffuse du chlore gazeux irrespirable<br>Elle a des applications hygiéniques."
+  },
+  "FlyingCritterEdible": {
+    "name": "Appât",
+    "desc": ""
+  },
+  "ConsumableOre": {
+    "name": "Minerai consommable",
+    "desc": ""
   },
   "DirtyWater": {
     "name": "Eau Polluée",
     "desc": "L'eau polluée est consituée d'eau sale, non filtrée.<br>Elle est impropre à la consommation."
   },
+  "Mixture": {
+    "name": "Mélange",
+    "desc": ""
+  },
+  "AnyWater": {
+    "name": "À base d'eau",
+    "desc": ""
+  },
+  "Liquid": {
+    "name": "Liquide",
+    "desc": ""
+  },
   "NuclearWaste": {
     "name": "Déchet Nucléaire Liquide",
     "desc": "Liquide hautement toxique chargé en contaminants radioactifs. Émet des radiations qui peuvent être absorbées par un générateur à radbolts."
   },
+  "EmitsLight": {
+    "name": "Source lumineuse",
+    "desc": ""
+  },
   "OxyRock": {
     "name": "Oxylite",
     "desc": "L'oxylite (Ir<sub>3</sub>O<sub>2</sub>) est un composé chimique qui diffuse de l'oxygène lentement.<br>Le taux d'oxygène augmente lorsque l'oxylite est excavé, mais cela épuise le minerai plus rapidement."
+  },
+  "Oxidizer": {
+    "name": "Comburant",
+    "desc": ""
   },
   "SlimeMold": {
     "name": "Vase",
@@ -1547,17 +1591,53 @@
     "name": "Terre Polluée",
     "desc": "La terre polluée est un déchet toxique non traité.<br>Elle émet de l'oxygène pollué."
   },
+  "Compostable": {
+    "name": "Compostable",
+    "desc": ""
+  },
   "CrushedIce": {
     "name": "Glace pilée",
     "desc": "(H<sub>2</sub>O) Une bouillie de glace à moitié solide."
+  },
+  "IceOre": {
+    "name": "Glace",
+    "desc": ""
+  },
+  "Unstable": {
+    "name": "Instable",
+    "desc": ""
+  },
+  "Liquifiable": {
+    "name": "Liquéfiable",
+    "desc": ""
   },
   "Diamond": {
     "name": "Diamant",
     "desc": "Le diamant (C) est un carbone de haute densité de niveau industriel<br>Il est très difficile à extraire."
   },
+  "BuildableAny": {
+    "name": "Constructibles",
+    "desc": ""
+  },
+  "Transparent": {
+    "name": "Transparent",
+    "desc": ""
+  },
+  "Other": {
+    "name": "Divers",
+    "desc": ""
+  },
   "Isoresin": {
     "name": "Isorésine",
     "desc": "L'isorésine est une sève cristallisée composée de chaînes  de polymères longues.<br>Elle est utilisée dans la production de matériaux rares de haute qualité."
+  },
+  "BuildableRaw": {
+    "name": "Minéral brut",
+    "desc": ""
+  },
+  "RareMaterials": {
+    "name": "Ressource rare",
+    "desc": ""
   },
   "Sucrose": {
     "name": "Saccharose",
@@ -1571,6 +1651,14 @@
     "name": "Niobium",
     "desc": "(Nb) Niobium is a rare metal with many practical applications in metallurgy and superconductor Research."
   },
+  "Metal": {
+    "name": "Minerai de Métal",
+    "desc": ""
+  },
+  "RefinedMetal": {
+    "name": "Métal Raffiné",
+    "desc": ""
+  },
   "MilkIce": {
     "name": "Brackène Gelé",
     "desc": "Le brackène gelé est constitué de brackène congelé à l'état Solide."
@@ -1578,6 +1666,10 @@
   "Cuprite": {
     "name": "Minerai de Cuivre",
     "desc": "Le minerai de cuivre (Cu<sub>2</sub>O) est un métal conducteur.<br>Il peut être utilisé pour construire des systèmes d'énergie."
+  },
+  "Ore": {
+    "name": "Minerai",
+    "desc": ""
   },
   "Copper": {
     "name": "Cuivre",
@@ -1587,9 +1679,29 @@
     "name": "Roche Concassée",
     "desc": "La roche concassée est une roche magmatique écrasée en un mélange mécanique."
   },
+  "BuildableProcessed": {
+    "name": "Minéral raffiné",
+    "desc": ""
+  },
   "SuperInsulator": {
     "name": "Isolant",
     "desc": "L'isolant réduit les Transferts de Chaleur et est composé d'Abyssalite recristallisée."
+  },
+  "Plumbable": {
+    "name": "Plombable",
+    "desc": ""
+  },
+  "Crushable": {
+    "name": "Concassable",
+    "desc": ""
+  },
+  "Insulator": {
+    "name": "Isolant",
+    "desc": ""
+  },
+  "ManufacturedMaterial": {
+    "name": "Matériau manufacturé",
+    "desc": ""
   },
   "BrineIce": {
     "name": "Glace saumurée",
@@ -1598,6 +1710,10 @@
   "SolidViscoGel": {
     "name": "Visco-Gel Solide",
     "desc": "Le visco-gel est un polymère possédant une tension de surface élevée lorsqu'il est dans sa forme liquide.<br>Celui-ci est à l'état solide."
+  },
+  "Plastic": {
+    "name": "Plastiques",
+    "desc": ""
   },
   "Ceramic": {
     "name": "Céramique",
@@ -1611,6 +1727,10 @@
     "name": "Engrais",
     "desc": "L'engrais est un mélange de nutriments biologiques.<br>Il permet à certaines plantes de pousser."
   },
+  "Agriculture": {
+    "name": "Agriculture",
+    "desc": ""
+  },
   "SolidCrudeOil": {
     "name": "Pétrole Brut Solide",
     "desc": ""
@@ -1622,6 +1742,10 @@
   "Polypropylene": {
     "name": "Plastique",
     "desc": "Le plastique (C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> est un polymère thermoplastique.<br>Il est utilisé pour construire une grande quantité d'équipements."
+  },
+  "Antiseptic": {
+    "name": "Antiseptique",
+    "desc": ""
   },
   "SolidNaphtha": {
     "name": "Naphtha Solide",
@@ -1671,6 +1795,10 @@
     "name": "Obsidienne",
     "desc": "L'obsidienne est un composite fragile de verre volcanique."
   },
+  "PreciousRock": {
+    "name": "Roche précieuse",
+    "desc": ""
+  },
   "SolidPetroleum": {
     "name": "Pétrole Solide",
     "desc": "Le pétrole est une source d'énergie.<br>Celui-ci est à l'état solide."
@@ -1719,6 +1847,10 @@
     "name": "Minerai d'Uranium",
     "desc": "Le minerai d'uranium (U) est une substance hautement radioactive.<br>Il peut être raffiné avant d'être utilisé dans des réacteurs nucléaires."
   },
+  "Noncrushable": {
+    "name": "Incassable",
+    "desc": ""
+  },
   "AluminumOre": {
     "name": "Minerai d'Aluminium",
     "desc": "Le minerai d'aluminium, aussi appelé bauxite, est une roche sédimentaire riche en métaux.<br>Il peut être raffiné pour obtenir de l'aluminum."
@@ -1743,6 +1875,10 @@
     "name": "Sable",
     "desc": "Le sable est un composite de roche granulaire.<br>Il est utilisé comme milieu filtrant."
   },
+  "Filter": {
+    "name": "Matériau Filtrant",
+    "desc": ""
+  },
   "Snow": {
     "name": "Neige",
     "desc": "La neige (H<sub>2</sub>O) est une masse de particules de glace cristalline.<br>Elle se transforme en eau lorsqu'elle fond."
@@ -1758,6 +1894,10 @@
   "Clay": {
     "name": "Argile",
     "desc": "L'argile est un mélange naturel de pierre et de terre qui durcit à haute Température.<br>C'est un <b>matériau de construction</b> fiable."
+  },
+  "Farmable": {
+    "name": "Sol cultivable",
+    "desc": ""
   },
   "Ice": {
     "name": "Glace",
@@ -1778,6 +1918,10 @@
   "Carbon": {
     "name": "Charbon",
     "desc": "Le charbon (C) est un combustible fossile composé de carbone.<br>Il est utilisé pour la production d'énergie."
+  },
+  "Coal": {
+    "name": "Charbon",
+    "desc": ""
   },
   "SolidOxygen": {
     "name": "Oxygène Solide",
@@ -1842,6 +1986,10 @@
   "Unobtanium": {
     "name": "Neutronium",
     "desc": "Le neutronium (Nt) est un élément mystérieux et extrêmement résilient.<br>Il ne peut être excavé par aucun outil de Duplicant."
+  },
+  "Special": {
+    "name": "Spécial",
+    "desc": ""
   },
   "SolidEthanol": {
     "name": "Éthanol Solide",
@@ -1915,6 +2063,10 @@
     "name": "Pétrole",
     "desc": "Le pétrole est une source d'énergie, raffinée à partir de pétrole brut.<br>C'est aussi un ingrédient essentiel pour la production de plastique."
   },
+  "CombustibleLiquid": {
+    "name": "Liquide Combustible",
+    "desc": ""
+  },
   "MoltenSalt": {
     "name": "Sel Fondu",
     "desc": "Le sel fondu (NaCl) est un composé chimique comestible qui a été chauffé pour atteindre un état liquide."
@@ -1955,6 +2107,10 @@
     "name": "Naphtha Liquide",
     "desc": "Le naphta est un mélange d'hydrocarbures distillés, produit par la combustion du plastique."
   },
+  "Oil": {
+    "name": "Hydrocarbure",
+    "desc": ""
+  },
   "MoltenSucrose": {
     "name": "Saccharose Liquide",
     "desc": "Le saccharose (C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>) est la forme brute du sucre, qui, une fois chauffé, passe à l'état liquide.<br>Il peut être utilisé tel quel pour la cuisine, ou raffiné pour accompagner les repas, ce qui améliorera le Moral du Duplicant."
@@ -1991,6 +2147,14 @@
     "name": "Gaz de Soufre",
     "desc": "Le soufre (S) est un élément chimique commun et un sous-produit issu de la production de gaz naturel.<br>Celui-ci est à l'état gazeux."
   },
+  "Gas": {
+    "name": "Gaz",
+    "desc": ""
+  },
+  "Unbreathable": {
+    "name": "Gaz irrespirable",
+    "desc": ""
+  },
   "SaltGas": {
     "name": "Gaz de Sel",
     "desc": "Le gaz de sel (NaCl) est un composé chimique comestible passée à l'état gazeux après avoir été surchauffée."
@@ -2003,6 +2167,10 @@
     "name": "Oxygène",
     "desc": "L'Oxygène (O<sub>2</sub>) est un gaz atomiquement léger et respirable, nécessaire pour rester en vie.<br>Il a tendance à s'élever au dessus des autres gaz."
   },
+  "Breathable": {
+    "name": "Gaz respirable",
+    "desc": ""
+  },
   "CobaltGas": {
     "name": "Gaz de Cobalt",
     "desc": "Le cobalt (Co) est un métal raffiné qui, une fois chauffé, se transforme en gaz."
@@ -2010,6 +2178,10 @@
   "SteelGas": {
     "name": "Gaz d'Acier",
     "desc": "Le gaz d'acier est un gaz métallique surchauffé qui est composé de fer et de carbone."
+  },
+  "Alloy": {
+    "name": "Alliage",
+    "desc": ""
   },
   "ChlorineGas": {
     "name": "Chlore Gazeux",
@@ -2030,6 +2202,10 @@
   "Methane": {
     "name": "Gaz Naturel",
     "desc": "Le gaz naturel est un mélange de plusieurs alcanes à l'état gazeux.<br>Il est utilisé pour la production d'énergie."
+  },
+  "CombustibleGas": {
+    "name": "Gaz combustible",
+    "desc": ""
   },
   "GoldGas": {
     "name": "Gaz d'Or",
@@ -2087,9 +2263,213 @@
     "name": "Gaz de Cuivre",
     "desc": "Le gaz de cuivre (Cu) est un métal conducteur qui a été chauffé pour passer à l'état gazeux."
   },
+  "Clinic": {
+    "name": "Clinique",
+    "desc": ""
+  },
+  "ScienceBuilding": {
+    "name": "MISSING.STRINGS.MISC.TAGS.SCIENCEBUILDING",
+    "desc": ""
+  },
+  "RanchStationType": {
+    "name": "MISSING.STRINGS.MISC.TAGS.RANCHSTATIONTYPE",
+    "desc": ""
+  },
+  "IndustrialMachinery": {
+    "name": "MISSING.STRINGS.MISC.TAGS.INDUSTRIALMACHINERY",
+    "desc": ""
+  },
+  "RecBuilding": {
+    "name": "MISSING.STRINGS.MISC.TAGS.RECBUILDING",
+    "desc": ""
+  },
+  "RocketModule": {
+    "name": "MISSING.STRINGS.MISC.TAGS.ROCKETMODULE",
+    "desc": ""
+  },
+  "BedType": {
+    "name": "MISSING.STRINGS.MISC.TAGS.BEDTYPE",
+    "desc": ""
+  },
+  "Bunker": {
+    "name": "MISSING.STRINGS.MISC.TAGS.BUNKER",
+    "desc": ""
+  },
+  "FloorTiles": {
+    "name": "MISSING.STRINGS.MISC.TAGS.FLOORTILES",
+    "desc": ""
+  },
+  "Decoration": {
+    "name": "Décoration",
+    "desc": ""
+  },
+  "Carpeted": {
+    "name": "MISSING.STRINGS.MISC.TAGS.CARPETED",
+    "desc": ""
+  },
+  "LightSource": {
+    "name": "MISSING.STRINGS.MISC.TAGS.LIGHTSOURCE",
+    "desc": ""
+  },
+  "OverlayBackLayer": {
+    "name": "MISSING.STRINGS.MISC.TAGS.OVERLAYBACKLAYER",
+    "desc": ""
+  },
+  "OverlayFrontLayer": {
+    "name": "MISSING.STRINGS.MISC.TAGS.OVERLAYFRONTLAYER",
+    "desc": ""
+  },
+  "CookTop": {
+    "name": "MISSING.STRINGS.MISC.TAGS.COOKTOP",
+    "desc": ""
+  },
+  "CreatureRelocator": {
+    "name": "MISSING.STRINGS.MISC.TAGS.CREATURERELOCATOR",
+    "desc": ""
+  },
+  "MessTable": {
+    "name": "MISSING.STRINGS.MISC.TAGS.MESSTABLE",
+    "desc": ""
+  },
+  "Telepad": {
+    "name": "MISSING.STRINGS.MISC.TAGS.TELEPAD",
+    "desc": ""
+  },
+  "Experimental": {
+    "name": "MISSING.STRINGS.MISC.TAGS.EXPERIMENTAL",
+    "desc": ""
+  },
+  "Backwall": {
+    "name": "MISSING.STRINGS.MISC.TAGS.BACKWALL",
+    "desc": ""
+  },
+  "Gravitas": {
+    "name": "MISSING.STRINGS.MISC.TAGS.GRAVITAS",
+    "desc": ""
+  },
+  "FarmStationType": {
+    "name": "MISSING.STRINGS.MISC.TAGS.FARMSTATIONTYPE",
+    "desc": ""
+  },
+  "FarmTiles": {
+    "name": "MISSING.STRINGS.MISC.TAGS.FARMTILES",
+    "desc": ""
+  },
+  "ToiletType": {
+    "name": "MISSING.STRINGS.MISC.TAGS.TOILETTYPE",
+    "desc": ""
+  },
+  "FlushToiletType": {
+    "name": "MISSING.STRINGS.MISC.TAGS.FLUSHTOILETTYPE",
+    "desc": ""
+  },
+  "Vents": {
+    "name": "MISSING.STRINGS.MISC.TAGS.VENTS",
+    "desc": ""
+  },
+  "Window": {
+    "name": "MISSING.STRINGS.MISC.TAGS.WINDOW",
+    "desc": ""
+  },
+  "HEPPassThrough": {
+    "name": "MISSING.STRINGS.MISC.TAGS.HEPPASSTHROUGH",
+    "desc": ""
+  },
+  "LaunchButtonRocketModule": {
+    "name": "MISSING.STRINGS.MISC.TAGS.LAUNCHBUTTONROCKETMODULE",
+    "desc": ""
+  },
+  "NoseRocketModule": {
+    "name": "MISSING.STRINGS.MISC.TAGS.NOSEROCKETMODULE",
+    "desc": ""
+  },
+  "WashStation": {
+    "name": "MISSING.STRINGS.MISC.TAGS.WASHSTATION",
+    "desc": ""
+  },
+  "AdvancedWashStation": {
+    "name": "MISSING.STRINGS.MISC.TAGS.ADVANCEDWASHSTATION",
+    "desc": ""
+  },
+  "Pipes": {
+    "name": "MISSING.STRINGS.MISC.TAGS.PIPES",
+    "desc": ""
+  },
+  "JetSuitBlocker": {
+    "name": "MISSING.STRINGS.MISC.TAGS.JETSUITBLOCKER",
+    "desc": ""
+  },
+  "NotRocketInteriorBuilding": {
+    "name": "MISSING.STRINGS.MISC.TAGS.NOTROCKETINTERIORBUILDING",
+    "desc": ""
+  },
+  "CorrosionProof": {
+    "name": "MISSING.STRINGS.MISC.TAGS.CORROSIONPROOF",
+    "desc": ""
+  },
+  "RocketInteriorBuilding": {
+    "name": "MISSING.STRINGS.MISC.TAGS.ROCKETINTERIORBUILDING",
+    "desc": ""
+  },
+  "LuxuryBedType": {
+    "name": "MISSING.STRINGS.MISC.TAGS.LUXURYBEDTYPE",
+    "desc": ""
+  },
+  "DeStressingBuilding": {
+    "name": "MISSING.STRINGS.MISC.TAGS.DESTRESSINGBUILDING",
+    "desc": ""
+  },
+  "ModularConduitPort": {
+    "name": "MISSING.STRINGS.MISC.TAGS.MODULARCONDUITPORT",
+    "desc": ""
+  },
+  "ModularLaunchpadPort": {
+    "name": "MISSING.STRINGS.MISC.TAGS.MODULARLAUNCHPADPORT",
+    "desc": ""
+  },
+  "Park": {
+    "name": "MISSING.STRINGS.MISC.TAGS.PARK",
+    "desc": ""
+  },
+  "PowerStation": {
+    "name": "Centrale d'énergie",
+    "desc": ""
+  },
+  "NotRoomAssignable": {
+    "name": "MISSING.STRINGS.MISC.TAGS.NOTROOMASSIGNABLE",
+    "desc": ""
+  },
+  "UniquePerWorld": {
+    "name": "MISSING.STRINGS.MISC.TAGS.UNIQUEPERWORLD",
+    "desc": ""
+  },
+  "RocketInterior": {
+    "name": "MISSING.STRINGS.MISC.TAGS.ROCKETINTERIOR",
+    "desc": ""
+  },
+  "NoRocketRefund": {
+    "name": "MISSING.STRINGS.MISC.TAGS.NOROCKETREFUND",
+    "desc": ""
+  },
+  "SpiceStation": {
+    "name": "MISSING.STRINGS.MISC.TAGS.SPICESTATION",
+    "desc": ""
+  },
+  "TravelTubeBridges": {
+    "name": "MISSING.STRINGS.MISC.TAGS.TRAVELTUBEBRIDGES",
+    "desc": ""
+  },
+  "WireBridges": {
+    "name": "MISSING.STRINGS.MISC.TAGS.WIREBRIDGES",
+    "desc": ""
+  },
   "ClustercraftInteriorDoor": {
     "name": "écoutille intérieure",
     "desc": "Une écoutille pour entrer et sortir de la fusée."
+  },
+  "Comet": {
+    "name": "MISSING.STRINGS.MISC.TAGS.COMET",
+    "desc": ""
   },
   "RockComet": {
     "name": "Météore rocheux",
@@ -2130,6 +2510,14 @@
   "ArtifactSpacePOI_RussellsTeapot": {
     "name": "Théière de Russell",
     "desc": "Il n'est pas possible de prouver sa non-existence."
+  },
+  "MiscPickupable": {
+    "name": "MISSING.STRINGS.MISC.TAGS.MISCPICKUPABLE",
+    "desc": ""
+  },
+  "Artifact": {
+    "name": "MISSING.STRINGS.MISC.TAGS.ARTIFACT",
+    "desc": ""
   },
   "artifact_sandstone": {
     "name": "Grès",
@@ -2263,9 +2651,21 @@
     "name": "Modèle de Centrale Électrique",
     "desc": "Ça se prononce nu-clé-aire."
   },
+  "MedicalSupplies": {
+    "name": "Fournitures médicales",
+    "desc": ""
+  },
+  "DoctorStationMedicalSupplies": {
+    "name": "Pack médical",
+    "desc": ""
+  },
   "IntermediateCure": {
     "name": "Pack médical",
     "desc": "Un traitement administré par un docteur pour traiter les affections légères."
+  },
+  "Medicine": {
+    "name": "Médicament",
+    "desc": ""
   },
   "IntermediateBooster": {
     "name": "Booster d'immunité",
@@ -2323,6 +2723,10 @@
     "name": "Météore cotonneux de poussière",
     "desc": "Météore cotonneux de poussière"
   },
+  "AdvancedDoctorStationMedicalSupplies": {
+    "name": "Flacon de sérum",
+    "desc": ""
+  },
   "AdvancedCure": {
     "name": "Flacon de sérum",
     "desc": "Un traitement administré par un docteur pour traiter les affections sévères."
@@ -2363,6 +2767,14 @@
     "name": "Échelle",
     "desc": "Une échelle en plastique dur."
   },
+  "IndustrialIngredient": {
+    "name": "Ingrédient Industriel",
+    "desc": ""
+  },
+  "BuildingWood": {
+    "name": "Bois",
+    "desc": ""
+  },
   "WoodLog": {
     "name": "Bois",
     "desc": "Bois provenant d'un arbor ou d'un Oakshell."
@@ -2370,6 +2782,10 @@
   "CompostWormBasicFruit": {
     "name": "Fruitver Chétif",
     "desc": "Un Fruitver qui n'a pas réussi à se développer correctement.<br>Il est néanmoins comestible et a un peu de goût."
+  },
+  "Edible": {
+    "name": "Comestible",
+    "desc": ""
   },
   "WormBasicFruit": {
     "name": "Fruitver Chétif",
@@ -2427,6 +2843,14 @@
     "name": "Conserve de Fruitver",
     "desc": "Une marmelade de longue conservation à base de Grubfruits conservés dans le saccharose.<br>La marmelade épaisse et gluante garde l'aspect du réservoir lorsqu'on la sort, mais sa saveur douce est sans égale."
   },
+  "Dehydrated": {
+    "name": "Déshydraté",
+    "desc": ""
+  },
+  "PickupableStorage": {
+    "name": "MISSING.STRINGS.MISC.TAGS.PICKUPABLESTORAGE",
+    "desc": ""
+  },
   "DehydratedSurfAndTurf": {
     "name": "Surf'n'Turf déshydraté",
     "desc": "Une portion de surf'n'turf déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
@@ -2446,6 +2870,10 @@
   "CompostSpiceNut": {
     "name": "Noix Poivrée Pincha",
     "desc": "Toute la saveur du poivre pincha.<br>La coque amère dissimule un noyau riche et poivré, utilisé en cuisine."
+  },
+  "CookingIngredient": {
+    "name": "Ingrédient",
+    "desc": ""
   },
   "SpiceNut": {
     "name": "Noix Poivrée Pincha",
@@ -2523,6 +2951,10 @@
     "name": "Coquille d'œuf",
     "desc": "Peut être écrasée pour produire de la chaux."
   },
+  "StoryTraitResource": {
+    "name": "Attributs d'Histoire",
+    "desc": ""
+  },
   "DreamJournal": {
     "name": "Journal de Rêve",
     "desc": "La retranscription d'un rêve provoqué par le port d'un pyjama.<br>Peut être analysée à l'aide du synthétiseur somnium."
@@ -2534,6 +2966,10 @@
   "CompostCrabWoodShell": {
     "name": "Mue d'un oakshell",
     "desc": "Peut être écrasée pour produire du <link=\"WOOD\">bois</link."
+  },
+  "MoltShell": {
+    "name": "MISSING.STRINGS.MISC.TAGS.MOLTSHELL",
+    "desc": ""
   },
   "CrabWoodShell": {
     "name": "Mue d'un oakshell",
@@ -2667,6 +3103,10 @@
     "name": "Guichet d'accueil",
     "desc": "Une tasse de café pleine et une note abandonnée au milieu d'une phrase se trouvent derrière le bureau.<br>Ça me donne une impression étrange, comme si le réceptionniste s'était absenté et allait revenir à n'importe quel moment."
   },
+  "WarpTech": {
+    "name": "MISSING.STRINGS.MISC.TAGS.WARPTECH",
+    "desc": ""
+  },
   "WarpReceiver": {
     "name": "Réceptacle de Téléporteur",
     "desc": "Les vestiges encore fonctionnels de ce qui fut un système de téléportation complexe.<br>Ceci est le côté entrant."
@@ -2703,6 +3143,10 @@
     "name": "Atterrisseur pour Rover",
     "desc": "Pose un rover sur un planétoïde lorsque le module de rover est en orbite."
   },
+  "IgnoreMaterialCategory": {
+    "name": "MISSING.STRINGS.MISC.TAGS.IGNOREMATERIALCATEGORY",
+    "desc": ""
+  },
   "RailGunPayload": {
     "name": "Chargement Interplanétaire",
     "desc": "Contient des ressources empaquetées destinées à l'envoi interstellaire.<br>Peut être expédié par unlanceur interplanétaire ou déballé à l'aide d'un ouvre-conteneur."
@@ -2731,6 +3175,18 @@
     "name": "Modèle de squelette",
     "desc": "Un modèle anatomique détaillé.<br>Il semble être fait en résine."
   },
+  "Robot": {
+    "name": "MISSING.STRINGS.MISC.TAGS.ROBOT",
+    "desc": ""
+  },
+  "Walker": {
+    "name": "MISSING.STRINGS.MISC.TAGS.WALKER",
+    "desc": ""
+  },
+  "CreatureBrain": {
+    "name": "MISSING.STRINGS.MISC.TAGS.CREATUREBRAIN",
+    "desc": ""
+  },
   "SweepBot": {
     "name": "Sweepy",
     "desc": "Un robot nettoyeur automatisé.<br>Ramasse les débris solides et les résidus liquides puis stocke les matériaux dans sa base."
@@ -2751,9 +3207,25 @@
     "name": "Afficheur électronique",
     "desc": "Un afficheur électronique projetant le schéma d'un appareil familier.<br>Cela ressemble à un pistolet de minage."
   },
+  "IndustrialProduct": {
+    "name": "Produit Industriel",
+    "desc": ""
+  },
   "MissileBasic": {
     "name": "Missile Explosif",
     "desc": "Un projectile explosif conçu pour se défendre contre les pluies de météores.<br>Doit être lancée par un Atomiseur de Météore."
+  },
+  "DupeBrain": {
+    "name": "MISSING.STRINGS.MISC.TAGS.DUPEBRAIN",
+    "desc": ""
+  },
+  "NotConversationTopic": {
+    "name": "MISSING.STRINGS.MISC.TAGS.NOTCONVERSATIONTOPIC",
+    "desc": ""
+  },
+  "Keepsake": {
+    "name": "MISSING.STRINGS.MISC.TAGS.KEEPSAKE",
+    "desc": ""
   },
   "keepsake_megabrain": {
     "name": "Modèle d'avion",
@@ -2777,91 +3249,91 @@
   },
   "HarvestableSpacePOI_MetallicAsteroidField": {
     "name": "Champ d'astéroïdes métalliques",
-    "desc": "Un champ d'astéroïdes composé de fer, de cuivre et d'obsidienne.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé de <link=\"IRON\">fer</link>, de <link=\"COPPER\">cuivre</link> et d'<link=\"OBSIDIAN\">obsidienne</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_SatelliteField": {
     "name": "Débris Spatial",
-    "desc": "Un débris spatial venant de temps oubliés.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un débris spatial venant de temps oubliés.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_RockyAsteroidField": {
     "name": "Champ d'astéroïdes rocheux",
-    "desc": "Un champ d'astéroïdes composés de minerai de cuivre, de roche sédimentaire et de roche ignée.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composés de <link=\"CUPRITE\">minerai de cuivre</link>, de <link=\"SEDIMENTARYROCK\">roche sédimentaire</link> et de <link=\"IGNEOUSROCK\">roche ignée</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_InterstellarIceField": {
     "name": "Champ d'astéroïdes de glace",
-    "desc": "Un champ d'astéroïdes composé de glace, de dioxyde de carbone et d'oxygène.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé de <link=\"ICE\">glace</link>, de <link=\"CARBONDIOXIDE\">dioxyde de carbone</link> et d'<link=\"OXYGEN\">oxygène</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_OrganicMassField": {
     "name": "Amas Organique",
-    "desc": "Un amas de ressources collectibles composé d'algue, de vase, d'oxygène polluée et de terre.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un amas de ressources collectibles composé d'<link=\"ALGAE\">algue</link>, de <link=\"SLIMEMOLD\">vase</link>, d'<link=\"CONTAMINATEDOXYGEN\">oxygène polluée</link> et de <link=\"DIRT\">terre</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_IceAsteroidField": {
     "name": "Géante de glace morcelée",
-    "desc": "Un nuage de débris planétaires composé de glace, de dioxyde de carbone, d'oxygène et de méthane.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un nuage de débris planétaires composé de <link=\"ICE\">glace</link>, de <link=\"CARBONDIOXIDE\">dioxyde de carbone</link>, d'<link=\"OXYGEN\">oxygène</link> et de <link=\"METHANE\">méthane</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_GasGiantCloud": {
     "name": "Géante Gazeuse morcelée",
-    "desc": "Les reste d'une planète contenant de l'hydrogène à l'état gazeux et du méthane à l'état  solide et liquide.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Les reste d'une planète contenant de l'<link=\"HYDROGEN\">hydrogène</link> à l'état <link=\"ELEMENTGAS\">gazeux</link> et du <link=\"SOLIDMETHANE\">méthane</link> à l'état  <link=\"ELEMENTSOLID\">solide</link> et <link=\"ELEMENTLIQUID\">liquide</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_ChlorineCloud": {
     "name": "Nuage de chlore",
-    "desc": "Un nuage de débris récoltables composé de chlore gazeux et de roche chlorée.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un nuage de débris récoltables composé de <link=\"CHLORINEGAS\">chlore gazeux</link> et de <link=\"BLEACHSTONE\">roche chlorée</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_GildedAsteroidField": {
     "name": "Champs d'astéroïdes dorés",
-    "desc": "Un champ d'astéroïdes composé d'or, fullerène, de régolithe et d'autres choses.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé d'<link=\"GOLD\">or</link>, <link=\"FULLERENE\">fullerène</link>, de <link=\"REGOLITH\">régolithe</link> et d'autres choses.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_GlimmeringAsteroidField": {
     "name": "Champs d'astéroïdes scintillants",
-    "desc": "Un champ d'astéroïdes composé de tungstène, de wolframite et d'autres choses.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé de <link=\"TUNGSTEN\">tungstène</link>, de <link=\"WOLFRAMITE\">wolframite</link> et d'autres choses.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_HeliumCloud": {
     "name": "Nuage d'hélium",
-    "desc": "Un nuage de ressources composé d'eau et d'hydrogène.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un nuage de ressources composé d'<link=\"WATER\">eau</link> et d'<link=\"HYDROGEN\">hydrogène</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_OilyAsteroidField": {
     "name": "Champ d'astéroïdes pétrolifères",
-    "desc": "Un champ d'astéroïdes composé de méthane solide, de dioxyde de carbone et de pétrole brut.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé de <link=\"METHANE\">méthane solide</link>, de <link=\"CARBONDIOXIDE\">dioxyde de carbone</link> et de <link=\"CRUDEOIL\">pétrole brut</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_OxidizedAsteroidField": {
     "name": "Champs d'astéroïdes oxydés",
-    "desc": "Un champ d'astéroïdes composé de dioxyde de carbone et de rouille.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé de <link=\"CARBONDIOXIDE\">dioxyde de carbone</link> et de <link=\"RUST\">rouille</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_SaltyAsteroidField": {
     "name": "Champs d'astéroïdes salins",
-    "desc": "Un amas de ressources collectibles composé d'eau salée, de saumure et de dioxyde de carbone.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un amas de ressources collectibles composé d'<link=\"SALTWATER\">eau salée</link>, de <link=\"BRINE\">saumure</link> et de <link=\"CARBONDIOXIDE\">dioxyde de carbone</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_FrozenOreField": {
     "name": "Champs d'astéroïdes gelés",
-    "desc": "Un champ d'astéroïdes composé de glace polluée, glace, neige et minerai d'aluminum.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé de <link=\"DIRTYICE\">glace polluée</link>, <link=\"ICE\">glace</link>, <link=\"SNOW\">neige</link> et <link=\"ALUMINUMORE\">minerai d'aluminum</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_ForestyOreField": {
     "name": "Champs de minerai boisé",
-    "desc": "Un amas de ressources collectibles composé de dioxyde de carbone, de roche ignée et de minerai d'aluminium.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un amas de ressources collectibles composé de <link=\"CARBONDIOXIDE\">dioxyde de carbone</link>, de <link=\"IGNEOUSROCK\">roche ignée</link> et de <link=\"ALUMINIUMORE\">minerai d'aluminium</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_SwampyOreField": {
     "name": "Champs de minerai marécageux",
-    "desc": "Un champ d'astéroïdes composé de boue, de terre polluée et de minerai de cobalt.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé de <link=\"MUD\">boue</link>, de <link=\"TOXICSAND\">terre polluée</link> et de <link=\"COBALTITE\">minerai de cobalt</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_SandyOreField": {
     "name": "Champs de minerai sablonneux",
-    "desc": "Un champ d'astéroïdes composé de grès, d'algue, de minerai de cuivre et de sable.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé de <link=\"SANDSTONE\">grès</link>, d'<link=\"ALGAE\">algue</link>, de <link=\"CUPRITE\">minerai de cuivre</link> et de <link=\"SAND\">sable</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_RadioactiveGasCloud": {
     "name": "Nuage de gaz radioactif",
-    "desc": "Un nuage de ressources composé de chlore gazeux, de minerai d'uranium et de dioxyde de carbone.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un nuage de ressources composé de <link=\"CHLORINEGAS\">chlore gazeux</link>, de <link=\"URANIUMORE\">minerai d'uranium</link> et de <link=\"CARBONDIOXIDE\">dioxyde de carbone</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_RadioactiveAsteroidField": {
     "name": "Champ d'astéroïdes radioactifs",
-    "desc": "Un champ d'astéroïdes composé de roche chlorée, de rouille, de minerai d'uranium et de sulfure.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé de <link=\"BLEACHSTONE\">roche chlorée</link>, de <link=\"RUST\">rouille</link>, de <link=\"URANIUMORE\">minerai d'uranium</link> et de <link=\"SULFUR\">sulfure</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_OxygenRichAsteroidField": {
     "name": "Champs d'astéroïdes riches en oxygène",
-    "desc": "Un champ d'astéroïdes composé de glace, d'oxygène pollué et d'eau.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un champ d'astéroïdes composé de <link=\"ICE\">glace</link>, d'<link=\"POLLUTEDOXYGEN\">oxygène pollué</link> et d'<link=\"WATER\">eau</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "HarvestableSpacePOI_InterstellarOcean": {
     "name": "Océan interstellaire",
-    "desc": "Un corps interplanétaire composé d'eau salée, de saumure, de sel et de glace.<br>Une fusée équipée d'une tête de forage est indispensable pour récupérer les ressources."
+    "desc": "Un corps interplanétaire composé d'<link=\"SALTWATER\">eau salée</link>, de <link=\"BRINE\">saumure</link>, de <link=\"SALT\">sel</link> et de <link=\"ICE\">glace</link>.\n\nUne fusée équipée d'une <link=\"NOSECONEHARVEST\">tête de forage</link> est indispensable pour récupérer les ressources."
   },
   "GeneShufflerRecharge": {
     "name": "Recharge de vacillateur",
@@ -2923,9 +3395,25 @@
     "name": "Quiche aux Champignons Déshydratée",
     "desc": "Une portion de quiche aux champignons déshydratée. Elle doit être réhydratée avant de pouvoir être considérée comme un aliment.<br>Les rations sèches n'ont pas de  date de péremption."
   },
+  "Egg": {
+    "name": "Œuf de créature",
+    "desc": ""
+  },
+  "IncubatableEgg": {
+    "name": "MISSING.STRINGS.MISC.TAGS.INCUBATABLEEGG",
+    "desc": ""
+  },
   "SquirrelEgg": {
     "name": "Œuf de Pip",
     "desc": "Les pips sont de petites créatures espiègles et pacifiques qui vivent près des roseaux et dans les branches d'arbors.<br>Ils sont connus pour enterrer des graines dans le sol s'ils trouvent une zone propice avec suffisamment d'espace."
+  },
+  "BagableCreature": {
+    "name": "Créature",
+    "desc": ""
+  },
+  "OriginalCreature": {
+    "name": "MISSING.STRINGS.MISC.TAGS.ORIGINALCREATURE",
+    "desc": ""
   },
   "Squirrel": {
     "name": "Pip",
@@ -2943,6 +3431,10 @@
     "name": "Œuf de Limace",
     "desc": "Les électrolimaces sont des créatures dynamiques qui génèrent de l'énergie électrique pendant la nuit.<br>Leur énergie peut être canalisée en laissant un fil exposé près des zones où elles aiment dormir."
   },
+  "Amphibious": {
+    "name": "MISSING.STRINGS.MISC.TAGS.AMPHIBIOUS",
+    "desc": ""
+  },
   "Staterpillar": {
     "name": "Électrolimace",
     "desc": "Les électrolimaces sont des créatures dynamiques qui génèrent de l'énergie électrique pendant la nuit.<br>Leur énergie peut être canalisée en laissant un fil exposé près des zones où elles aiment dormir."
@@ -2959,6 +3451,10 @@
     "name": "Limace Éponge",
     "desc": "Les limaces éponges sont des créatures assoiffées qui stockent des liquides au cours de la journée.<br>Elles déposent les liquides dans les canalisations à côté desquelles elles dorment la nuit."
   },
+  "BuildingFiber": {
+    "name": "Fibre",
+    "desc": ""
+  },
   "BasicFabric": {
     "name": "Fibre de roseau",
     "desc": "Une boule de cellulose brute utilisée dans la production de vêtements et autres textiles."
@@ -2967,9 +3463,21 @@
     "name": "Graine de Roseau",
     "desc": "Une graine de roseau.<br>Déterrer des objets peut révéler une graine de roseau."
   },
+  "WaterSeed": {
+    "name": "MISSING.STRINGS.MISC.TAGS.WATERSEED",
+    "desc": ""
+  },
+  "Seed": {
+    "name": "Graine",
+    "desc": ""
+  },
   "BasicFabricMaterialPlantSeed": {
     "name": "Graine de Roseau",
     "desc": "Une graine de roseau.<br>Déterrer des objets peut révéler une graine de roseau."
+  },
+  "Plant": {
+    "name": "MISSING.STRINGS.MISC.TAGS.PLANT",
+    "desc": ""
   },
   "BasicFabricPlant": {
     "name": "Roseau",
@@ -2986,6 +3494,10 @@
   "CompostBasicSingleHarvestPlantSeed": {
     "name": "Graine d'Arbre à Poux",
     "desc": "Une graine d'arbre à poux.<br>Déterrer des objets peut révéler une graine d'arbre à poux."
+  },
+  "CropSeed": {
+    "name": "MISSING.STRINGS.MISC.TAGS.CROPSEED",
+    "desc": ""
   },
   "BasicSingleHarvestPlantSeed": {
     "name": "Graine d'Arbre à Poux",
@@ -3010,6 +3522,10 @@
   "CompostCactusPlantSeed": {
     "name": "Graine de Joya",
     "desc": "Une graine de joya sauteur.<br>Déterrer des objets peut révéler une graine de joya."
+  },
+  "DecorSeed": {
+    "name": "MISSING.STRINGS.MISC.TAGS.DECORSEED",
+    "desc": ""
   },
   "CactusPlantSeed": {
     "name": "Graine de Joya",
@@ -3127,6 +3643,10 @@
     "name": "Œuf de Bouffette",
     "desc": "Les Bouffettes sont des créatures pacifiques qui excrètent des boules de vase à chaque respiration."
   },
+  "Flyer": {
+    "name": "MISSING.STRINGS.MISC.TAGS.FLYER",
+    "desc": ""
+  },
   "Puft": {
     "name": "Bouffette",
     "desc": "Les Bouffettes sont des créatures pacifiques qui excrètent des boules de vase à chaque respiration."
@@ -3227,6 +3747,10 @@
     "name": "Œuf de Rat Taupier",
     "desc": "Les rats taupiers sont des créatures fouisseuses qui mangent le régolithe qui se trouve sur les surfaces terrestres.<br>Ils ne peuvent creuser les métaux raffinés."
   },
+  "Digger": {
+    "name": "MISSING.STRINGS.MISC.TAGS.DIGGER",
+    "desc": ""
+  },
   "Mole": {
     "name": "Rat Taupier",
     "desc": "Les rats taupiers sont des créatures fouisseuses qui mangent le régolithe qui se trouve sur les surfaces terrestres.<br>Ils ne peuvent creuser les métaux raffinés."
@@ -3250,6 +3774,10 @@
   "OilfloaterEgg": {
     "name": "Œuf de Gluant",
     "desc": "Les gluants sont des créatures visqueuses qui consomment du dioxyde de carbone et exsudent du pétrole brut."
+  },
+  "Hoverer": {
+    "name": "MISSING.STRINGS.MISC.TAGS.HOVERER",
+    "desc": ""
   },
   "Oilfloater": {
     "name": "Gluant",
@@ -3314,6 +3842,10 @@
   "StaterpillarGas": {
     "name": "Limace Brumeuse",
     "desc": "Les limaces brumeuses sont des créatures poreuses qui inhalent des gaz irrespirables pendant la journée.<br>La nuit, elles dorment près des conduites de gaz ouvertes, où elles déposent leurs résidus."
+  },
+  "GeyserFeature": {
+    "name": "MISSING.STRINGS.MISC.TAGS.GEYSERFEATURE",
+    "desc": ""
   },
   "GeyserGeneric_steam": {
     "name": "Cheminée de Vapeur Refroidie",
@@ -3567,6 +4099,10 @@
     "name": "Repas Mariné",
     "desc": "Des larves de farine conservées dans le vinaigre.<br>Le goût est très inhabituel."
   },
+  "Pickled": {
+    "name": "Décapage",
+    "desc": ""
+  },
   "PickledMeal": {
     "name": "Repas Mariné",
     "desc": "Des larves de farine conservées dans le vinaigre.<br>Le goût est très inhabituel."
@@ -3682,6 +4218,10 @@
   "SaltPlantSeed": {
     "name": "Graine de Vigne Saline",
     "desc": "Une graine de vigne saline.<br>Déterrer des objets peut révéler une graine de vigne saline."
+  },
+  "Hanging": {
+    "name": "MISSING.STRINGS.MISC.TAGS.HANGING",
+    "desc": ""
   },
   "SaltPlant": {
     "name": "Vigne Saline",
@@ -3887,6 +4427,10 @@
     "name": "Œuf de Carapoke",
     "desc": "Les carapokes sont des créatures non-hostiles, sauf si leurs œufs se trouvent à proximité.<br>Ils se nourrissent de terre polluée et de tas de pourriture.<br>La carapace qu'ils abandonnent après chaque mue peut être broyée pour obtenir de la chaux."
   },
+  "CrabFriend": {
+    "name": "MISSING.STRINGS.MISC.TAGS.CRABFRIEND",
+    "desc": ""
+  },
   "Crab": {
     "name": "Carapoke",
     "desc": "Les carapokes sont des créatures non-hostiles, sauf si leurs œufs se trouvent à proximité.<br>Ils se nourrissent de terre polluée et de tas de pourriture.<br>La carapace qu'ils abandonnent après chaque mue peut être broyée pour obtenir de la chaux."
@@ -3910,6 +4454,14 @@
   "PacuCleanerEgg": {
     "name": "Œuf de Poisson Gobeur",
     "desc": "Tous les organismes dans l'univers connu trouvent le pacu particulièrement délicieux."
+  },
+  "SwimmingCreature": {
+    "name": "Créature aquatique",
+    "desc": ""
+  },
+  "Swimmer": {
+    "name": "MISSING.STRINGS.MISC.TAGS.SWIMMER",
+    "desc": ""
   },
   "PacuCleaner": {
     "name": "Poisson Gobeur",
@@ -4107,9 +4659,21 @@
     "name": "Pipsqueak",
     "desc": "Un bébé pipsqueak ronronnant.<br>Il deviendra un pip en grandissant."
   },
+  "Clothes": {
+    "name": "Vêtement",
+    "desc": ""
+  },
+  "AirtightSuit": {
+    "name": "MISSING.STRINGS.MISC.TAGS.AIRTIGHTSUIT",
+    "desc": ""
+  },
   "Atmo_Suit": {
     "name": "Combinaison Atmo",
     "desc": "Fournit de l'oxygène aux Duplicants dans les environnements toxiques et difficilement respirables."
+  },
+  "Suit": {
+    "name": "Combinaison",
+    "desc": ""
   },
   "Worn_Atmo_Suit": {
     "name": "Combinaison Atmo usagée",

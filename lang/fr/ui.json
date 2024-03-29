@@ -55,7 +55,6 @@
   "LightBugSpecies": "Lucioles",
   "MoleSpecies": "Fouisseurs",
   "MooSpecies": "Meumeuhs",
-  "MorbRover": "MISSING.STRINGS.CREATURES.FAMILY_PLURAL.MORBROVER",
   "OilFloaterSpecies": "Gluants",
   "HatchSpecies": "Gloutons",
   "CrabSpecies": "Carapokes",
@@ -70,11 +69,16 @@
   "Suit": "Combinaisons",
   "Worn": "Combinaisons Usées",
   "molarMass": "Masse molaire",
-  "hardness": "Durete'",
+  "hardness": "Dureté",
   "shc": "Capacité thermique massique",
   "strength": "Force",
   "Robot": "Robots",
   "Baby": "Bébés",
   "HarvestablePOI": "Minage",
-  "ArtifactPOI": "Exploration"
+  "ArtifactPOI": "Exploration",
+  "BuildingMaterial": "Matériaux",
+  "mass": "Poids",
+  "C": "C",
+  "K": "K",
+  "F": "F"
 }

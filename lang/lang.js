@@ -13,13 +13,13 @@ async function setTranslation(currentTranslation) {
   ]);
   translationUI = await responseUI.json();
   translationTag = await responseTag.json();
-  document.querySelectorAll("[data-ui]").forEach((element) =>
+  document.querySelectorAll("[data-ui]").forEach(element =>
     element.textContent = translationUI[element.dataset.ui]
   );
-  document.querySelectorAll("[data-tag]").forEach((element) =>
+  document.querySelectorAll("[data-tag]").forEach(element =>
     element.textContent = translationTag[element.dataset.tag].name
   );
-  document.querySelectorAll("[data-desc]").forEach((element) =>
+  document.querySelectorAll("[data-desc]").forEach(element =>
   element.innerHTML = translationTag[element.dataset.desc].desc
 );
 }

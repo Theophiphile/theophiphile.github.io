@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8">
   <title>USS-Oni</title>
+  <link rel="icon" type="image/png" href="dreamIcon_Pei.png">
   <link rel="stylesheet" type="text/css" target="_blank" href="style.css">
   <script src="lang/lang.js"></script>
   <script src="db/recipes.js"></script>
   <script src="db/uss.js"></script>
   <script src="script/properties.js" defer></script>
   <script src="script/main.js" defer></script>
-  <style type="text/css"></style>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -33,6 +33,11 @@
     <select onChange="setTranslation(this.options[this.selectedIndex].value)">
       <option value="fr">FR</option>
       <option value="en">EN</option>
+    </select>
+    <select onChange="selectDegree(this.options[this.selectedIndex].value)">
+      <option value="°C">°C</option>
+      <option value="K">K</option>
+      <option value="°F">°F</option>
     </select>
   </div>
   <div id="list"></div>
